@@ -9,7 +9,7 @@ Calling all developers! Get ready to embark on an exciting journey into the worl
 1. Utilize the powerful features of the https://pokeapi.co/ API to retrieve necessary Pokémon information. Show details like image, name, number, types, and stats (HP, Attack, Defense, Speed) and a preview of its evolution.
 2. Implement smooth pagination to fetch 20 Pokémon at a time. Keep the adventure going as users explore more Pokémon effortlessly.
 3. Cache your API calls to minimize redundant queries for Pokémon data.
-4. Ensure that selecting a Pokémon updates the URL route dynamically, facilitating easy sharing and bookmarking of specific Pokémon profiles.
+4. Ensure that selecting a Pokémon updates the URL route dynamically, facilitating easy sharing of specific Pokémon profiles.
 
 #### Example:
 
@@ -17,7 +17,7 @@ When a user lands on the homepage, they see a list of Pokémon with their number
 
 ### Tips for Success
 We want to see your skills shine! Here are some pointers to help you ace this challenge:
-- You don’t have to use Redux, a clear separation of state logic is required, achieved through hooks or the context API.
+- Clear separation of state logic is required, achieved through hooks or the context API.
 - Use functional components for a clean and efficient codebase. Show us your mastery of React's latest features.
 - Impress us with your clean, well-structured code. Follow best practices, separate concerns, and showcase your design patterns.
 - Set up the project with Prettier and ESLint for consistent code formatting.
@@ -39,6 +39,6 @@ If you're up for the challenge, let's get started! Here's how to deliver your ma
 
 ### Have Questions?
 
-If you have any questions or need clarification, don't hesitate to open an issue in the same repository. We're here to help and will respond promptly to assist you in your journey.
+If you have any questions or need clarification, don't hesitate to open an issue in the same repository. We're here to help and will respond promptly to assist you.
 
 Have Fun and Happy Coding! 🚀🔥
