@@ -6,14 +6,15 @@ Calling all developers! Get ready to embark on an exciting journey into the worl
 
 ### Required Features
 
-1. Utilize the powerful features of the https://pokeapi.co/ API to retrieve necessary Pokémon information. Show details like image, name, number, types, and stats (HP, Attack, Defense, Speed) and a preview of its evolution.
+1. Utilize the https://pokeapi.co/ API to retrieve necessary Pokémon information. Show details like image, name, number, types, and stats (HP, Attack, Defense, Speed) and a preview of its evolution.
 2. Implement smooth pagination to fetch 20 Pokémon at a time. Keep the adventure going as users explore more Pokémon effortlessly.
 3. Cache your API calls to minimize redundant queries for Pokémon data.
 4. Ensure that selecting a Pokémon updates the URL route dynamically, facilitating easy sharing of specific Pokémon profiles.
 
 #### Example:
 
-When a user lands on the homepage, they see a list of Pokémon with their numbers and names. They can navigate through pages using pagination. Upon clicking on a Pokémon, such as "Bulbasaur," the URL updates dynamically to reflect the selected Pokémon's information. Simultaneously, the app fetches and displays more detailed data about Bulbasaur, such as its image, types, stats, and a preview of its evolution.
+When a user lands on the app's homepage, they see a list of Pokémon with their details like image, name and weight. They can navigate through pages using pagination. Upon clicking on a Pokémon, such as "Bulbasaur," the URL updates dynamically to reflect the selected Pokémon's information. Simultaneously, the app fetches and displays more detailed data about Bulbasaur, such as its type, stats (HP, Attack, Defense, Speed) and a preview of its evolution.
+Subsequently, if the user clicks on one of Bulbasaur's evolutions, representing another Pokémon, the application promptly displays the pertinent details for the selected Pokémon, providing a continuous and informative user experience.
 
 ### Tips for Success
 We want to see your skills shine! Here are some pointers to help you ace this challenge:
@@ -39,6 +40,6 @@ If you're up for the challenge, let's get started! Here's how to deliver your ma
 
 ### Have Questions?
 
-If you have any questions or need clarification, don't hesitate to open an issue in the same repository. We're here to help and will respond promptly to assist you.
+If you have any questions or need clarification, don't hesitate to open an issue in the same [repository](https://github.com/rihal-om/rihal-codestacker/issues). We're here to help and will respond promptly to assist you.
 
 Have Fun and Happy Coding! 🚀🔥
