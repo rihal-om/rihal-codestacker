@@ -15,7 +15,7 @@ Abdul Karim is a movie enthusiast and an employee of Rihal Cinema. He has provid
 2.  I want all API’s (except the user registration API) to be protected using Basic Authentication
     
 
-3.  I will provide you with a JSON file containing a list of movies in my cinema. The list will contain the name and description of each movie. I want you to add these movies to your database when your applications start up. However, there are some missing pieces of information namely: release date, main cast, director, and budget. This information is hosted at an API at: [https://cinema.rihal.tech](https://cinema.rihal.tech/)  
+3.  I will provide you with a JSON file containing a list of movies in my cinema. The list will contain the name and description of each movie. I want you to add these movies to your database when your applications start up. However, there are some missing pieces of information namely: release date, main cast, director, and budget. This information is hosted at an API at: [https://cinema.stag.rihal.tech](https://cinema.stag.rihal.tech/)  
     
 
 4.  I want to be able to rate a movie from 1 to 10, step of 1.
