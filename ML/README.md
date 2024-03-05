@@ -59,4 +59,6 @@ _____
  
 > **To Download the dataset:** 
 https://drive.google.com/file/d/1OS1fXwZ1Vsj70lEQajccyssxQRYp5X9D/view?usp=share_link
+
+> **Important Note**: Please use the data in `nytimes_train.json` file for training and the `nytimes_test.json` file for evaluation.
  
