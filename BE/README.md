@@ -80,7 +80,7 @@ Abdul Karim is a movie enthusiast and an employee of Rihal Cinema. He has provid
 ## Extra Credit
 
 
-You are not required to complete these tasks, but doing so will increase your chances of winning the competition and provide an opportunity to showcase your capabilities.
+You are not required to complete these tasks, but doing so will increase your chances of winning the competition and provide an opportunity to showcase your capabilities. You can do them all or some.
 
 1.  Dockerize your project using [docker](https://www.docker.com/) and docker compose to run your project.
     
@@ -96,10 +96,11 @@ You are not required to complete these tasks, but doing so will increase your ch
 	* Movie ratings = [2,1,2]  should return 5.
 
 	* Movie ratings = [10,1,2,8,7,3] should return 11.
-
+3. Implement a chat room feature that allows users to discuss individual movies. Each chat room will be dedicated to a specific movie, facilitating connections for multiple users. Utilize websockets to enable seamless communication within these chat rooms.
 ## NOTE 
 1) This is a purely backend challenge! You should only create an API server without any front-end component.  
 
- 
 
+***
+# Unleash Your Creativity - Enjoy! 
  
