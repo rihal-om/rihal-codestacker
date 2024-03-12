@@ -1,6 +1,6 @@
 # Rihal CodeStacker
 
-Welcome to the CodeStacker Challenge! This unique challenge series is designed to test and enhance your skills across three core domains of software development: Frontend, Backend, and Machine Learning. Whether you're a beginner looking to get hands-on experience, an intermediate developer seeking to solidify your knowledge, or an advanced professional aiming to tackle new challenges, CodeStacker offers something for everyone.
+Welcome to the 2024 CodeStacker Challenge! This unique challenge series is designed to test and enhance your skills across three core domains of software development: Frontend, Backend, and Machine Learning. Whether you're a beginner looking to get hands-on experience, an intermediate developer seeking to solidify your knowledge, or an advanced professional aiming to tackle new challenges, CodeStacker offers something for everyone.
 
 
 # Challenges
