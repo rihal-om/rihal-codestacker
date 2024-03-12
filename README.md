@@ -16,3 +16,29 @@ Step into the realm of artificial intelligence with our Machine Learning Challen
 
 # Support
 If you encounter any issues or have questions regarding the challenges, please open an issue in this repository. Our team is dedicated to providing support and feedback to help you succeed.
+
+
+# Submission Guidelines
+
+To submit your solution to the CodeStacker Challenge, please follow these steps carefully:
+
+1. **Create a Separate Repository:** For each challenge you undertake (Frontend, Backend, Machine Learning), create a new, separate repository on your GitHub account. Ensure your repository is public so that it can be reviewed by our team.
+
+2. **Push Your Solution:** Once you have completed your challenge, push all your code to the corresponding GitHub repository. Your repository should include:
+   - A clear and detailed README.md file explaining your project, how to run it, and any other relevant information.
+   - Source code for your solution.
+   - Any additional resources or assets used in your project.
+
+3. **Submit Your Repository:** After pushing your solution to GitHub, send an email to [careers@rihal.om](mailto:careers@rihal.om) with the following information:
+   - Subject: CodeStacker Challenge Submission - [Your Full Name] - [Challenge Type]
+   - Body: 
+     - A brief introduction of yourself and your experience level.
+     - The GitHub repository link(s) to your solution(s).
+     - Any comments or insights you wish to share about your experience with the challenge.
+
+### Important Notes:
+- Make sure your GitHub repository is public to allow our team to review your submission.
+- You can submit solutions to one, two, or all three challenges. If you submit multiple challenges, please include all relevant repository links in a single email.
+- Your submission will be evaluated based on code quality, creativity, adherence to the challenge requirements, and overall functionality.
+
+We look forward to seeing your innovative solutions and wish you the best of luck in the CodeStacker Challenge!
