@@ -31,15 +31,5 @@ Want to go above and beyond? Here are some extra challenges to level up your sol
 - Dockerize the application.
 - Take it a step further by deploying your application in the cloud and providing a shareable link for easy access.
 
-### Delivery Instructions
-If you're up for the challenge, let's get started! Here's how to deliver your masterpiece:
-1. Create a private GitHub repository to host your project.
-2. Grant access to your repository to the following GitHub accounts:
- - @samiya-alyaaribi
- - @Iemankm
-
-### Have Questions?
-
-If you have any questions or need clarification, don't hesitate to open an issue in the same [repository](https://github.com/rihal-om/rihal-codestacker/issues). We're here to help and will respond promptly to assist you.
-
-Have Fun and Happy Coding! 🚀🔥
+---
+## Have Fun and Happy Coding! 🚀
