@@ -29,7 +29,7 @@ To submit your solution to the CodeStacker Challenge, please follow these steps 
    - Source code for your solution.
    - Any additional resources or assets used in your project.
 
-3. **Submit Your Repository:** After pushing your solution to GitHub, send an email to [careers@rihal.om](mailto:careers@rihal.om) with the following information:
+3. **Submit Your Repository:** After pushing your solution to GitHub, send an email to [info@rihal.om](mailto:info@rihal.om) with the following information:
    - Subject: CodeStacker Challenge Submission - [Your Full Name] - [Challenge Type]
    - Body: 
      - A brief introduction of yourself and your experience level.
