@@ -1,64 +1,135 @@
-# Machine Learning Challenge
+# 2025 ML Rihal Codestacker Challenge
 
+## CityX Crime Watch: Operation Safe Streets
 
-### Overview
-Imagine yourself as a data scientist in a busy news organization, where articles come in every minute. It's crucial to categorize, summarize, and caption these articles quickly. To keep up with the fast-paced world of news, your challenge is to automate this process by developing a system that accurately categorizes news articles into 24 distinct groups and generates captivating abstracts and captions that capture the essence of each article.
+### **Storyline**
 
-### Problem Statement
-The New York Times, an excellent source of news, has provided us with a unique dataset called N24News. This dataset contains 24 categories of news, each with a headline, abstract, article body, image, and image caption. Your challenge is to develop a machine learning model that can accurately categorize news articles into their respective categories, generate insightful abstracts, and captivating captions.
+CityX, once a peaceful metropolis, is facing an alarming surge in criminal activity. The local police department has been diligently collecting historical and real-time incident reports, but the volume of data is overwhelming. They need your help to find hidden patterns, predict future hotspots, and build an efficient system to respond to crime faster and keep citizens safe.
 
+Your mission? Use the CityX crime dataset and apply ML-based approaches to explore and analyze patterns. The end goal is to help the police with data-driven insights to intervene whenever necessary.
 
-### Objective:
+## **Problem Statement**
 
-The objective of this challenge is to create a system that can:
+The CityX Police Department has aggregated a comprehensive crime dataset spanning several years. Each record in the dataset includes:
 
-**Level 1: The Basics** *(40 points)*
-- Develop a model that can categorize news articles into their respective categories.
+* **Dates**: Timestamp of the crime incident
+* **Category**: Category of the crime incident
+* **Descript**: Detailed description of the crime incident
+* **DayOfWeek**: The day of the week
+* **PdDistrict**: Name of the Police Department District
+* **Resolution**: How the crime incident was resolved
+* **Address**: The approximate street address of the crime incident
+* **Longitude (X)**: Longitude
+* **Latitude (Y)**: Latitude
 
-**Level 2: The Intermediate** *(20 points)* 
-- Generate abstracts that provide a clear and concise summary of the article.
+## **Your Challenge**
 
-**Level 3: The Advanced** *(20 Bonus Points)*
-- Generate captions for each news article's image that accurately reflect the content.
+* Clean and preprocess the data
+* Uncover patterns and trends
+* Classify crimes into categories
+* Generate descriptive narratives for incidents
+* Visualize crime patterns with geo-spatial mapping and clustering analyses
+* Forecast future crime frequencies and hotspots
 
-**Level 4: The Mastery** *(20 Bonus Points)* 
-- Implement a real-time UI web app for inference where it allows the user to upload an article body, image, and a title, and then return its category, a caption, and an abstract (you could use tools such as Streamlit or Gradio).
+## **Objectives & Challenge Levels**
 
-**Level 5: The Hero** *(10 Bonus Points)* 
-- Detect if the news article is related to Palestine and categorize it under a new subcategory called "FreePalestine".
+### **Level 1: Exploratory Data Analysis (EDA)**
 
+**Crime data is piling up, and the police need your help to make sense of it!**
 
-### Technical Guidance:
-- You are free to use any tools and techniques you find appropriate, but **Python** is the preferred programming language.
-- Using **cloud-based** LLMs (Large Language Models), including OpenAI's GPT models API, **is prohibited**.
+* Familiarize yourself with the dataset and extract key insights.
+* Clean and preprocess the raw data.
+* Summarize important features.
+* Visualize trends.
 
-### Expectations:
-The following are expected to be included in the solution to this problem: 
-- Data analysis and exploring the dataset.
-- Data preprocessing. 
-- A machine learning/ Deep learning model. 
-- Evaluate the model’s performance. 
-- Clear code documentation. 
-- Thoroughly explain your work at each step by using the markdown cell blocks in your notebook or code comments.
-- Write your thoughts for further improvements.
+### **Level 2: Crime Classification & Severity Assignment**
 
-### Data Description:
-The [N24News](https://arxiv.org/pdf/2108.13327v4.pdf) dataset contains news articles from the New York Times with 24 categories, including both text and image information. Each article sample contains one category tag, one headline, one abstract, one article body, one image, and one corresponding image caption.
+**The police need your help with categorizing crimes quickly!**
 
-### Submission:
-- Please submit your solution in a well-documented Jupyter Notebook. 
-- Show model evaluation results.
-- Include examples of inference results showcasing how your model categorizes news articles, generates abstracts, captions, etc.
-- Include clear instructions on how to run your code.
-- Make sure all libraries used are included in a requirements.txt file.
-- If applicable, include screenshots or recordings demonstrating your real-time UI web app functionality.
+#### **Part A: Predicting Crime Type**
 
-The Rihal Codestacker Challenge offers an exciting opportunity to showcase your skills in machine learning and data science.  Participating in this challenge could open doors for you to join the amazing team at Rihal. We look forward to seeing your solution! 🚀🔥
+* Build a model to classify crimes based on their description (`Descript`).
+* The goal is to predict the crime category (`Category`) using supervised learning.
+* Evaluate the model’s accuracy and discuss potential improvements.
 
-_____
- 
-> **To Download the dataset:** 
-https://drive.google.com/file/d/1OS1fXwZ1Vsj70lEQajccyssxQRYp5X9D/view?usp=share_link
+#### **Part B: Assigning Crime Severity**
 
-> **Important Note**: Please use the data in `nytimes_train.json` file for training and the `nytimes_test.json` file for evaluation.
- 
+* Classify each crime into the following severity levels based on its category:
+    * **Severity 1**: NON-CRIMINAL, SUSPICIOUS OCCURRENCE, MISSING PERSON, RUNAWAY, RECOVERED VEHICLE
+    * **Severity 2**: WARRANTS, OTHER OFFENSES, VANDALISM, TRESPASS, DISORDERLY CONDUCT, BAD CHECKS
+    * **Severity 3**: LARCENY/THEFT, VEHICLE THEFT, FORGERY/COUNTERFEITING, DRUG/NARCOTIC, STOLEN PROPERTY, FRAUD, BRIBERY, EMBEZZLEMENT
+    * **Severity 4**: ROBBERY, WEAPON LAWS, BURGLARY, EXTORTION
+    * **Severity 5**: KIDNAPPING, ARSON
+* This part can be implemented using simple conditional logic.
+* Output both **predicted crime type** and **assigned severity**.
+
+### **Level 3: Geo-Spatial Mapping & Basic Web UI**
+
+**CityX needs an interactive crime map to visualize crime trends!**
+
+#### **Part A: Geo-Spatial Visualization**
+
+* Build interactive crime maps (e.g., using Folium, Plotly, or GeoPandas).
+* Feel free to explore different ways to visualize the dataset and create dynamic, engaging maps.
+
+#### **Part B: Basic Web UI**
+
+* Develop a simple web-based dashboard (e.g., using Streamlit, Flask, Dash etc..) to display your findings.
+* Integrate your geo-spatial map into the dashboard to let users explore crime hotspots interactively.
+
+### **Level 4: Advanced Web UI & Report Extraction**
+
+**Officers receive reports in PDF format. Can you extract and process them automatically?**
+
+#### **Part A: Police Report Extraction**
+
+* You’ll be provided with sample police reports in PDF format.
+* Your task is to automatically extract key fields aligned with the task at hand.
+
+#### **Part B: Integration with Classifier**
+
+* Convert this data into a structured format and feed it into your model from Level 2.
+* Predict the crime category and severity.
+
+#### **Part C: Enhanced Web UI**
+
+* Design a web interface that automatically populates a **table** (serving as a "form") with the extracted data.
+* This table should mirror the input fields of the dataset used to train your model.
+* The data in this table should be used as input to perform inference on your trained model.
+* Ensure your Web UI integrates with all the challenges from the previous levels.
+
+## **Bonus Task: Deployment**
+
+**Can you take your project to production?**
+
+This is an **optional challenge** that allows you to showcase your ability to deploy and scale a real-world ML application. Completing this task will increase your chances of winning the competition.
+
+### **Part A: Dockerization & Containerization**
+
+* Create a **Dockerfile** to containerize your project, ensuring all dependencies are included.
+* The container should encapsulate **data preprocessing, model inference, and the web dashboard** in a reproducible environment.
+
+### **Part B: Cloud Deployment**
+
+* Deploy your application on a **Virtual Private Server (VPS)** or cloud platform such as:
+* **Cloudflare, DigitalOcean, Heroku, Vercel, AWS, GCP, or Azure**.
+* Ensure the web UI and model inference pipeline are accessible from a **public URL**.
+
+## **Submission Guidelines**
+
+* **Levels 1 & 2 (Data Analysis & Modeling):**
+    * Submit your work as a **Jupyter Notebook (.ipynb)** including all exploratory data analysis, preprocessing steps, model training, evaluation, and any visualizations.
+    * Ensure your notebook is well-commented and contains narrative explanations.
+* **Levels 3 & 4 (Web UI & Report Extraction):**
+    * Submit your project as **code files**, including scripts (e.g., `app.py` for a Streamlit dashboard or equivalent) along with necessary support files (e.g., `requirements.txt`).
+    * Include a **README** with clear instructions on how to run your application, dependencies, and additional notes.
+* **Bonus Task:**
+    * Provide a **link to your deployed application**.
+    * Submit your **Dockerfile**, deployment scripts, and a **README** explaining how to run and deploy the project.
+    * Optionally, include a **short video demo** showcasing your deployed application.
+
+## **Note**
+
+Bonus grades will be awarded to those who demonstrate **creativity and innovation** beyond the core requirements. We encourage you to add extra features, write **clean and well-documented** code, and follow **best practices** in development and deployment. Extra credit will be awarded for **scalable, production-ready solutions** that showcase your unique approach to the challenge.
+
+### \*\*Happy coding! \*\*
