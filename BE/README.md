@@ -14,7 +14,109 @@ Your task is to develop a backend server system (API) for a crime case managemen
 
 ## 📌 Overall Requirements and APIs
 
-1. ...
+1. The system must start with a default admin user. The admin can do everything mentioned in the below requirements.
+
+2. The system must have the following user roles:
+
+   - **Admin**: Can do everything.
+   - **Investigator**:
+     - Create, update, and set cases as closed.
+     - Assign officers to a case.
+     - Perform CRUD operations on evidence, suspects, and victims related to the case.
+   - **Officer**:
+     - View assigned cases.
+     - Update case progress/status.
+     - Upload evidence, suspects, and victims.
+     - Cannot edit or delete the items mentioned above.
+   - **Citizen** (Public, does not require registration):
+     - Can report a crime.
+     - Can use the report ID to track the status of the reported crime.
+
+3. Using the provided data in this GitHub repository, populate the database with the criminal cases. Note that the case data will require some processing before insertion into the database.
+
+4. Cases must have an authorization level (**low, medium, high, and critical**), where only users with the required clearance **AND** correct role can access those cases.
+
+5. **All of the following APIs must be protected using Basic Authentication.**
+
+6. **User Management API:**
+
+   - Develop an API to allow the admin to add users into the system.
+
+7. **Case Management APIs:**
+
+   - Develop an API to create a new case.
+     - Newly created cases must be **reviewed by the admin** before they can be seen by assigned officers.
+     - Investigators can still see pending cases.
+
+8. **Case Listing API:**
+
+   - Develop an API to return the list of all cases in the database.
+   - The response should include:
+     - Case Number, Case Name, Description, Area/City, Created By/At, Case Type, Authorization Level.
+   - The description should be **100 characters or less**. If it exceeds the limit, truncate it with `...`, ensuring the last word is complete. Example:
+     - Not accepted: `"the suspect is hea..."`
+     - Accepted: `"the suspect is ..."`
+   - This API should allow searching for cases by **name or description**.
+
+9. **Case Details API:**
+
+   - Develop an API to return detailed information about a specific case given its ID.
+   - The response should include:
+     - Case Number, Case Name, Description, Area/City, Created By/At, Case Type, Authorization Level, Number of Assignees, Number of Evidences, Number of Suspects, Number of Victims.
+
+10. **Additional Case APIs:**
+
+    - Develop an API to return:
+      - **All assignees** of a case given its ID.
+      - **All evidences** of a case given its ID.
+      - **All suspects** of a case given its ID.
+      - **All victims** of a case given its ID.
+
+11. **Evidence Management APIs:**
+
+    - Develop an API to record evidence related to a case.
+      - Evidence can be **text or an image**.
+      - Evidence entries may include **optional remarks**.
+      - Images must be validated to ensure they are actual images.
+
+12. **Evidence Retrieval API:**
+
+    - Develop an API to return an evidence entry given its ID.
+    - If the entry is an image, the API should also return the **size of the image**.
+
+13. **Evidence Image Retrieval API:**
+
+    - Develop an API that returns the evidence **image** given its ID.
+    - Consider handling cases where evidence is not an image.
+
+14. **Evidence Update API:**
+
+    - Develop an API to update an evidence entry.
+    - The **type of evidence cannot be edited**, only the content.
+
+15. **Soft Delete API:**
+
+    - Develop an API to **soft delete** an evidence entry.
+    - Maintain an **audit log** of this action.
+
+16. **Hard Delete API:**
+
+    - Develop an API to **hard delete** an evidence entry.
+
+17. **Text Analysis API:**
+
+    - Develop an API to:
+      - Extract and return the **top 10 used words** in all text-based evidence across the system.
+      - Ignore **stop words** (e.g., "and", "the", "to", etc.).
+
+18. **Link Extraction API:**
+
+    - Develop an API to extract and return any **links or URLs** mentioned in a case given the case ID.
+
+19. **Audit Log API:**
+
+    - Develop an API to return **admin logs** for evidence-related actions.
+    - Should include details on **who added, updated, or deleted evidence and when.**
 
 ## Technical Requirements:
 
@@ -30,7 +132,7 @@ Your task is to develop a backend server system (API) for a crime case managemen
 
 ## 💡 Bonus Challenges:
 
-Want to stand out from the competition? These extra challenges give you the chance to showcase your skills beyond the basics. While not required, completing them can enhance your chances of winning by demonstrating your capability to tackle real-world BE application like scalability, performance, and reliability. Feel free to undertake any or all of them as you wish, and  show what you’re capable of!
+Want to stand out from the competition? These extra challenges give you the chance to showcase your skills beyond the basics. While not required, completing them can enhance your chances of winning by demonstrating your capability to tackle real-world BE application like scalability, performance, and reliability. Feel free to undertake any or all of them as you wish, and show what you’re capable of!
 
 ### 1. 🔄 Long Polling for Evidence Hard Delete
 
@@ -38,7 +140,7 @@ Your task is to implement a long polling mechanism that allows admins to initiat
 
 **Key Requirements** :
 
-1. Develop an API endpoint that allows admins to initiate the hard deletion of evidence. This endpoint should accept  the evidence ID and user authentication details.
+1. Develop an API endpoint that allows admins to initiate the hard deletion of evidence. This endpoint should accept the evidence ID and user authentication details.
 
 2. Develop another endpoint that allows admins to check the status of the deletion process using long polling. Keep the connection open until the deletion is complete or a timeout occurs, and ensure that the admin receives updates on the deletion progress, including statuses such as "In Progress," "Completed," and "Failed." The client should be able to manage these status updates appropriately
 
@@ -52,7 +154,7 @@ Your task is to develop an email notification system that will send timely updat
 
 2. Create a mechanism to trigger email notifications based on specific events, such as new crime incidents reported in the City,updates or changes to existing cases (e.g., status updates, new evidence) and community awwarness and safety alerts.
 
-### 3. 💬 Case Commenting 
+### 3. 💬 Case Commenting
 
 Your task is to implement a commenting feature for crime cases that enables assignees to add, retrieve, and delete comments associated with specific cases. This will help officers and investigators document their thoughts, share insights, and provide updates on ongoing investigations
 
