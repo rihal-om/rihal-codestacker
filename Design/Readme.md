@@ -68,8 +68,8 @@ How you understood the problem and user needs?
 ## Design System
 
 Utilize Material 3 Design Kit for the challenge
-- [Figma link to the Design System](https://www.figma.com/community/file/1035203688168086460/material-3-design-kit))
-- [Design System Documentation](https://m3.material.io/components))
+- [Figma link to the Design System](https://www.figma.com/community/file/1035203688168086460/material-3-design-kit)
+- [Design System Documentation](https://m3.material.io/components)
 
 **Note - We have already embedded the design system into the Figma file, and there’s a copy you can download as well, begin designing 💪**
 
