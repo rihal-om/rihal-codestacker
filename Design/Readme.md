@@ -10,7 +10,7 @@ Choose one of the three challenges below and focus on designing a key user exper
 
 # Challenges
 
-All challenges and details can be accessed from this Figma file - [Here's the link!]([url](https://www.figma.com/design/cnwUsw0fEdRY8oMY8YnpBl/CodeStacker-2025?node-id=3-21&t=53ZLztn6gKhoc7Va-1))
+All challenges and details can be accessed from this Figma file - [Here's the link](https://www.figma.com/design/cnwUsw0fEdRY8oMY8YnpBl/CodeStacker-2025?node-id=3-21&t=53ZLztn6gKhoc7Va-1))
 
 ## Topic 01: Predictive Crime Analytics Dashboard ##
 **Brief** 
