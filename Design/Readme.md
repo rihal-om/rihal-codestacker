@@ -57,7 +57,7 @@ Navigation users want clear, real-time safety indicators to trust the recommende
 Given the time constraint, don’t seek perfection. Instead, focus on making deliberate choices that showcase your insights, methods, and design skills.
 | *Focus Over Perfection!* | 
 |--|
-|  | 
+
 
 **Prototyping Skills**
 How did you prototype the solution?
