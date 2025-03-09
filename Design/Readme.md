@@ -10,7 +10,7 @@ Choose one of the three challenges below and focus on designing a key user exper
 
 # Challenges
 
-All challenges and details can be accessed from this Figma file - [Here's the link](https://www.figma.com/design/cnwUsw0fEdRY8oMY8YnpBl/CodeStacker-2025?node-id=3-21&t=53ZLztn6gKhoc7Va-1)
+_All the details can be accessed from the attached ZIP where you'll find the Figma file_
 
 ## Topic 01: Predictive Crime Analytics Dashboard ##
 **Brief** 
@@ -58,13 +58,20 @@ Given the time constraint, don’t seek perfection. Instead, focus on making del
 | *Focus Over Perfection!* | 
 |--|
 
-
 **Prototyping Skills**
 How did you prototype the solution?
 **Design Decisions**
 How did you make design decisions?
 **User Understanding**
 How you understood the problem and user needs?
+
+## Design System
+
+Utilize Material 3 Design Kit for the challenge
+- [Figma link to the Design System](https://www.figma.com/community/file/1035203688168086460/material-3-design-kit))
+- [Design System Documentation](https://m3.material.io/components))
+
+**Note - We have already embedded the design system into the Figma file, and there’s a copy you can download as well, begin designing 💪**
 
 ## Key Deliverables
 | Deliverable        | Requirement | Description |
