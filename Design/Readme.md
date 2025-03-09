@@ -1,6 +1,7 @@
 # 2025 Design Rihal Codestacker Challenge
 
 Hey designer! We are excited to have you onboard to help CityX as a UI/UX Designer. 
+Choose one of the three challenges below and focus on designing a key user experience. We don’t expect a full-fledged app or dashboard, just enough to communicate your design thinking.
 
 **Your mission** 
  - Pick one of the challenges 
@@ -9,7 +10,7 @@ Hey designer! We are excited to have you onboard to help CityX as a UI/UX Design
 
 # Challenges
 
-> All challenges and details can be accessed from this Figma file
+> All challenges and details can be accessed from this Figma file - [Here's the link!]([url](https://www.figma.com/design/cnwUsw0fEdRY8oMY8YnpBl/CodeStacker-2025?node-id=3-21&t=53ZLztn6gKhoc7Va-1))
 
 ## Topic 01: Predictive Crime Analytics Dashboard ##
 **Brief** 
