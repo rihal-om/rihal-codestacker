@@ -10,7 +10,7 @@ Choose one of the three challenges below and focus on designing a key user exper
 
 # Challenges
 
-_All the details can be accessed from the attached ZIP where you'll find the Figma file_
+_All the details can be accessed from here where you'll find the Figma file and presentation deck_
 
 ## Topic 01: Predictive Crime Analytics Dashboard ##
 **Brief** 
