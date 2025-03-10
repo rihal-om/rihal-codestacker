@@ -2,7 +2,7 @@
 
 ## Background
 
-Crime City is under siege—rising crime and failing trust have left the community on edge. To turn things around, officials launched a Crime Management System, enabling real-time crime case reporting and faster police response. Now, they need your help!
+District Core is under siege—rising crime and failing trust have left the community on edge. To turn things around, officials launched a Crime Management System, enabling real-time crime case reporting and faster police response. 
 
 Now, the officals need your expertise to develop a robust backend API system to efficiently manage their growing crimes data and improve response times.
 
@@ -21,12 +21,12 @@ Your task is to develop a backend server system (API) for a crime case managemen
    - **Admin**: Can do everything.
    - **Investigator**:
      - Create, update, and set cases as closed.
-     - Assign officers to a case.
+     - Assign only officers to a case with clearance level. 
      - Perform CRUD operations on evidence, suspects, and victims related to the case.
      - Validate `reported_by_id` wherter the user is citizen or the admin/investigator
    - **Officer**:
      - View assigned cases.
-     - Update case progress/status.
+     - Update case progress/status (**pending, ongoing, closed**).
      - Upload evidence, suspects,witness, and victims.
      - Cannot edit or delete the items mentioned above.
    - **Citizen** (Public, does not require registration):
