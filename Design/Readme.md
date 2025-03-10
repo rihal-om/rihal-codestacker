@@ -42,7 +42,7 @@ The system should compare different routes and highlight the safest option.
 **Note!**
 Stay focused on route comparison and selection, not the entire navigation app.
 
-## Insights
+# Insights
 **Officer Insights**
 Law enforcement users need fast, actionable insights in high-pressure situations.
 
@@ -52,7 +52,7 @@ Citizens using the reporting app value ease of use and anonymity when reporting 
 **Safe Navigation**
 Navigation users want clear, real-time safety indicators to trust the recommended route.
 
-## Tips
+# Tips
 **What are we looking for**
 Given the time constraint, don’t seek perfection. Instead, focus on making deliberate choices that showcase your insights, methods, and design skills.
 | *Focus Over Perfection!* | 
@@ -65,7 +65,7 @@ How did you make design decisions?
 **User Understanding**
 How you understood the problem and user needs?
 
-## Design System
+# Design System
 
 Utilize Material 3 Design Kit for the challenge
 - [Figma link to the Design System](https://www.figma.com/community/file/1035203688168086460/material-3-design-kit)
@@ -73,7 +73,23 @@ Utilize Material 3 Design Kit for the challenge
 
 **Note - We have already embedded the design system into the Figma file, and there’s a copy you can download as well, begin designing 💪**
 
-## Key Deliverables
+# How to import a Figma file into Figma
+([Refer to this article for clear instructions](https://help.figma.com/hc/en-us/articles/360041003114-Import-files-to-the-file-browser))
+
+# How to Submit
+**Step 1 - Select ‘Share’** - 
+You’ll find the "Share" button in the top-right corner of the Figma interface.
+
+**Step 2 - Adjust Access Settings** - 
+Under the "Who has access" section, you'll see the current permissions (such as "Restricted" or "Anyone").
+
+**Step 3 - Change the Access Setting** - 
+Set the access level to "Anyone”. Change what they can do to "edit".
+
+**Step 4 - Send the Link** - 
+Share the copied link via email at info@rihal.om
+
+# Key Deliverables
 | Deliverable        | Requirement | Description |
 |--------------------|------------|-------------|
 | 🧪 **User Research** | Must | Identify the **target users** and their **needs**. Summarize any quick **research insights** or assumptions you made. |
@@ -81,7 +97,7 @@ Utilize Material 3 Design Kit for the challenge
 | 📝 **Design Rationale** | Optional | **Explain** your design choices (layout, colors, interactions, etc.) through annotations. |
 | 🎛️ **Prototype** | Optional | If time allows, create an **interactive prototype** or a short walkthrough of your design. |
 
-## Evaluation Criteria
+# Evaluation Criteria
 | Criteria | Description | Scoring |
 |----------|------------|---------|
 | **1. Understanding the Problem & User Needs** | - Show a clear understanding of the problem statement. <br> - Consider the needs of your target users (law enforcement, citizens, or navigation users). <br> - Apply relevant research insights to inform your solution. | Score 1-5 |
