@@ -1,52 +1,20 @@
+# { BE Rihal Codestacker Challenge 2025 }
+
 ## Background
 
-Rihal Cinema is trying to build a movie rating system and website. They are trying to establish a competitive edge in the market by focusing on user experience, accurate ratings, and personalized recommendations. The system should cater to a diverse audience of movie enthusiasts, offering a wide range of movie genres.
+Crime City is under siege—rising crime and failing trust have left the community on edge. To turn things around, officials launched a Crime Management System, enabling real-time crime case reporting and faster police response. Now, they need your help!
+
+Now, the officals need your expertise to develop a robust backend API system to efficiently manage their growing crimes data and improve response times.
 
 ## Problem statement
 
-Your task is to develop a backend server system (API) for a movie rating platform. The platform allows registered users to rate movies and view average ratings. The system should provide a seamless experience for users to rate movies, while ensuring data integrity, security, and scalability.
+Your task is to develop a backend server system (API) for a crime case management platform.This system will allow registered users, such as police officers and investigators, to create, update, and monitor criminal cases while generating detailed reports.The system should provide a seamless experience for users while ensuring data integrity, security, scalability and reliability.
 
-## Overall Requirements and APIs
+**Think you have what it takes? Step up, take on the challenge, and help restore peace to the people of Crime City! 🚔💻**
 
-Abdul Karim is a movie enthusiast and an employee of Rihal Cinema. He has provided you with what he wants you to achieve:
+## 📌 Overall Requirements and APIs
 
-1.  I want to register a user into the system.
-
-2.  I want all API’s (except the user registration API) to be protected using Basic Authentication
-
-3.  I will provide you with a JSON file containing a list of movies in my cinema. The list will contain the name and description of each movie. I want you to add these movies to your database when your applications start up. However, there are some missing pieces of information namely: release date, main cast, director, and budget. This information is hosted at: [https://cinema.stag.rihal.tech](https://cinema.stag.rihal.tech), where the API endpoint is: `GET /api/movie/{movie_id}`
-
-4.  I want to be able to rate a movie from 1 to 10, step of 1.
-
-5.  I want an API to return to me the list of all movies in the database. This should return the ID, name, description and average rating (average rating of all users in the system) of each movie. The description should be 100 characters or less. If the description exceeds the max limit of 100 characters truncate with “...” however, the last word must be a full meaningful word. For example, not accepted: “this movie is beauti...”, accepted: “this movie is ...”
-
-6.  I want an API to return detailed information about a specific movie given the ID. This API should return the following: id, name, description, release date, main cast, director, budget, budget in English words (i.e. Budget 1.5B to one billion five hundred million), my rating and the average rating (average rating of all users in the system)
-
-7.  I want to be able to search for a movie. This API should be able to return a list of movies (id, name, description) based on a search parameter which matches either the name or description.
-
-8.  I want an API that returns my top 5 rated movies (id, name, rating) in descending order (ordered by the rating)
-
-9.  I would like a feature called 'Memories' where I can record personal memories related to a movie. These memories would include a title, date, photos and a story. For instance, I would like to include the photos I took the day I watched 'Mad Max' in theaters, along with the date and the story of what my friends and I did that day.
-
-10. I want an API to return all my memories (id, movie id, movie name, title).
-
-11. I want an API to return a memory (id, movie id, movie name, title, story, time ordered list of photos (id, photo name, photo extension i.e. PNG, size i.e. 3KB, time created)) given its id.
-
-12. I want an API that returns the memory photo given its id.
-
-13. I want an API to update a memory. This includes changing the title or/and the story
-
-14. I want an API to upload more photos to a memory or delete some.
-
-15. I want an API to delete a memory.
-
-16. I want an API that calculates the top 5 used words in all stories in memories across the system. This should ignore stop words (e.g. “and”, “the”, “to” etc...)
-
-17. I want an API that extract any links or URLs mentioned in a story given the memory ID
-
-18. For fun, I would like to add a puzzle where the user enters a scrambled movie name and the system tries to guess the actual movie. Say I enter: “eund”, the system should be able to return a movie (id, name, description) -> e.g. (12 or uuid, “Dune”, “A noble family becomes embroiled in a war for control over the galaxy's most valuable asset while its heir becomes troubled by visions of a dark future.”). Another example: “askldjfhaksdf” the API should return “404 not found”
-
-19. To compare my ratings to the average, return a list of the maximum. Say I have ratings of [{“Dune”, 10}, {“The Hobbit”, 5}, {“The Godfather”, 7}] and the corresponding average ratings [{“Dune”, 7}, {“The Hobbit”, 9}, {“The Godfather”, 10}]. This API should return [{id, “Dune”, 10, true}, {id, “The Hobbit”, 9, false}, {id, “The Godfather”, 10, false}] as you can see, the returned list only includes the maximum ratings in addition to the fact if it was my rating (true) or not (false)
+1. ...
 
 ## Technical Requirements:
 
@@ -56,30 +24,54 @@ Abdul Karim is a movie enthusiast and an employee of Rihal Cinema. He has provid
 
 3. Use whatever language and framework you desire.
 
-4. Database: You are required to use [PostgreSQL](https://www.postgresql.org/). You can use [ElephantSQL](https://www.elephantsql.com/) (FREE) or the [docker instance](https://hub.docker.com/_/postgres) if you decided to dockerize your project (check extra credit below).
+4. Database: You are required to use [PostgreSQL](https://www.postgresql.org/). You can use [ElephantSQL](https://www.elephantsql.com/) (FREE) or the [docker instance](https://hub.docker.com/_/postgres) if you decided to dockerize your project (check bouns challenges below).
 
 5. File Storage: You can use any storage you want (e.g., [MinIO](https://min.io/), [Google Cloud Storage](https://cloud.google.com/storage))
 
-## Extra Credit
+## 💡 Bonus Challenges:
 
-You are not required to complete these tasks, but doing so will increase your chances of winning the competition and provide an opportunity to showcase your capabilities. You can do them all or some.
+Want to stand out from the competition? These extra challenges give you the chance to showcase your skills beyond the basics. While not required, completing them can enhance your chances of winning by demonstrating your capability to tackle real-world BE application like scalability, performance, and reliability. Feel free to undertake any or all of them as you wish, and  show what you’re capable of!
 
-1.  Dockerize your project using [docker](https://www.docker.com/) and docker compose to run your project.
+### 1. 🔄 Long Polling for Evidence Hard Delete
 
-2.  Imagine a star system where users can purchase stars to award to movies as a gesture of excellence and appreciation. Construct an API where the user can get the minimum number of stars to award given movies (API should expect a list of movie IDs). Put the ratings in an ordered list (exact order given by the user), stars will be given to these movies based on the following requirements:
+Your task is to implement a long polling mechanism that allows admins to initiate ,monitor ,and track the hard deletion of evidence. This ensures they receive real-time updates on the status of their deletion requests, improving transparency and efficiency in the system.
 
-    - Each movie must have at least one star.
-    - Movies with higher ratings get more stars than their neighbours.
+**Key Requirements** :
 
-    Return the minimum number of stars the user needs to have to distribute the stars to the moivies.
+1. Develop an API endpoint that allows admins to initiate the hard deletion of evidence. This endpoint should accept  the evidence ID and user authentication details.
 
-    For example:
+2. Develop another endpoint that allows admins to check the status of the deletion process using long polling. Keep the connection open until the deletion is complete or a timeout occurs, and ensure that the admin receives updates on the deletion progress, including statuses such as "In Progress," "Completed," and "Failed." The client should be able to manage these status updates appropriately
 
-    - Movie ratings = [2,1,2] should return 5.
+### 2. 📨 Email Notification System for Crime Awareness
 
-    - Movie ratings = [10,1,2,8,7,3] should return 11.
+Your task is to develop an email notification system that will send timely updates to residents of [] regarding the status of crime in their area. This system should inform users about new crime incidents, updates on ongoing cases, and important safety alerts. By keeping the community informed, we aim to foster a safer environment and encourage proactive engagement among residents
 
-3.  Implement a chat room feature that allows users to discuss individual movies. Each chat room will be dedicated to a specific movie, facilitating connections for multiple users. Utilize websockets to enable seamless communication within these chat rooms.
+**Key Requirements** :
+
+1. Choose an email service provider (e.g., SendGrid, Mailgun) and integrate it into your application to facilitate the sending of email notifications.
+
+2. Create a mechanism to trigger email notifications based on specific events, such as new crime incidents reported in the City,updates or changes to existing cases (e.g., status updates, new evidence) and community awwarness and safety alerts.
+
+### 3. 💬 Case Commenting 
+
+Your task is to implement a commenting feature for crime cases that enables assignees to add, retrieve, and delete comments associated with specific cases. This will help officers and investigators document their thoughts, share insights, and provide updates on ongoing investigations
+
+**Key Requirements** :
+
+1. Develop endpoints for adding comments to a specific case, retrieving all comments for a case, and deleting comments made by the assignees.
+
+2. Ensure each comment is timestamped and linked to the user who made it for accountability and traceability.
+
+3. Ensure comments are between 5 and 150 characters. Return "Comment must be at least 5 characters long." if under 5 characters, and "Comment cannot exceed 150 characters." if over 150 characters. Restrict comments to alphanumeric characters, spaces, and basic punctuation. Return "Comment contains invalid characters. Please use only letters, numbers, and basic punctuation." for disallowed characters, and "HTML tags are not allowed in comments." if HTML tags are detected.
+
+4. Implement rate limiting to restrict the number of comments a user can post within a certain timeframe (e.g., no more than 5 comments per minute).
+
+### 4. 🚀 Deployment
+
+1. **Dockerization & Containerization**: Dockerize your project using [Docker](https://www.docker.com/) and Docker Compose to run your application.
+
+2. **Cloud Deployment**: Deploy your application on any cloud platform and provide a **link to your deployed application**.
+   - Submit your **Dockerfile**, deployment scripts, and a **README** explaining how to run and deploy the project.
 
 ## NOTE
 
@@ -87,4 +79,4 @@ You are not required to complete these tasks, but doing so will increase your ch
 
 ---
 
-# Unleash Your Creativity - Enjoy!
+# Unleash Your Creativity - Enjoy ✨💡 !
