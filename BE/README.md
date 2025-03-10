@@ -23,16 +23,17 @@ Your task is to develop a backend server system (API) for a crime case managemen
      - Create, update, and set cases as closed.
      - Assign officers to a case.
      - Perform CRUD operations on evidence, suspects, and victims related to the case.
+     - Validate `reported_by_id` wherter the user is citizen or the admin/investigator
    - **Officer**:
      - View assigned cases.
      - Update case progress/status.
-     - Upload evidence, suspects, and victims.
+     - Upload evidence, suspects,witness, and victims.
      - Cannot edit or delete the items mentioned above.
    - **Citizen** (Public, does not require registration):
      - Can report a crime.
      - Can use the report ID to track the status of the reported crime.
 
-3. Using the provided data in this GitHub repository, populate the database with the criminal cases. Note that the case data will require some processing before insertion into the database.
+3. Using the provided case example in this GitHub repository, populate the database with the criminal cases. Note that the case data will require some processing before insertion into the database.
 
 4. Cases must have an authorization level (**low, medium, high, and critical**), where only users with the required clearance **AND** correct role can access those cases.
 
@@ -47,12 +48,13 @@ Your task is to develop a backend server system (API) for a crime case managemen
    - Develop an API to create a new case.
      - Newly created cases must be **reviewed by the admin** before they can be seen by assigned officers.
      - Investigators can still see pending cases.
+     - Newly created cases can be linked to a specific report or if no reports then utilized the one who created the case
 
 8. **Case Listing API:**
 
    - Develop an API to return the list of all cases in the database.
-   - The response should include:
-     - Case Number, Case Name, Description, Area/City, Created By/At, Case Type, Authorization Level.
+   - The response should include :
+     - Case Number, Case Name, Description, Area/City, Created By/At, Case Type, Authorization Level
    - The description should be **100 characters or less**. If it exceeds the limit, truncate it with `...`, ensuring the last word is complete. Example:
      - Not accepted: `"the suspect is hea..."`
      - Accepted: `"the suspect is ..."`
@@ -61,8 +63,8 @@ Your task is to develop a backend server system (API) for a crime case managemen
 9. **Case Details API:**
 
    - Develop an API to return detailed information about a specific case given its ID.
-   - The response should include:
-     - Case Number, Case Name, Description, Area/City, Created By/At, Case Type, Authorization Level, Number of Assignees, Number of Evidences, Number of Suspects, Number of Victims.
+   - The response should be similar to the provided response sample X :
+     - Case Number, Case Name, Description, Area/City, Created By/At, Case Type, Case Level, Authorization Level, Reported By, Number of Assignees, Number of Evidences, Number of Suspects, Number of Victims , Number of Witness.
 
 10. **Additional Case APIs:**
 
@@ -71,6 +73,7 @@ Your task is to develop a backend server system (API) for a crime case managemen
       - **All evidences** of a case given its ID.
       - **All suspects** of a case given its ID.
       - **All victims** of a case given its ID.
+      - **All witness** of a case given its ID.
 
 11. **Evidence Management APIs:**
 
@@ -92,7 +95,7 @@ Your task is to develop a backend server system (API) for a crime case managemen
 14. **Evidence Update API:**
 
     - Develop an API to update an evidence entry.
-    - The **type of evidence cannot be edited**, only the content.
+    - The **type of evidence cannot be updated**, only the content.
 
 15. **Soft Delete API:**
 
@@ -117,6 +120,9 @@ Your task is to develop a backend server system (API) for a crime case managemen
 
     - Develop an API to return **admin logs** for evidence-related actions.
     - Should include details on **who added, updated, or deleted evidence and when.**
+   
+20. **Generate Report API:**
+     - Develop an API to return a generated report as pdf that includes all the case details along with all evidences and suspects , victims and witness by given case ID
 
 ## Technical Requirements:
 
@@ -146,7 +152,7 @@ Your task is to implement a long polling mechanism that allows admins to initiat
 
 ### 2. 📨 Email Notification System for Crime Awareness
 
-Your task is to develop an email notification system that will send timely updates to residents of [] regarding the status of crime in their area. This system should inform users about new crime incidents, updates on ongoing cases, and important safety alerts. By keeping the community informed, we aim to foster a safer environment and encourage proactive engagement among residents
+Your task is to develop an email notification system that will send timely updates to residents of Distric Core regarding the status of crime in their area. This system should inform users about new crime incidents, updates on ongoing cases, and important safety alerts. By keeping the community informed, we aim to foster a safer environment and encourage proactive engagement among residents
 
 **Key Requirements** :
 
