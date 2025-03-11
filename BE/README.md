@@ -114,30 +114,25 @@ Your task is to develop a backend server system (API) for a crime case managemen
     - Insert an **audit log** entry of this delete action.
 
 16. **Hard Delete API:**
+    
+    - Develop an API to **hard delete** an evidence entry.
 
-    - Develop an API to **hard delete** an evidence entry. Include multiple steps for confirmation:
-        1. The user must receive a prompt asking, **"Are you sure you want to permanently delete Evidence ID: `<evidence_id>`? (yes/no)"**
-        2. The user must reply with **"yes"** to proceed. If the response is **"no"** or missing, the deletion is canceled.
-        3. Upon confirmation, the user must send **"DELETE `<evidence_id>`"** to finalize the deletion.
-        4. Validate that the evidence exists and the user has proper permissions before deletion.
-        5. Log the deletion for auditing purposes, then proceed to delete the evidence if all conditions are met.
-
-17. **Text Analysis API:**
+18. **Text Analysis API:**
 
     - Develop an API to:
       - Extract and return the **top 10 most used words** in all text-based evidence across the system.
       - Ignore **stop words** (e.g., "and", "the", "to", etc.).
 
-18. **Link Extraction API:**
+19. **Link Extraction API:**
 
     - Develop an API to extract and return any **links or URLs** mentioned in a case given the case ID.
 
-19. **Audit Log API:**
+20. **Audit Log API:**
 
     - Develop an API to return **admin logs** for evidence-related actions.
     - Should include details on **who added, updated, or deleted evidence and when**.
 
-20. **Generate Report API:**
+21. **Generate Report API:**
     - Develop an API to return a generated report as a PDF that includes all the case details along with all evidence (include images and text), suspects, victims, and witnesses for a given case ID.
     - Develop a **public** API to return the status of the case given the report id that the citizen receives when submitting a crime report.
 
@@ -157,7 +152,19 @@ Your task is to develop a backend server system (API) for a crime case managemen
 
 Want to stand out from the competition? These extra challenges give you the chance to showcase your skills beyond the basics. While not required, completing them can enhance your chances of winning by demonstrating your capability to tackle real-world BE application like scalability, performance, and reliability. Feel free to undertake any or all of them as you wish, and show what you’re capable of!
 
-### 1. 📨 Email Notification System for Crime Awareness
+### 1. 🔄 Long Polling for Evidence Hard Delete
+
+Your task is to implement a long polling mechanism that enables admins to initiate, monitor, and track the hard deletion of evidence. This ensures real-time updates on deletion requests, enhancing transparency and efficiency in the system. Develop an API to permanently delete an evidence entry with a multi-step confirmation process:
+
+**Key Requirements** :
+
+1. Prompt the user: "Are you sure you want to delete Evidence ID: <evidence_id>? (yes/no)"
+2. Proceed only if the user confirms with "yes." Otherwise, cancel the request.
+3. Require a final confirmation: "DELETE <evidence_id>" to execute deletion.
+4. Validate evidence existence and user permissions before deletion.
+5. Log all deletion attempts for auditing before permanently removing the record.
+
+### 2. 📨 Email Notification System for Crime Awareness
 
 Your task is to develop an email notification system that will send timely updates to residents of Distric Core regarding the status of crime in their area. This system should inform users about new crime incidents, updates on ongoing cases, and important safety alerts. By keeping the community informed, we aim to foster a safer environment and encourage proactive engagement among residents
 
@@ -167,7 +174,7 @@ Your task is to develop an email notification system that will send timely updat
 
 2. Create a mechanism to trigger email notifications based on specific events, such as new crime incidents reported in the City,updates or changes to existing cases (e.g., status updates, new evidence) and community awwarness and safety alerts.
 
-### 2. 💬 Case Commenting
+### 3. 💬 Case Commenting
 
 Your task is to implement a commenting feature for crime cases that enables assignees to add, retrieve, and delete comments associated with specific cases. This will help officers and investigators document their thoughts, share insights, and provide updates on ongoing investigations
 
@@ -181,7 +188,7 @@ Your task is to implement a commenting feature for crime cases that enables assi
 
 4. Implement rate limiting to restrict the number of comments a user can post within a certain timeframe (e.g., no more than 5 comments per minute).
 
-### 3. 🚀 Deployment
+### 4. 🚀 Deployment
 
 1. **Dockerization & Containerization**: Dockerize your project using [Docker](https://www.docker.com/) and Docker Compose to run your application.
 
