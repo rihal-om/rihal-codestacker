@@ -45,21 +45,23 @@ Your task is to develop a backend server system (API) for a crime case managemen
 
    - Officers can only be assigned to cases **of equal or lower clearance**.
 
-4. **All of the following APIs must be protected using Basic Authentication except where specified.**
+4. Using the provided case example in this GitHub repository, populate the database with the criminal cases. Note that the case data will require some processing before insertion into the database.
 
-5. **User Management API:**
+5. **All of the following APIs must be protected using Basic Authentication except where specified.**
+
+6. **User Management API:**
 
    - Develop an API to allow the admin to **add, update, and delete** users.
    - Admins can assign **roles and clearance levels** to users.
 
-6. **Case Management APIs:**
+7. **Case Management APIs:**
 
    - Develop a **public** API to submit a crime report and return the report id for the citizen to check the status.
    - Develop an API to create a new case. A case can be linked to multiple crime reports.
    - Develop an API to update an existing case.
    - Newly created cases must be linked to the **user who created it**.
 
-7. **Case Listing API:**
+8. **Case Listing API:**
 
    - Develop an API to return the list of all cases in the database.
    - The response should include:
@@ -69,68 +71,68 @@ Your task is to develop a backend server system (API) for a crime case managemen
      - Accepted: `"the suspect is ..."`
    - This API should allow searching for cases by **name or description**.
 
-8. **Case Details API:**
+9. **Case Details API:**
 
    - Develop an API to return detailed information about a specific case given its ID.
    - The response should include:
-     - Case Number, Case Name, Description, Area/City, Created By/At, Case Type, Case Level, Authorization Level, Reported By, Number of Assignees, Number of Evidences, Number of Suspects, Number of Victims, Number of Witnesses
+     - Case Number, Case Name, Description, Area/City, Created By/At, Case Type, Case Level, Authorization Level, Reported By, Number of Assignees, Number of Evidences, Number of Suspects, Number of Victims, Number of Witnesses.
 
-9. **Additional Case APIs:**
+10. **Additional Case APIs:**
 
-   - Develop an API to return:
-     - **All assignees** of a case given its ID.
-     - **All evidence** of a case given its ID.
-     - **All suspects** of a case given its ID.
-     - **All victims** of a case given its ID.
-     - **All witnesses** of a case given its ID.
+- Develop an API to return:
+  - **All assignees** of a case given its ID.
+  - **All evidence** of a case given its ID.
+  - **All suspects** of a case given its ID.
+  - **All victims** of a case given its ID.
+  - **All witnesses** of a case given its ID.
 
-10. **Evidence Management APIs:**
+11. **Evidence Management APIs:**
 
     - Develop an API to record evidence related to a case.
       - Evidence can be **text or an image**.
       - Evidence entries may include **optional remarks**.
       - Images must be validated to ensure they are actual images.
 
-11. **Evidence Retrieval API:**
+12. **Evidence Retrieval API:**
 
     - Develop an API to return an evidence entry given its ID.
     - If the entry is an image, the API should also return the **size of the image**.
 
-12. **Evidence Image Retrieval API:**
+13. **Evidence Image Retrieval API:**
 
     - Develop an API that returns the evidence **image** given its ID.
     - Consider handling cases where evidence is not an image.
 
-13. **Evidence Update API:**
+14. **Evidence Update API:**
 
     - Develop an API to update an evidence entry.
     - The **type of evidence cannot be updated**, only the content.
 
-14. **Soft Delete API:**
+15. **Soft Delete API:**
 
     - Develop an API to **soft delete** an evidence entry.
     - Insert an **audit log** entry of this delete action.
 
-15. **Hard Delete API:**
+16. **Hard Delete API:**
 
     - Develop an API to **hard delete** an evidence entry.
 
-16. **Text Analysis API:**
+17. **Text Analysis API:**
 
     - Develop an API to:
       - Extract and return the **top 10 most used words** in all text-based evidence across the system.
       - Ignore **stop words** (e.g., "and", "the", "to", etc.).
 
-17. **Link Extraction API:**
+18. **Link Extraction API:**
 
     - Develop an API to extract and return any **links or URLs** mentioned in a case given the case ID.
 
-18. **Audit Log API:**
+19. **Audit Log API:**
 
     - Develop an API to return **admin logs** for evidence-related actions.
     - Should include details on **who added, updated, or deleted evidence and when**.
 
-19. **Generate Report API:**
+20. **Generate Report API:**
     - Develop an API to return a generated report as a PDF that includes all the case details along with all evidence, suspects, victims, and witnesses for a given case ID.
     - Develop a **public** API to return the status of the case given the report id that the citizen receives when submitting a crime report.
 
