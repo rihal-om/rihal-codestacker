@@ -28,7 +28,7 @@ Your task is to develop a backend server system (API) for a crime case managemen
      - Create, update, and set cases as closed.
      - Assign only officers to a case, ensuring officers have the required clearance level.
      - Perform CRUD operations on **evidence, suspects, victims, and witnesses** related to the case.
-     - Validate `reported_by_id` to ensure the user is either a **citizen, admin, or investigator**.
+     - Validate `reported_by` to ensure the user is either a **citizen, admin, or investigator**.
 
    - **Officer**:
 
@@ -115,7 +115,12 @@ Your task is to develop a backend server system (API) for a crime case managemen
 
 16. **Hard Delete API:**
 
-    - Develop an API to **hard delete** an evidence entry.
+    - Develop an API to **hard delete** an evidence entry. Include multiple steps for confirmation:
+        1. The user must receive a prompt asking, **"Are you sure you want to permanently delete Evidence ID: `<evidence_id>`? (yes/no)"**
+        2. The user must reply with **"yes"** to proceed. If the response is **"no"** or missing, the deletion is canceled.
+        3. Upon confirmation, the user must send **"DELETE `<evidence_id>`"** to finalize the deletion.
+        4. Validate that the evidence exists and the user has proper permissions before deletion.
+        5. Log the deletion for auditing purposes, then proceed to delete the evidence if all conditions are met.
 
 17. **Text Analysis API:**
 
@@ -133,7 +138,7 @@ Your task is to develop a backend server system (API) for a crime case managemen
     - Should include details on **who added, updated, or deleted evidence and when**.
 
 20. **Generate Report API:**
-    - Develop an API to return a generated report as a PDF that includes all the case details along with all evidence, suspects, victims, and witnesses for a given case ID.
+    - Develop an API to return a generated report as a PDF that includes all the case details along with all evidence (include images and text), suspects, victims, and witnesses for a given case ID.
     - Develop a **public** API to return the status of the case given the report id that the citizen receives when submitting a crime report.
 
 ## Technical Requirements:
