@@ -157,17 +157,7 @@ Your task is to develop a backend server system (API) for a crime case managemen
 
 Want to stand out from the competition? These extra challenges give you the chance to showcase your skills beyond the basics. While not required, completing them can enhance your chances of winning by demonstrating your capability to tackle real-world BE application like scalability, performance, and reliability. Feel free to undertake any or all of them as you wish, and show what you’re capable of!
 
-### 1. 🔄 Long Polling for Evidence Hard Delete
-
-Your task is to implement a long polling mechanism that allows admins to initiate ,monitor ,and track the hard deletion of evidence. This ensures they receive real-time updates on the status of their deletion requests, improving transparency and efficiency in the system.
-
-**Key Requirements** :
-
-1. Develop an API endpoint that allows admins to initiate the hard deletion of evidence. This endpoint should accept the evidence ID and user authentication details.
-
-2. Develop another endpoint that allows admins to check the status of the deletion process using long polling. Keep the connection open until the deletion is complete or a timeout occurs, and ensure that the admin receives updates on the deletion progress, including statuses such as "In Progress," "Completed," and "Failed." The client should be able to manage these status updates appropriately
-
-### 2. 📨 Email Notification System for Crime Awareness
+### 1. 📨 Email Notification System for Crime Awareness
 
 Your task is to develop an email notification system that will send timely updates to residents of Distric Core regarding the status of crime in their area. This system should inform users about new crime incidents, updates on ongoing cases, and important safety alerts. By keeping the community informed, we aim to foster a safer environment and encourage proactive engagement among residents
 
@@ -177,7 +167,7 @@ Your task is to develop an email notification system that will send timely updat
 
 2. Create a mechanism to trigger email notifications based on specific events, such as new crime incidents reported in the City,updates or changes to existing cases (e.g., status updates, new evidence) and community awwarness and safety alerts.
 
-### 3. 💬 Case Commenting
+### 2. 💬 Case Commenting
 
 Your task is to implement a commenting feature for crime cases that enables assignees to add, retrieve, and delete comments associated with specific cases. This will help officers and investigators document their thoughts, share insights, and provide updates on ongoing investigations
 
@@ -191,7 +181,7 @@ Your task is to implement a commenting feature for crime cases that enables assi
 
 4. Implement rate limiting to restrict the number of comments a user can post within a certain timeframe (e.g., no more than 5 comments per minute).
 
-### 4. 🚀 Deployment
+### 3. 🚀 Deployment
 
 1. **Dockerization & Containerization**: Dockerize your project using [Docker](https://www.docker.com/) and Docker Compose to run your application.
 
