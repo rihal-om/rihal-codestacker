@@ -10,7 +10,7 @@ Now, the officials need your expertise to develop a robust backend API system to
 
 Your task is to develop a backend server system (API) for a crime case management platform. This system will allow registered users, such as police officers and investigators, to create, update, and monitor criminal cases while generating detailed reports. The system should provide a seamless experience for users while ensuring data integrity, security, scalability, and reliability.
 
-**Think you have what it takes? Step up, take on the challenge, and help restore peace to the people of Crime City! 🚔💻**
+**Think you have what it takes? Step up, take on the challenge, and help restore peace to the people of District Core ! 🚔💻**
 
 ## 📌 Overall Requirements and APIs
 
@@ -115,7 +115,12 @@ Your task is to develop a backend server system (API) for a crime case managemen
 
 16. **Hard Delete API:**
     
-    - Develop an API to **hard delete** an evidence entry.
+    -  Develop an API to **hard delete** an evidence entry. Include multiple steps for confirmation:
+        1. The user must receive a prompt asking, **"Are you sure you want to permanently delete Evidence ID: `<evidence_id>`? (yes/no)"**
+        2. The user must reply with **"yes"** to proceed. If the response is **"no"** or missing, the deletion is canceled.
+        3. Upon confirmation, the user must send **"DELETE `<evidence_id>`"** to finalize the deletion.
+        4. Validate that the evidence exists and the user has proper permissions before deletion.
+        5. Log the deletion for auditing purposes, then proceed to delete the evidence if all conditions are met.
 
 18. **Text Analysis API:**
 
@@ -154,15 +159,13 @@ Want to stand out from the competition? These extra challenges give you the chan
 
 ### 1. 🔄 Long Polling for Evidence Hard Delete
 
-Your task is to implement a long polling mechanism that enables admins to initiate, monitor, and track the hard deletion of evidence. This ensures real-time updates on deletion requests, enhancing transparency and efficiency in the system. Develop an API to permanently delete an evidence entry with a multi-step confirmation process:
+Your task is to implement a long polling mechanism that allows admins to initiate ,monitor ,and track the hard deletion of evidence. This ensures they receive real-time updates on the status of their deletion requests, improving transparency and efficiency in the system.
 
 **Key Requirements** :
 
-1. Prompt the user: "Are you sure you want to delete Evidence ID: <evidence_id>? (yes/no)"
-2. Proceed only if the user confirms with "yes." Otherwise, cancel the request.
-3. Require a final confirmation: "DELETE <evidence_id>" to execute deletion.
-4. Validate evidence existence and user permissions before deletion.
-5. Log all deletion attempts for auditing before permanently removing the record.
+1. Develop an API endpoint that allows admins to initiate the hard deletion of evidence. This endpoint should accept the evidence ID and user authentication details.
+
+2. Develop another endpoint that allows admins to check the status of the deletion process using long polling. Keep the connection open until the deletion is complete or a timeout occurs, and ensure that the admin receives updates on the deletion progress, including statuses such as "In Progress," "Completed," and "Failed." The client should be able to manage these status updates appropriately
 
 ### 2. 📨 Email Notification System for Crime Awareness
 
