@@ -1,0 +1,57 @@
+{
+  "case_number": "C12345",
+  "case_name": "Theft Investigation",
+  "description": "Investigation of a reported theft at a local store.",
+  "area": "Downtown",
+  "city": "New York",
+  "created_by": {
+    "id": "A001",
+    "name": "Admin User",
+    "role": "Admin"
+  },
+  "created_at": "2025-03-10T14:30:00Z",
+  "case_type": "Criminal",
+  "level": "High",
+  "assignees": [
+    {
+      "id": "A101",
+      "name": "Detective Jane Smith",
+      "role": "Investigator"
+    },
+    {
+      "id": "A102",
+      "name": "Officer Mike Johnson",
+      "role": "Officer"
+    },
+
+    {
+      "id": "A104",
+      "name": "Auditor Alice Green",
+      "role": "Auditor"
+    }
+  ],
+  "persons": [
+    {
+      "type": "suspect",
+      "name": "Michael Brown",
+      "age": 32,
+      "gender": "Male",
+      "role": "Primary Suspect"
+    },
+    {
+      "type": "victim",
+      "name": "Sarah Parker",
+      "age": 28,
+      "gender": "Female",
+      "role": "Store Owner"
+    }
+  ],
+"reported_by": [{
+      "report_id":12,
+      "email":"bob.wilson@gmail.com",
+      "civil_id": "A12356879",
+      "name": "Citizen Bob Wilson",
+      "role": "Citizen"}
+]
+
+}
