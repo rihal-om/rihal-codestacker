@@ -4,7 +4,7 @@
 
 This is where **YOU** come in.
 
-In this high-stakes challenge, you’ll step into the shoes of elite technologists, applying your expertise across five core domains—**Frontend, Backend, Machine Learning, Data Engineering, and Data Analytics**—to track criminals, detect patterns, and build innovative tech to save CityX. From designing **intelligent dashboards** to uncovering **hidden crime networks**, your skills will determine the fate of the city.
+In this high-stakes challenge, you’ll step into the shoes of elite technologists, applying your expertise across six core domains—**Design, Frontend, Backend, Machine Learning, Data Engineering, and Data Analytics**—to track criminals, detect patterns, and build innovative tech to save CityX. From designing **intelligent dashboards** to uncovering **hidden crime networks**, your skills will determine the fate of the city.
 
 Are you ready to take on the ultimate tech challenge and become a legend?
 
@@ -17,6 +17,11 @@ Pick a district, tackle high-impact challenges, and prove you have what it takes
 ---
 
 ## Core Districts & Challenges:
+
+### 🔹 **Experience District: The Design Challenge**  
+Design seamless, human-centered experiences that empower citizens and organizations to navigate complex urban landscapes with ease. Your interface will be the heartbeat of the city’s digital ecosystem—can you make it insightful, engaging, and effortlessly intuitive?
+
+---
 
 ### 🔹 **Render District: The Frontend Challenge**  
 Craft sleek, interactive interfaces that empower citizens and law enforcement to make real-time, data-driven decisions in the fight against crime. Your UI will be the city’s digital command center—can you make it intuitive, fast, and powerful?
