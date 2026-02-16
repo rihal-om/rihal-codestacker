@@ -1,57 +1,389 @@
 {
-  "case_number": "C12345",
-  "case_name": "Theft Investigation",
-  "description": "Investigation of a reported theft at a local store.",
-  "area": "Downtown",
-  "city": "New York",
-  "created_by": {
-    "id": "A001",
-    "name": "Admin User",
-    "role": "Admin"
+  "users": {
+    "admin": [
+      {
+        "id": "usr_admin_001",
+        "username": "admin",
+        "password": "Admin@123",
+        "role": "ADMIN",
+        "full_name": "System Admin",
+        "email": "admin@flowcare.local",
+        "is_active": true
+      }
+    ],
+    "branch_managers": [
+      {
+        "id": "usr_mgr_001",
+        "username": "mgr_muscat",
+        "password": "Manager@123",
+        "role": "BRANCH_MANAGER",
+        "full_name": "Aisha Al Balushi",
+        "email": "aisha.b@flowcare.local",
+        "branch_id": "br_muscat_001",
+        "is_active": true
+      },
+      {
+        "id": "usr_mgr_002",
+        "username": "mgr_suhar",
+        "password": "Manager@123",
+        "role": "BRANCH_MANAGER",
+        "full_name": "Hamad Al Hinai",
+        "email": "hamad.h@flowcare.local",
+        "branch_id": "br_suhar_001",
+        "is_active": true
+      }
+    ],
+    "staff": [
+      {
+        "id": "usr_staff_001",
+        "username": "staff_muscat_1",
+        "password": "Staff@123",
+        "role": "STAFF",
+        "full_name": "Salim Al Rashdi",
+        "email": "salim.r@flowcare.local",
+        "branch_id": "br_muscat_001",
+        "is_active": true
+      },
+      {
+        "id": "usr_staff_002",
+        "username": "staff_muscat_2",
+        "password": "Staff@123",
+        "role": "STAFF",
+        "full_name": "Maha Al Shukaili",
+        "email": "maha.s@flowcare.local",
+        "branch_id": "br_muscat_001",
+        "is_active": true
+      },
+      {
+        "id": "usr_staff_003",
+        "username": "staff_suhar_1",
+        "password": "Staff@123",
+        "role": "STAFF",
+        "full_name": "Nasser Al Maqbali",
+        "email": "nasser.m@flowcare.local",
+        "branch_id": "br_suhar_001",
+        "is_active": true
+      },
+      {
+        "id": "usr_staff_004",
+        "username": "staff_suhar_2",
+        "password": "Staff@123",
+        "role": "STAFF",
+        "full_name": "Reem Al Kindi",
+        "email": "reem.k@flowcare.local",
+        "branch_id": "br_suhar_001",
+        "is_active": true
+      }
+    ],
+    "customers": [
+      {
+        "id": "usr_cust_001",
+        "username": "cust_ahmed",
+        "password": "Customer@123",
+        "role": "CUSTOMER",
+        "full_name": "Ahmed Al Harthy",
+        "email": "ahmed.h@example.com",
+        "phone": "+96890000001",
+        "is_active": true
+      },
+      {
+        "id": "usr_cust_002",
+        "username": "cust_fatima",
+        "password": "Customer@123",
+        "role": "CUSTOMER",
+        "full_name": "Fatima Al Zadjali",
+        "email": "fatima.z@example.com",
+        "phone": "+96890000002",
+        "is_active": true
+      },
+      {
+        "id": "usr_cust_003",
+        "username": "cust_khalid",
+        "password": "Customer@123",
+        "role": "CUSTOMER",
+        "full_name": "Khalid Al Amri",
+        "email": "khalid.a@example.com",
+        "phone": "+96890000003",
+        "is_active": true
+      }
+    ]
   },
-  "created_at": "2025-03-10T14:30:00Z",
-  "case_type": "Criminal",
-  "level": "High",
-  "assignees": [
+
+  "branches": [
     {
-      "id": "A101",
-      "name": "Detective Jane Smith",
-      "role": "Investigator"
+      "id": "br_muscat_001",
+      "name": "FlowCare Muscat - Al Khuwair",
+      "city": "Muscat",
+      "address": "Al Khuwair, Muscat",
+      "timezone": "Asia/Muscat",
+      "is_active": true
     },
     {
-      "id": "A102",
-      "name": "Officer Mike Johnson",
-      "role": "Officer"
+      "id": "br_suhar_001",
+      "name": "FlowCare Suhar - Al Humbar",
+      "city": "Suhar",
+      "address": "Al Humbar, Suhar",
+      "timezone": "Asia/Muscat",
+      "is_active": true
+    }
+  ],
+
+  "service_types": [
+    {
+      "id": "svc_mus_001",
+      "branch_id": "br_muscat_001",
+      "name": "Customer Support",
+      "description": "Account questions, basic requests, ticket follow-ups",
+      "duration_minutes": 15,
+      "is_active": true
+    },
+    {
+      "id": "svc_mus_002",
+      "branch_id": "br_muscat_001",
+      "name": "Document Verification",
+      "description": "Check documents, validate requirements, approvals",
+      "duration_minutes": 20,
+      "is_active": true
+    },
+    {
+      "id": "svc_mus_003",
+      "branch_id": "br_muscat_001",
+      "name": "VIP Service Desk",
+      "description": "Priority desk for special cases",
+      "duration_minutes": 30,
+      "is_active": true
     },
 
     {
-      "id": "A104",
-      "name": "Auditor Alice Green",
-      "role": "Auditor"
-    }
-  ],
-  "persons": [
-    {
-      "type": "suspect",
-      "name": "Michael Brown",
-      "age": 32,
-      "gender": "Male",
-      "role": "Primary Suspect"
+      "id": "svc_suh_001",
+      "branch_id": "br_suhar_001",
+      "name": "Customer Support",
+      "description": "Account questions, basic requests, ticket follow-ups",
+      "duration_minutes": 15,
+      "is_active": true
     },
     {
-      "type": "victim",
-      "name": "Sarah Parker",
-      "age": 28,
-      "gender": "Female",
-      "role": "Store Owner"
+      "id": "svc_suh_002",
+      "branch_id": "br_suhar_001",
+      "name": "New Registration",
+      "description": "New customer onboarding and profile creation",
+      "duration_minutes": 20,
+      "is_active": true
+    },
+    {
+      "id": "svc_suh_003",
+      "branch_id": "br_suhar_001",
+      "name": "Complaints & Escalations",
+      "description": "Escalations handling and complaints resolution",
+      "duration_minutes": 25,
+      "is_active": true
     }
   ],
-"reported_by": [{
-      "report_id":12,
-      "email":"bob.wilson@gmail.com",
-      "civil_id": "A12356879",
-      "name": "Citizen Bob Wilson",
-      "role": "Citizen"}
-]
 
+  "staff_service_types": [
+    { "staff_id": "usr_staff_001", "service_type_id": "svc_mus_001" },
+    { "staff_id": "usr_staff_001", "service_type_id": "svc_mus_002" },
+    { "staff_id": "usr_staff_002", "service_type_id": "svc_mus_003" },
+
+    { "staff_id": "usr_staff_003", "service_type_id": "svc_suh_001" },
+    { "staff_id": "usr_staff_003", "service_type_id": "svc_suh_002" },
+    { "staff_id": "usr_staff_004", "service_type_id": "svc_suh_003" }
+  ],
+
+  "slots": [
+    {
+      "id": "slot_mus_001",
+      "branch_id": "br_muscat_001",
+      "service_type_id": "svc_mus_001",
+      "staff_id": "usr_staff_001",
+      "start_at": "2026-02-16T09:00:00+04:00",
+      "end_at": "2026-02-16T09:15:00+04:00",
+      "capacity": 1,
+      "is_active": true
+    },
+    {
+      "id": "slot_mus_002",
+      "branch_id": "br_muscat_001",
+      "service_type_id": "svc_mus_001",
+      "staff_id": "usr_staff_001",
+      "start_at": "2026-02-16T09:15:00+04:00",
+      "end_at": "2026-02-16T09:30:00+04:00",
+      "capacity": 1,
+      "is_active": true
+    },
+    {
+      "id": "slot_mus_003",
+      "branch_id": "br_muscat_001",
+      "service_type_id": "svc_mus_002",
+      "staff_id": "usr_staff_001",
+      "start_at": "2026-02-17T10:00:00+04:00",
+      "end_at": "2026-02-17T10:20:00+04:00",
+      "capacity": 1,
+      "is_active": true
+    },
+    {
+      "id": "slot_mus_004",
+      "branch_id": "br_muscat_001",
+      "service_type_id": "svc_mus_003",
+      "staff_id": "usr_staff_002",
+      "start_at": "2026-02-18T11:00:00+04:00",
+      "end_at": "2026-02-18T11:30:00+04:00",
+      "capacity": 1,
+      "is_active": true
+    },
+    {
+      "id": "slot_mus_005",
+      "branch_id": "br_muscat_001",
+      "service_type_id": "svc_mus_002",
+      "staff_id": "usr_staff_001",
+      "start_at": "2026-02-19T12:00:00+04:00",
+      "end_at": "2026-02-19T12:20:00+04:00",
+      "capacity": 1,
+      "is_active": true
+    },
+    {
+      "id": "slot_mus_006",
+      "branch_id": "br_muscat_001",
+      "service_type_id": "svc_mus_003",
+      "staff_id": "usr_staff_002",
+      "start_at": "2026-02-20T09:30:00+04:00",
+      "end_at": "2026-02-20T10:00:00+04:00",
+      "capacity": 1,
+      "is_active": true
+    },
+
+    {
+      "id": "slot_suh_001",
+      "branch_id": "br_suhar_001",
+      "service_type_id": "svc_suh_001",
+      "staff_id": "usr_staff_003",
+      "start_at": "2026-02-16T09:00:00+04:00",
+      "end_at": "2026-02-16T09:15:00+04:00",
+      "capacity": 1,
+      "is_active": true
+    },
+    {
+      "id": "slot_suh_002",
+      "branch_id": "br_suhar_001",
+      "service_type_id": "svc_suh_002",
+      "staff_id": "usr_staff_003",
+      "start_at": "2026-02-16T09:30:00+04:00",
+      "end_at": "2026-02-16T09:50:00+04:00",
+      "capacity": 1,
+      "is_active": true
+    },
+    {
+      "id": "slot_suh_003",
+      "branch_id": "br_suhar_001",
+      "service_type_id": "svc_suh_003",
+      "staff_id": "usr_staff_004",
+      "start_at": "2026-02-17T10:00:00+04:00",
+      "end_at": "2026-02-17T10:25:00+04:00",
+      "capacity": 1,
+      "is_active": true
+    },
+    {
+      "id": "slot_suh_004",
+      "branch_id": "br_suhar_001",
+      "service_type_id": "svc_suh_003",
+      "staff_id": "usr_staff_004",
+      "start_at": "2026-02-18T10:30:00+04:00",
+      "end_at": "2026-02-18T10:55:00+04:00",
+      "capacity": 1,
+      "is_active": true
+    },
+    {
+      "id": "slot_suh_005",
+      "branch_id": "br_suhar_001",
+      "service_type_id": "svc_suh_001",
+      "staff_id": "usr_staff_003",
+      "start_at": "2026-02-19T11:00:00+04:00",
+      "end_at": "2026-02-19T11:15:00+04:00",
+      "capacity": 1,
+      "is_active": true
+    },
+    {
+      "id": "slot_suh_006",
+      "branch_id": "br_suhar_001",
+      "service_type_id": "svc_suh_002",
+      "staff_id": "usr_staff_003",
+      "start_at": "2026-02-20T12:00:00+04:00",
+      "end_at": "2026-02-20T12:20:00+04:00",
+      "capacity": 1,
+      "is_active": true
+    },
+
+    {
+      "id": "slot_mus_007",
+      "branch_id": "br_muscat_001",
+      "service_type_id": "svc_mus_001",
+      "staff_id": "usr_staff_001",
+      "start_at": "2026-02-21T09:00:00+04:00",
+      "end_at": "2026-02-21T09:15:00+04:00",
+      "capacity": 1,
+      "is_active": true
+    },
+    {
+      "id": "slot_suh_007",
+      "branch_id": "br_suhar_001",
+      "service_type_id": "svc_suh_001",
+      "staff_id": "usr_staff_003",
+      "start_at": "2026-02-22T09:00:00+04:00",
+      "end_at": "2026-02-22T09:15:00+04:00",
+      "capacity": 1,
+      "is_active": true
+    }
+  ],
+
+  "appointments": [
+    {
+      "id": "appt_001",
+      "customer_id": "usr_cust_001",
+      "branch_id": "br_muscat_001",
+      "service_type_id": "svc_mus_001",
+      "slot_id": "slot_mus_001",
+      "staff_id": "usr_staff_001",
+      "status": "BOOKED",
+      "created_at": "2026-02-15T10:00:00+04:00"
+    },
+    {
+      "id": "appt_002",
+      "customer_id": "usr_cust_002",
+      "branch_id": "br_suhar_001",
+      "service_type_id": "svc_suh_003",
+      "slot_id": "slot_suh_003",
+      "staff_id": "usr_staff_004",
+      "status": "BOOKED",
+      "created_at": "2026-02-15T10:05:00+04:00"
+    }
+  ],
+
+  "audit_logs": [
+    {
+      "id": "aud_001",
+      "actor_id": "usr_admin_001",
+      "actor_role": "ADMIN",
+      "action_type": "SEED_IMPORT",
+      "entity_type": "SYSTEM",
+      "entity_id": "seed_v1",
+      "timestamp": "2026-02-15T10:10:00+04:00",
+      "metadata": {
+        "note": "Initial seed import executed"
+      }
+    },
+    {
+      "id": "aud_002",
+      "actor_id": "usr_cust_001",
+      "actor_role": "CUSTOMER",
+      "action_type": "APPOINTMENT_BOOKED",
+      "entity_type": "APPOINTMENT",
+      "entity_id": "appt_001",
+      "timestamp": "2026-02-15T10:12:00+04:00",
+      "metadata": {
+        "slot_id": "slot_mus_001",
+        "branch_id": "br_muscat_001",
+        "service_type_id": "svc_mus_001"
+      }
+    }
+  ]
 }
