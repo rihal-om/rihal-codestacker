@@ -1,4 +1,4 @@
-# Queue & Appointment Booking System
+# Rihal Codestacker 2026 (Backend): Queue & Appointment Booking System
 
 ## Background
 
@@ -255,7 +255,7 @@ Soft delete rules:
 - Soft-deleted records must be hard-deleted after a retention period has passed. The retention period should be set as a `number of days` value in the database.
 - Hard-delete must not remove the audit log entry for the soft-delete action.
 - Hard-delete must deal with all the data that is related to the slot being deleted. Either remove that data or set the reference to be null.
-- Cleanup must be **idempotent** (running it multiple times should not error or delete extra data incorrectly).
+- Cleanup must be **idempotent** (running it multiple times should not cause errors or remove more data than intended).
 
 ---
 
@@ -361,3 +361,5 @@ Your submission must include:
 - Working API server
 
 This is a backend-only challenge. No frontend is required.
+
+# Unleash Your Creativity ✨💡!!
