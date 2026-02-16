@@ -1,207 +1,363 @@
-# { BE Rihal Codestacker Challenge 2025 }
+# Queue & Appointment Booking System
 
 ## Background
 
-District Core is under siege—rising crime and failing trust have left the community on edge. To turn things around, officials launched a Crime Management System, enabling real-time crime case reporting and faster police response.
+Rihal operates **“FlowCare”**, a growing network of service branches across Oman that handles high daily traffic: government-style counters, clinics, customer care desks, and internal support services.
 
-Now, the officials need your expertise to develop a robust backend API system to efficiently manage their growing crimes data and improve response times.
+Over the past year, FlowCare expanded quickly, but appointment handling didn’t. Branches are now struggling with:
 
-## Problem statement
+- Overlapping bookings and “double-booked” staff
+- Walk-ins flooding the queue while booked customers wait
+- No clear audit trail when appointments are edited or canceled
+- Branch managers unable to control schedules outside their branch
+- No consistent system-wide visibility for admins
 
-Your task is to develop a backend server system (API) for a crime case management platform. This system will allow registered users, such as police officers and investigators, to create, update, and monitor criminal cases while generating detailed reports. The system should provide a seamless experience for users while ensuring data integrity, security, scalability, and reliability.
-
-**Think you have what it takes? Step up, take on the challenge, and help restore peace to the people of District Core ! 🚔💻**
-
-## 📌 Overall Requirements and APIs
-
-1. The system must start with a default admin user. The admin can do everything mentioned in the below requirements.
-
-2. The system must have the following user roles:
-
-   - **Admin**:
-
-     - Can manage all users and assign roles.
-     - Can view and manage all cases and reports.
-
-   - **Investigator**:
-
-     - Create, update, and set cases as closed.
-     - Assign only officers to a case, ensuring officers have the required clearance level.
-     - Perform CRUD operations on **evidence, suspects, victims, and witnesses** related to the case.
-     - Validate `reported_by` to ensure the user is either a **citizen, admin, or investigator**.
-
-   - **Officer**:
-
-     - View assigned cases.
-     - Update case progress/status (**pending, ongoing, closed**).
-     - Upload evidence, suspects, witnesses, and victims.
-     - Cannot edit or delete the items mentioned above.
-
-   - **Citizen** (Public, does not require registration):
-     - Can report a crime.
-     - Can use the report ID to track the status of the reported crime.
-
-3. Cases and officers must have an **authorization level** (**low, medium, high, critical**), where:
-
-   - Officers can only be assigned to cases **of equal or lower clearance**.
-
-4. Using the provided case example in this GitHub repository, populate the database with the criminal cases. Note that the case data will require some processing before insertion into the database.
-
-5. **All of the following APIs must be protected using Basic Authentication except where specified.**
-
-6. **User Management API:**
-
-   - Develop an API to allow the admin to **add, update, and delete** users.
-   - Admins can assign **roles and clearance levels** to users.
-
-7. **Case Management APIs:**
-
-   - Develop a **public** API to submit a crime report and return the report id for the citizen to check the status.
-   - Develop an API to create a new case. A case can be linked to multiple crime reports.
-   - Develop an API to update an existing case.
-   - Newly created cases must be linked to the **user who created it**.
-
-8. **Case Listing API:**
-
-   - Develop an API to return the list of all cases in the database.
-   - The response should include:
-     - Case Number, Case Name, Description, Area/City, Created By/At, Case Type, Authorization Level
-   - The description should be **100 characters or less**. If it exceeds the limit, truncate it with `...`, ensuring the last word is complete. Example:
-     - Not accepted: `"the suspect is hea..."`
-     - Accepted: `"the suspect is ..."`
-   - This API should allow searching for cases by **name or description**.
-
-9. **Case Details API:**
-
-   - Develop an API to return detailed information about a specific case given its ID.
-   - The response should include:
-     - Case Number, Case Name, Description, Area/City, Created By/At, Case Type, Case Level, Authorization Level, Reported By, Number of Assignees, Number of Evidences, Number of Suspects, Number of Victims, Number of Witnesses.
-
-10. **Additional Case APIs:**
-
-- Develop an API to return:
-  - **All assignees** of a case given its ID.
-  - **All evidence** of a case given its ID.
-  - **All suspects** of a case given its ID.
-  - **All victims** of a case given its ID.
-  - **All witnesses** of a case given its ID.
-
-11. **Evidence Management APIs:**
-
-    - Develop an API to record evidence related to a case.
-      - Evidence can be **text or an image**.
-      - Evidence entries may include **optional remarks**.
-      - Images must be validated to ensure they are actual images.
-
-12. **Evidence Retrieval API:**
-
-    - Develop an API to return an evidence entry given its ID.
-    - If the entry is an image, the API should also return the **size of the image**.
-
-13. **Evidence Image Retrieval API:**
-
-    - Develop an API that returns the evidence **image** given its ID.
-    - Consider handling cases where evidence is not an image.
-
-14. **Evidence Update API:**
-
-    - Develop an API to update an evidence entry.
-    - The **type of evidence cannot be updated**, only the content.
-
-15. **Soft Delete API:**
-
-    - Develop an API to **soft delete** an evidence entry.
-    - Insert an **audit log** entry of this delete action.
-
-16. **Hard Delete API:**
-    
-    -  Develop an API to **hard delete** an evidence entry. Include multiple steps for confirmation:
-        1. The user must receive a prompt asking, **"Are you sure you want to permanently delete Evidence ID: `<evidence_id>`? (yes/no)"**
-        2. The user must reply with **"yes"** to proceed. If the response is **"no"** or missing, the deletion is canceled.
-        3. Upon confirmation, the user must send **"DELETE `<evidence_id>`"** to finalize the deletion.
-        4. Validate that the evidence exists and the user has proper permissions before deletion.
-        5. Log the deletion for auditing purposes, then proceed to delete the evidence if all conditions are met.
-
-18. **Text Analysis API:**
-
-    - Develop an API to:
-      - Extract and return the **top 10 most used words** in all text-based evidence across the system.
-      - Ignore **stop words** (e.g., "and", "the", "to", etc.).
-
-19. **Link Extraction API:**
-
-    - Develop an API to extract and return any **links or URLs** mentioned in a case given the case ID.
-
-20. **Audit Log API:**
-
-    - Develop an API to return **admin logs** for evidence-related actions.
-    - Should include details on **who added, updated, or deleted evidence and when**.
-
-21. **Generate Report API:**
-    - Develop an API to return a generated report as a PDF that includes all the case details along with all evidence (include images and text), suspects, victims, and witnesses for a given case ID.
-    - Develop a **public** API to return the status of the case given the report id that the citizen receives when submitting a crime report.
-
-## Technical Requirements:
-
-1. Use [git](https://git-scm.com/) as your version control system.
-
-2. Your code MUST be on github. Your submission should include the link to the repository.
-
-3. Use whatever language and framework you desire.
-
-4. Database: You are required to use [PostgreSQL](https://www.postgresql.org/). You can use [ElephantSQL](https://www.elephantsql.com/) (FREE) or the [docker instance](https://hub.docker.com/_/postgres) if you decided to dockerize your project (check bouns challenges below).
-
-5. File Storage: You can use any storage you want (e.g., [MinIO](https://min.io/), [Google Cloud Storage](https://cloud.google.com/storage))
-
-## 💡 Bonus Challenges:
-
-Want to stand out from the competition? These extra challenges give you the chance to showcase your skills beyond the basics. While not required, completing them can enhance your chances of winning by demonstrating your capability to tackle real-world BE application like scalability, performance, and reliability. Feel free to undertake any or all of them as you wish, and show what you’re capable of!
-
-### 1. 🔄 Long Polling for Evidence Hard Delete
-
-Your task is to implement a long polling mechanism that allows admins to initiate ,monitor ,and track the hard deletion of evidence. This ensures they receive real-time updates on the status of their deletion requests, improving transparency and efficiency in the system.
-
-**Key Requirements** :
-
-1. Develop an API endpoint that allows admins to initiate the hard deletion of evidence. This endpoint should accept the evidence ID and user authentication details.
-
-2. Develop another endpoint that allows admins to check the status of the deletion process using long polling. Keep the connection open until the deletion is complete or a timeout occurs, and ensure that the admin receives updates on the deletion progress, including statuses such as "In Progress," "Completed," and "Failed." The client should be able to manage these status updates appropriately
-
-### 2. 📨 Email Notification System for Crime Awareness
-
-Your task is to develop an email notification system that will send timely updates to residents of Distric Core regarding the status of crime in their area. This system should inform users about new crime incidents, updates on ongoing cases, and important safety alerts. By keeping the community informed, we aim to foster a safer environment and encourage proactive engagement among residents
-
-**Key Requirements** :
-
-1. Choose an email service provider (e.g., SendGrid, Mailgun) and integrate it into your application to facilitate the sending of email notifications.
-
-2. Create a mechanism to trigger email notifications based on specific events, such as new crime incidents reported in the City,updates or changes to existing cases (e.g., status updates, new evidence) and community awwarness and safety alerts.
-
-### 3. 💬 Case Commenting
-
-Your task is to implement a commenting feature for crime cases that enables assignees to add, retrieve, and delete comments associated with specific cases. This will help officers and investigators document their thoughts, share insights, and provide updates on ongoing investigations
-
-**Key Requirements** :
-
-1. Develop endpoints for adding comments to a specific case, retrieving all comments for a case, and deleting comments made by the assignees.
-
-2. Ensure each comment is timestamped and linked to the user who made it for accountability and traceability.
-
-3. Ensure comments are between 5 and 150 characters. Return "Comment must be at least 5 characters long." if under 5 characters, and "Comment cannot exceed 150 characters." if over 150 characters. Restrict comments to alphanumeric characters, spaces, and basic punctuation. Return "Comment contains invalid characters. Please use only letters, numbers, and basic punctuation." for disallowed characters, and "HTML tags are not allowed in comments." if HTML tags are detected.
-
-4. Implement rate limiting to restrict the number of comments a user can post within a certain timeframe (e.g., no more than 5 comments per minute).
-
-### 4. 🚀 Deployment
-
-1. **Dockerization & Containerization**: Dockerize your project using [Docker](https://www.docker.com/) and Docker Compose to run your application.
-
-2. **Cloud Deployment**: Deploy your application on any cloud platform and provide a **link to your deployed application**.
-   - Submit your **Dockerfile**, deployment scripts, and a **README** explaining how to run and deploy the project.
-
-## NOTE
-
-1. This is a purely backend challenge! You should only create an API server without any front-end component.
+Your mission is to build the backend that powers **FlowCare’s Queue & Appointment Booking System**, a secure, role-based platform that supports scheduling, rescheduling, cancellations, and staff/branch controls, while maintaining accountability through audit logs.
 
 ---
 
-# Unleash Your Creativity - Enjoy ✨💡 !
+## Problem Statement
+
+Build a backend API system that enables customers to book service appointments at specific branches with available time slots and assigned staff.
+
+The system must support:
+
+- Booking / cancelling / rescheduling appointments
+- Branch-based access control
+- Staff roles + permissions
+- Authentication & authorization
+- Seed data import (provided file) to populate the database at startup
+- Audit logging for sensitive actions (booking changes, cancellations, schedule updates, etc.)
+
+> This is a backend-only challenge. You are expected to build an API server and database schema that meets the requirements below.
+
+---
+
+## Entities
+
+You must model at least the following entities:
+
+- **Branch**
+- **ServiceType**
+- **Slot**
+- **Staff**
+- **Customer**
+- **Appointment**
+- **AuditLog**
+
+You may add supporting entities such as:
+
+- `Role`
+- `StaffServiceType`
+- `WorkingHours`
+- `Attachment`
+- etc.
+
+---
+
+## Roles, Authentication, and Authorization
+
+All APIs must be protected with authentication except where explicitly stated.
+
+### Authentication
+
+- The system must support **Basic Authentication**.
+- The system must start with a **default Admin user**.
+- All APIs must be protected using authentication except where explicitly stated (public endpoints).
+
+---
+
+## Roles & Permissions
+
+The system must support the following roles:
+
+### 1) Admin (System-wide)
+
+Can:
+
+- Manage all branches, service types, staff, and customers
+- View and manage all appointments in all branches
+- Create/update slots across branches
+- View the full audit log
+
+---
+
+### 2) Branch Manager (Branch-scoped)
+
+Can:
+
+- Manage only their assigned branch
+- Create/update slots for their branch
+- Assign staff to service types in their branch
+- View/manage appointments in their branch
+- View audit logs for their branch
+
+Cannot:
+
+- Access or modify data belonging to other branches
+
+---
+
+### 3) Staff (Branch-scoped)
+
+Can:
+
+- View their schedule and assigned appointments
+- Update appointment status (e.g., `checked-in`, `no-show`, `completed`)
+- Add internal notes (optional)
+
+Cannot:
+
+- Create slots
+- Cancel/reschedule appointments on behalf of customers  
+  (unless explicitly allowed by Branch Manager policy)
+
+---
+
+### 4) Customer
+
+Can:
+
+- Register / login
+- View available service types and slots
+- Book appointment
+- Cancel own appointment
+- Reschedule own appointment
+- View own appointment history
+
+---
+
+## Seed / Example Data
+
+You will be provided with a seed file (`JSON`) containing example data.
+
+Your application must import and populate the database on startup.
+
+At minimum, the seed data must include:
+
+- Branches (at least 2 branches)
+- ServiceTypes (at least 3 service types per branch)
+- Staff users (at least 2 staff per branch)
+- Branch Managers (at least 1 manager per branch)
+- Slots for the next 3–7 days (minimum 10 slots total)
+
+### Important Seeding Rules
+
+- Seeding must be **idempotent** (running the app multiple times must not duplicate rows).
+- Slots must be tied to:
+  - A `Branch`
+  - A `ServiceType`
+  - Optionally a `Staff` member (if your model uses staff-specific slots)
+
+---
+
+## Required APIs (Minimum Expected)
+
+Route naming is flexible. The following capabilities must exist.
+
+---
+
+### Public (No Authentication)
+
+- List branches
+- List services by branch
+- List available slots by branch + service type (+ optional date filter)
+
+---
+
+### Authentication
+
+- Register customer (including storing the required image of the customer’s ID)
+- Login (Basic Auth)
+
+---
+
+### Customer (Authenticated)
+
+- Book appointment (including storing an optional attachment). Each slot can be booked once only.
+- List my appointments
+- Get my appointment details (including the attachment if present)
+- Cancel my appointment
+- Reschedule my appointment (move to a different slot)
+
+---
+
+### Staff / Manager / Admin (Authenticated)
+
+- List appointments
+  - Admin → all branches
+  - Manager → branch-only
+  - Staff → assigned-to-me
+- Update appointment status  
+  (`checked-in`, `no-show`, `completed`)
+- View audit logs of the branch that the manager is assigned to.
+
+---
+
+### Manager / Admin
+
+- Create slots for a branch (single or bulk)
+- Update slot
+- Remove slot (must be implemented as a **soft delete**)
+- List staff
+  - Admin → all
+  - Manager → branch-only
+- Assign staff to services / branch
+  - Admin → system-wide
+  - Manager → branch-only
+- List customers
+- Get customer (including the ID image)
+- Configure the soft-delete retention period number of days value (more info in `Soft Delete Requirements`). This can only be done by admins.
+- Clean-up (hard-delete) soft-deleted slots that passed the retention period (more info in `Soft Delete Requirements`). This can only be done by admins.
+- View all audit logs. This can only be done by admins.
+- Export all audit logs as a `.csv` file. This can only be done by admins.
+
+---
+
+## File Storage Requirements
+
+The system must support secure file storage and retrieval for:
+
+1. **Customer ID Image**
+   - Required during customer registration.
+   - Must validate that the uploaded file is a valid image.
+   - Must enforce file size limits (define a reasonable limit, e.g., 2–5 MB).
+   - Must store file reference in the database.
+
+2. **Appointment Attachment (Optional)**
+   - Customers may upload an optional attachment during booking.
+   - Allowed types: images and/or PDF (define clearly).
+   - Must validate file type and size.
+   - Attachment must be associated with a specific appointment.
+
+You have the choice between storing files using local filesystem or object storage (MinIO).
+
+### File Retrieval APIs
+
+Authenticated users with proper permissions must be able to:
+
+- Retrieve customer ID image (Admins only)
+- Retrieve appointment attachment (staff and above, or the customer if he or she is the creator of the appointment)
+- Return correct content-type headers
+- Handle cases where file does not exist
+
+---
+
+## Soft Delete Requirements
+
+Soft delete rules:
+
+- Soft delete is required for slots.
+- Soft-deleted records must not appear in normal listing endpoints.
+- Admins should still be able to see soft-deleted records.
+- A `deleted_at` timestamp must be stored.
+- All soft delete actions must create an `AuditLog` entry.
+- Soft-deleted records must be hard-deleted after a retention period has passed. The retention period should be set as a `number of days` value in the database.
+- Hard-delete must not remove the audit log entry for the soft-delete action.
+- Hard-delete must deal with all the data that is related to the slot being deleted. Either remove that data or set the reference to be null.
+- Cleanup must be **idempotent** (running it multiple times should not error or delete extra data incorrectly).
+
+---
+
+## Audit Log Requirements
+
+Sensitive actions must be logged, including:
+
+- Appointment creation
+- Appointment reschedule
+- Appointment cancellation
+- Slot creation/update/delete
+- Hard delete actions
+- Staff assignment changes
+
+Each `AuditLog` record must include:
+
+- Action type
+- Actor (user ID + role)
+- Target entity type
+- Target entity ID
+- Timestamp
+- Optional metadata (JSON)
+
+Admin must be able to view all logs.  
+Branch Managers must only view logs for their branch.
+
+---
+
+## Technical Requirements
+
+- Must use PostgreSQL
+- Must use Git
+- Must publish code to GitHub
+- Must include README with:
+  - Setup instructions
+  - Environment variables
+  - Seeding instructions
+  - Example API usage (curl or Postman)
+- Must include migration scripts
+- Must handle seeding idempotently
+
+---
+
+## Bonus Challenges (Optional)
+
+Want an edge over your competition? You have an opportunity to do so by solving these extra problems that we are facing in **FlowCare**. These are not required, but solving as many as you can enhance your chances of winning by demonstrating your capability to tackle real-world BE application like scalability, performance, and reliability.
+
+### 1) Input and Output Enhancements
+
+Enhance the listing APIs with the following improvements:
+
+- Pagination:
+  - Listing APIs must support pagination using page and size query parameters.
+  - The response must include:
+    - results: array of records for the current page
+    - total: total number of matching records (ignoring pagination)
+  - Example response format:
+    ```
+    {
+      "results": [...],
+      "total": 125
+    }
+    ```
+  - If page or size is not provided, you may apply sensible defaults.
+
+- Search:
+  - Listing APIs must support a term query parameter to search records.
+  - The term parameter should match one or more relevant fields (e.g., name, email, branch name, service name, etc.).
+  - Search should be case-insensitive.
+  - Search must apply before pagination.
+
+### 2) Queue Position Logic
+
+- Add real-time queue position calculation
+- Expose endpoint to get live queue number per branch
+
+### 3) Rate Limiting
+
+- Limit customers to X bookings per day
+- Limit rescheduling frequency
+
+### 4) Background Scheduling Service
+
+- Make a background scheduling service using cron, for example, to hard-delete soft-deleted records automatically after the retention period has passed. This would replace the clean-up API described above.
+
+### 5) Deployment
+
+- Dockerize project
+- Provide docker-compose file
+- Deploy to cloud and provide live API URL
+- Provide a README explaining how we can deploy your application.
+
+---
+
+## Deliverables
+
+Your submission must include:
+
+- GitHub repository link
+- Clear README
+- Database schema
+- Seed file + import logic
+- Working API server
+
+This is a backend-only challenge. No frontend is required.
