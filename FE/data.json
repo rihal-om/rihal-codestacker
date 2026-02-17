@@ -1,139 +1,9391 @@
-{
-  "crimes": [
-    {
-      "id": 1,
-      "report_details": "A group of masked individuals were seen breaking into a store.",
-      "crime_type": "Robbery",
-      "report_date_time": "2025-03-08-14-30",
-      "report_status": "Under Investigation",
-      "latitude": 23.588,
-      "longitude": 58.3829
+[
+  {
+    "id": "dest_0001",
+    "name": {
+      "en": "Sultan Qaboos Grand Mosque",
+      "ar": "جامع السلطان قابوس الأكبر"
     },
-    {
-      "id": 2,
-      "report_details": "Loud screaming heard from an abandoned building.",
-      "crime_type": "Assault",
-      "report_date_time": "2025-03-08-18-45",
-      "report_status": "Pending",
-      "latitude": 23.5955,
-      "longitude": 58.4096
+    "lat": 23.576233,
+    "lng": 58.417098,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
     },
-    {
-      "id": 3,
-      "report_details": "A person with a firearm spotted near a school.",
-      "crime_type": "Homicide",
-      "report_date_time": "2025-03-08-09-15",
-      "report_status": "En Route",
-      "latitude": 23.61,
-      "longitude": 58.491
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Oman Tourism Development Company",
+      "ar": "شركة تنمية السياحة العمانية"
     },
-    {
-      "id": 4,
-      "report_details": "A child was taken by an unknown individual near the park.",
-      "crime_type": "Kidnapping",
-      "report_date_time": "2025-03-08-22-10",
-      "report_status": "On Scene",
-      "latitude": 23.6205,
-      "longitude": 58.4378
+    "avg_visit_duration_minutes": 240,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      5,
+      7,
+      9,
+      11
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0002",
+    "name": {
+      "en": "Royal Opera House",
+      "ar": "دار الأوبرا السلطانية"
     },
-    {
-      "id": 5,
-      "report_details": "Suspicious activity reported near a bank after closing hours.",
-      "crime_type": "Robbery",
-      "report_date_time": "2025-03-08-01-05",
-      "report_status": "Resolved",
-      "latitude": 23.5821,
-      "longitude": 58.4617
+    "lat": 23.528458,
+    "lng": 58.336988,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
     },
-    {
-      "id": 6,
-      "report_details": "A vehicle was stolen from a parking lot.",
-      "crime_type": "Theft",
-      "report_date_time": "2025-03-07-23-30",
-      "report_status": "Under Investigation",
-      "latitude": 24.3643,
-      "longitude": 56.7462
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Gulf Leisure Tourism",
+      "ar": "سياحة الخليج الترفيهية"
     },
-    {
-      "id": 7,
-      "report_details": "A group of individuals forcefully entered a warehouse and stole equipment.",
-      "crime_type": "Robbery",
-      "report_date_time": "2025-03-07-19-15",
-      "report_status": "Pending",
-      "latitude": 24.3548,
-      "longitude": 56.7044
+    "avg_visit_duration_minutes": 60,
+    "ticket_cost_omr": 3.12,
+    "recommended_months": [
+      4,
+      5,
+      11
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0003",
+    "name": {
+      "en": "Muttrah Souq",
+      "ar": "سوق مطرح"
     },
-    {
-      "id": 8,
-      "report_details": "A person was attacked outside a shopping mall.",
-      "crime_type": "Assault",
-      "report_date_time": "2025-03-06-15-50",
-      "report_status": "Under Investigation",
-      "latitude": 17.0204,
-      "longitude": 54.0897
+    "lat": 23.640224,
+    "lng": 58.338077,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
     },
-    {
-      "id": 9,
-      "report_details": "An altercation at a sports event resulted in serious injuries.",
-      "crime_type": "Assault",
-      "report_date_time": "2025-03-06-12-10",
-      "report_status": "Pending",
-      "latitude": 22.9333,
-      "longitude": 57.5333
+    "categories": [
+      "culture",
+      "food"
+    ],
+    "company": {
+      "en": "Gulf Leisure Tourism",
+      "ar": "سياحة الخليج الترفيهية"
     },
-    {
-      "id": 10,
-      "report_details": "A drive-by shooting was reported in a remote village.",
-      "crime_type": "Homicide",
-      "report_date_time": "2025-03-06-08-30",
-      "report_status": "En Route",
-      "latitude": 22.926,
-      "longitude": 57.5301
+    "avg_visit_duration_minutes": 45,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      2,
+      3,
+      9,
+      11,
+      12
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0004",
+    "name": {
+      "en": "Bait Al Zubair Museum",
+      "ar": "متحف بيت الزبير"
     },
-    {
-      "id": 11,
-      "report_details": "An armed robbery occurred at a jewelry store.",
-      "crime_type": "Robbery",
-      "report_date_time": "2025-03-05-21-45",
-      "report_status": "Resolved",
-      "latitude": 24.1781,
-      "longitude": 56.3038
+    "lat": 23.519287,
+    "lng": 58.395217,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
     },
-    {
-      "id": 12,
-      "report_details": "A child was kidnapped from a playground.",
-      "crime_type": "Kidnapping",
-      "report_date_time": "2025-03-05-17-10",
-      "report_status": "On Scene",
-      "latitude": 23.6005,
-      "longitude": 57.9231
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Salalah Tourism Board",
+      "ar": "مجلس سياحة صلالة"
     },
-    {
-      "id": 13,
-      "report_details": "A man was fatally shot in a private residence.",
-      "crime_type": "Homicide",
-      "report_date_time": "2025-03-05-14-00",
-      "report_status": "Under Investigation",
-      "latitude": 23.5849,
-      "longitude": 58.3874
+    "avg_visit_duration_minutes": 360,
+    "ticket_cost_omr": 2.17,
+    "recommended_months": [
+      2,
+      4,
+      12
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0005",
+    "name": {
+      "en": "National Museum",
+      "ar": "المتحف الوطني"
     },
-    {
-      "id": 14,
-      "report_details": "A violent altercation broke out at a marketplace.",
-      "crime_type": "Assault",
-      "report_date_time": "2025-03-04-20-20",
-      "report_status": "Pending",
-      "latitude": 23.5852,
-      "longitude": 58.3906
+    "lat": 23.558459,
+    "lng": 58.360305,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
     },
-    {
-      "id": 15,
-      "report_details": "A luxury car was stolen from a hotel parking lot.",
-      "crime_type": "Theft",
-      "report_date_time": "2025-03-04-06-45",
-      "report_status": "Resolved",
-      "latitude": 22.5663,
-      "longitude": 59.5289
-    }
-  ]
-}
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Desert Discovery Tours",
+      "ar": "جولات اكتشاف الصحراء"
+    },
+    "avg_visit_duration_minutes": 30,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      3,
+      6,
+      7
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0006",
+    "name": {
+      "en": "Qurum Beach",
+      "ar": "شاطئ القرم"
+    },
+    "lat": 23.57505,
+    "lng": 58.334398,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "beach",
+      "nature"
+    ],
+    "company": {
+      "en": "Wahiba Expeditions",
+      "ar": "رحلات وهيبة الاستكشافية"
+    },
+    "avg_visit_duration_minutes": 180,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      3,
+      5,
+      6,
+      7,
+      10
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0007",
+    "name": {
+      "en": "Al Bustan Beach",
+      "ar": "شاطئ البستان"
+    },
+    "lat": 23.646311,
+    "lng": 58.436683,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "beach"
+    ],
+    "company": {
+      "en": "Ministry of Heritage and Tourism",
+      "ar": "وزارة التراث والسياحة"
+    },
+    "avg_visit_duration_minutes": 300,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      2,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0008",
+    "name": {
+      "en": "Yiti Beach",
+      "ar": "شاطئ يتي"
+    },
+    "lat": 23.584669,
+    "lng": 58.446164,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "beach",
+      "nature"
+    ],
+    "company": {
+      "en": "Nizwa Tours & Travel",
+      "ar": "جولات وسفر نزوى"
+    },
+    "avg_visit_duration_minutes": 360,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      3,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0009",
+    "name": {
+      "en": "Bandar Al Khayran",
+      "ar": "بندر الخيران"
+    },
+    "lat": 23.631369,
+    "lng": 58.374802,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "beach",
+      "nature"
+    ],
+    "company": {
+      "en": "Gulf Leisure Tourism",
+      "ar": "سياحة الخليج الترفيهية"
+    },
+    "avg_visit_duration_minutes": 180,
+    "ticket_cost_omr": 9.56,
+    "recommended_months": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      8,
+      10,
+      12
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0010",
+    "name": {
+      "en": "Muttrah Fish Market",
+      "ar": "سوق السمك مطرح"
+    },
+    "lat": 23.475087,
+    "lng": 58.455118,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "food",
+      "culture"
+    ],
+    "company": {
+      "en": "Salalah Tourism Board",
+      "ar": "مجلس سياحة صلالة"
+    },
+    "avg_visit_duration_minutes": 150,
+    "ticket_cost_omr": 13.2,
+    "recommended_months": [
+      5,
+      8,
+      11
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0011",
+    "name": {
+      "en": "Al Alam Palace",
+      "ar": "قصر العلم"
+    },
+    "lat": 23.456335,
+    "lng": 58.590171,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Salalah Tourism Board",
+      "ar": "مجلس سياحة صلالة"
+    },
+    "avg_visit_duration_minutes": 60,
+    "ticket_cost_omr": 2.49,
+    "recommended_months": [
+      1,
+      4,
+      10
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0012",
+    "name": {
+      "en": "Mutrah Corniche",
+      "ar": "كورنيش مطرح"
+    },
+    "lat": 23.564242,
+    "lng": 58.498799,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "beach",
+      "nature"
+    ],
+    "company": {
+      "en": "Arabian Sands Tourism",
+      "ar": "سياحة الرمال العربية"
+    },
+    "avg_visit_duration_minutes": 150,
+    "ticket_cost_omr": 15.63,
+    "recommended_months": [
+      2,
+      7,
+      9
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0013",
+    "name": {
+      "en": "Wadi Shab",
+      "ar": "وادي شاب"
+    },
+    "lat": 23.594499,
+    "lng": 58.330325,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "nature",
+      "mountain"
+    ],
+    "company": {
+      "en": "Ministry of Heritage and Tourism",
+      "ar": "وزارة التراث والسياحة"
+    },
+    "avg_visit_duration_minutes": 300,
+    "ticket_cost_omr": 10.52,
+    "recommended_months": [
+      1,
+      3,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0014",
+    "name": {
+      "en": "Bimmah Sinkhole",
+      "ar": "هوية نجم"
+    },
+    "lat": 23.632348,
+    "lng": 58.402131,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Gulf Leisure Tourism",
+      "ar": "سياحة الخليج الترفيهية"
+    },
+    "avg_visit_duration_minutes": 360,
+    "ticket_cost_omr": 1.74,
+    "recommended_months": [
+      6,
+      11,
+      12
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0015",
+    "name": {
+      "en": "Al Jalali Fort",
+      "ar": "حصن الجلالي"
+    },
+    "lat": 23.548006,
+    "lng": 58.421834,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Oman Natural Reserves",
+      "ar": "المحميات الطبيعية العمانية"
+    },
+    "avg_visit_duration_minutes": 60,
+    "ticket_cost_omr": 14.85,
+    "recommended_months": [
+      3,
+      4,
+      8
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0016",
+    "name": {
+      "en": "Al Mirani Fort",
+      "ar": "حصن الميراني"
+    },
+    "lat": 23.612837,
+    "lng": 58.592667,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Arabian Sands Tourism",
+      "ar": "سياحة الرمال العربية"
+    },
+    "avg_visit_duration_minutes": 180,
+    "ticket_cost_omr": 13.79,
+    "recommended_months": [
+      1,
+      5,
+      7,
+      8,
+      9,
+      11
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0017",
+    "name": {
+      "en": "Qurum Natural Park",
+      "ar": "حديقة القرم الطبيعية"
+    },
+    "lat": 23.487901,
+    "lng": 58.317663,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Arabian Sands Tourism",
+      "ar": "سياحة الرمال العربية"
+    },
+    "avg_visit_duration_minutes": 180,
+    "ticket_cost_omr": 4.26,
+    "recommended_months": [
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0018",
+    "name": {
+      "en": "Oman Aquarium",
+      "ar": "أكواريوم عمان"
+    },
+    "lat": 23.648439,
+    "lng": 58.590961,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "nature",
+      "culture"
+    ],
+    "company": {
+      "en": "Gulf Leisure Tourism",
+      "ar": "سياحة الخليج الترفيهية"
+    },
+    "avg_visit_duration_minutes": 150,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0019",
+    "name": {
+      "en": "Al Riyam Park",
+      "ar": "حديقة الريام"
+    },
+    "lat": 23.619809,
+    "lng": 58.402233,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Wahiba Expeditions",
+      "ar": "رحلات وهيبة الاستكشافية"
+    },
+    "avg_visit_duration_minutes": 240,
+    "ticket_cost_omr": 1.18,
+    "recommended_months": [
+      2,
+      3,
+      4,
+      5,
+      7,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0020",
+    "name": {
+      "en": "Diwan Al Balat",
+      "ar": "ديوان البلاط"
+    },
+    "lat": 23.619998,
+    "lng": 58.43402,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Ministry of Heritage and Tourism",
+      "ar": "وزارة التراث والسياحة"
+    },
+    "avg_visit_duration_minutes": 120,
+    "ticket_cost_omr": 12.36,
+    "recommended_months": [
+      3,
+      4,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0021",
+    "name": {
+      "en": "Jebel Shams",
+      "ar": "جبل شمس"
+    },
+    "lat": 23.153099,
+    "lng": 57.804508,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "mountain",
+      "nature"
+    ],
+    "company": {
+      "en": "Ministry of Heritage and Tourism",
+      "ar": "وزارة التراث والسياحة"
+    },
+    "avg_visit_duration_minutes": 45,
+    "ticket_cost_omr": 7.99,
+    "recommended_months": [
+      2,
+      3,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0022",
+    "name": {
+      "en": "Jebel Akhdar",
+      "ar": "الجبل الأخضر"
+    },
+    "lat": 22.740586,
+    "lng": 57.478098,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "mountain",
+      "nature"
+    ],
+    "company": {
+      "en": "Ministry of Heritage and Tourism",
+      "ar": "وزارة التراث والسياحة"
+    },
+    "avg_visit_duration_minutes": 300,
+    "ticket_cost_omr": 5.4,
+    "recommended_months": [
+      3,
+      5,
+      11,
+      12
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0023",
+    "name": {
+      "en": "Nizwa Fort",
+      "ar": "حصن نزوى"
+    },
+    "lat": 22.738548,
+    "lng": 57.522526,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Gulf Leisure Tourism",
+      "ar": "سياحة الخليج الترفيهية"
+    },
+    "avg_visit_duration_minutes": 90,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      2,
+      4,
+      6,
+      7,
+      8,
+      10,
+      12
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0024",
+    "name": {
+      "en": "Bahla Fort",
+      "ar": "حصن بهلاء"
+    },
+    "lat": 22.828042,
+    "lng": 57.210093,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Muscat Adventures",
+      "ar": "مغامرات مسقط"
+    },
+    "avg_visit_duration_minutes": 150,
+    "ticket_cost_omr": 13.53,
+    "recommended_months": [
+      3,
+      4,
+      6,
+      10
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0025",
+    "name": {
+      "en": "Nizwa Souq",
+      "ar": "سوق نزوى"
+    },
+    "lat": 22.955165,
+    "lng": 57.334326,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "culture",
+      "food"
+    ],
+    "company": {
+      "en": "Nizwa Tours & Travel",
+      "ar": "جولات وسفر نزوى"
+    },
+    "avg_visit_duration_minutes": 60,
+    "ticket_cost_omr": 10.48,
+    "recommended_months": [
+      4,
+      5,
+      10
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0026",
+    "name": {
+      "en": "Wadi Ghul",
+      "ar": "وادي غول"
+    },
+    "lat": 22.906538,
+    "lng": 57.768224,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "mountain",
+      "nature"
+    ],
+    "company": {
+      "en": "Mountain High Adventures",
+      "ar": "مغامرات الجبال العالية"
+    },
+    "avg_visit_duration_minutes": 60,
+    "ticket_cost_omr": 19.2,
+    "recommended_months": [
+      1,
+      2,
+      3,
+      6,
+      7,
+      9,
+      10
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0027",
+    "name": {
+      "en": "Al Hoota Cave",
+      "ar": "كهف الهوتة"
+    },
+    "lat": 22.928215,
+    "lng": 57.800151,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Wahiba Expeditions",
+      "ar": "رحلات وهيبة الاستكشافية"
+    },
+    "avg_visit_duration_minutes": 240,
+    "ticket_cost_omr": 12.69,
+    "recommended_months": [
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0028",
+    "name": {
+      "en": "Jebel Misht",
+      "ar": "جبل مشط"
+    },
+    "lat": 22.804404,
+    "lng": 57.464462,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "mountain"
+    ],
+    "company": {
+      "en": "Gulf Leisure Tourism",
+      "ar": "سياحة الخليج الترفيهية"
+    },
+    "avg_visit_duration_minutes": 240,
+    "ticket_cost_omr": 11.35,
+    "recommended_months": [
+      1,
+      2,
+      3,
+      5,
+      7,
+      8
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0029",
+    "name": {
+      "en": "Tanuf Ruins",
+      "ar": "آثار تنوف"
+    },
+    "lat": 22.705582,
+    "lng": 57.511948,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "culture",
+      "nature"
+    ],
+    "company": {
+      "en": "Coastal Oman Tourism",
+      "ar": "سياحة عمان الساحلية"
+    },
+    "avg_visit_duration_minutes": 45,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      2,
+      3,
+      4,
+      11,
+      12
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0030",
+    "name": {
+      "en": "Birkat Al Mouz",
+      "ar": "بركة الموز"
+    },
+    "lat": 22.894177,
+    "lng": 57.750883,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "nature",
+      "culture"
+    ],
+    "company": {
+      "en": "Desert Discovery Tours",
+      "ar": "جولات اكتشاف الصحراء"
+    },
+    "avg_visit_duration_minutes": 240,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      2,
+      4,
+      6,
+      8,
+      9,
+      10,
+      12
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0031",
+    "name": {
+      "en": "Jabreen Castle",
+      "ar": "قلعة جبرين"
+    },
+    "lat": 22.869608,
+    "lng": 57.541479,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Wahiba Expeditions",
+      "ar": "رحلات وهيبة الاستكشافية"
+    },
+    "avg_visit_duration_minutes": 120,
+    "ticket_cost_omr": 11.1,
+    "recommended_months": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      12
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0032",
+    "name": {
+      "en": "Misfat Al Abriyeen",
+      "ar": "مسفاة العبريين"
+    },
+    "lat": 22.979805,
+    "lng": 57.574073,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "culture",
+      "nature"
+    ],
+    "company": {
+      "en": "Desert Discovery Tours",
+      "ar": "جولات اكتشاف الصحراء"
+    },
+    "avg_visit_duration_minutes": 150,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      3,
+      4,
+      7,
+      8,
+      9,
+      10
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0033",
+    "name": {
+      "en": "Wadi Bani Habib",
+      "ar": "وادي بني حبيب"
+    },
+    "lat": 22.850504,
+    "lng": 57.938155,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "nature",
+      "mountain"
+    ],
+    "company": {
+      "en": "Frankincense Trail Tours",
+      "ar": "جولات درب اللبان"
+    },
+    "avg_visit_duration_minutes": 240,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      5,
+      6,
+      8,
+      10,
+      12
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0034",
+    "name": {
+      "en": "Al Hamra Old Village",
+      "ar": "قرية الحمراء القديمة"
+    },
+    "lat": 23.252666,
+    "lng": 57.998815,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Ministry of Heritage and Tourism",
+      "ar": "وزارة التراث والسياحة"
+    },
+    "avg_visit_duration_minutes": 45,
+    "ticket_cost_omr": 1.9,
+    "recommended_months": [
+      1,
+      2,
+      5,
+      6,
+      7,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0035",
+    "name": {
+      "en": "Falaj Daris",
+      "ar": "فلج دارس"
+    },
+    "lat": 22.84729,
+    "lng": 57.341366,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "culture",
+      "nature"
+    ],
+    "company": {
+      "en": "Batinah Coast Tourism",
+      "ar": "سياحة ساحل الباطنة"
+    },
+    "avg_visit_duration_minutes": 120,
+    "ticket_cost_omr": 7.6,
+    "recommended_months": [
+      4,
+      7,
+      9,
+      12
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0036",
+    "name": {
+      "en": "Majlis Al Jinn Cave",
+      "ar": "مجلس الجن"
+    },
+    "lat": 22.907318,
+    "lng": 57.729197,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "nature",
+      "mountain"
+    ],
+    "company": {
+      "en": "Coastal Oman Tourism",
+      "ar": "سياحة عمان الساحلية"
+    },
+    "avg_visit_duration_minutes": 300,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      2,
+      8,
+      9,
+      10,
+      12
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0037",
+    "name": {
+      "en": "Al Ayn Village",
+      "ar": "قرية العين"
+    },
+    "lat": 23.221919,
+    "lng": 57.255282,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "nature",
+      "culture"
+    ],
+    "company": {
+      "en": "Salalah Tourism Board",
+      "ar": "مجلس سياحة صلالة"
+    },
+    "avg_visit_duration_minutes": 300,
+    "ticket_cost_omr": 18.91,
+    "recommended_months": [
+      2,
+      4,
+      6,
+      7,
+      8,
+      11
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0038",
+    "name": {
+      "en": "Wahiba Sands",
+      "ar": "رمال وهيبة"
+    },
+    "lat": 22.630349,
+    "lng": 59.406359,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "desert",
+      "nature"
+    ],
+    "company": {
+      "en": "Batinah Coast Tourism",
+      "ar": "سياحة ساحل الباطنة"
+    },
+    "avg_visit_duration_minutes": 30,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      3,
+      5,
+      7,
+      10
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0039",
+    "name": {
+      "en": "Sharqiyah Sands",
+      "ar": "رمال الشرقية"
+    },
+    "lat": 22.317648,
+    "lng": 58.563031,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "desert"
+    ],
+    "company": {
+      "en": "Gulf Leisure Tourism",
+      "ar": "سياحة الخليج الترفيهية"
+    },
+    "avg_visit_duration_minutes": 120,
+    "ticket_cost_omr": 18.12,
+    "recommended_months": [
+      1,
+      8,
+      10
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0040",
+    "name": {
+      "en": "Wadi Bani Khalid",
+      "ar": "وادي بني خالد"
+    },
+    "lat": 22.188823,
+    "lng": 58.521025,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "nature",
+      "beach"
+    ],
+    "company": {
+      "en": "Salalah Tourism Board",
+      "ar": "مجلس سياحة صلالة"
+    },
+    "avg_visit_duration_minutes": 150,
+    "ticket_cost_omr": 16.45,
+    "recommended_months": [
+      4,
+      6,
+      8,
+      9
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0041",
+    "name": {
+      "en": "Ras Al Jinz Turtle Reserve",
+      "ar": "محمية السلاحف برأس الجنز"
+    },
+    "lat": 22.258445,
+    "lng": 58.644854,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "nature",
+      "beach"
+    ],
+    "company": {
+      "en": "Desert Discovery Tours",
+      "ar": "جولات اكتشاف الصحراء"
+    },
+    "avg_visit_duration_minutes": 90,
+    "ticket_cost_omr": 12.8,
+    "recommended_months": [
+      1,
+      2,
+      5,
+      7,
+      8,
+      9,
+      11
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0042",
+    "name": {
+      "en": "Bidiyah Dunes",
+      "ar": "كثبان بدية"
+    },
+    "lat": 22.665097,
+    "lng": 59.438877,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "desert"
+    ],
+    "company": {
+      "en": "Wahiba Expeditions",
+      "ar": "رحلات وهيبة الاستكشافية"
+    },
+    "avg_visit_duration_minutes": 60,
+    "ticket_cost_omr": 10.24,
+    "recommended_months": [
+      1,
+      6,
+      7,
+      10,
+      12
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0043",
+    "name": {
+      "en": "Fins Beach",
+      "ar": "شاطئ فنس"
+    },
+    "lat": 22.940758,
+    "lng": 58.899915,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "beach"
+    ],
+    "company": {
+      "en": "Frankincense Trail Tours",
+      "ar": "جولات درب اللبان"
+    },
+    "avg_visit_duration_minutes": 480,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      5,
+      6,
+      12
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0044",
+    "name": {
+      "en": "Sur Maritime Museum",
+      "ar": "متحف صور البحري"
+    },
+    "lat": 22.151819,
+    "lng": 59.109338,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Wahiba Expeditions",
+      "ar": "رحلات وهيبة الاستكشافية"
+    },
+    "avg_visit_duration_minutes": 120,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      2,
+      4,
+      5
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0045",
+    "name": {
+      "en": "Wadi Tiwi",
+      "ar": "وادي طيوي"
+    },
+    "lat": 22.232377,
+    "lng": 59.056171,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "nature",
+      "mountain"
+    ],
+    "company": {
+      "en": "Oman Natural Reserves",
+      "ar": "المحميات الطبيعية العمانية"
+    },
+    "avg_visit_duration_minutes": 150,
+    "ticket_cost_omr": 17.17,
+    "recommended_months": [
+      4,
+      10,
+      11
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0046",
+    "name": {
+      "en": "Desert Camp Sharqiya",
+      "ar": "مخيم صحراء الشرقية"
+    },
+    "lat": 22.122755,
+    "lng": 59.14901,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "desert",
+      "culture"
+    ],
+    "company": {
+      "en": "Coastal Oman Tourism",
+      "ar": "سياحة عمان الساحلية"
+    },
+    "avg_visit_duration_minutes": 300,
+    "ticket_cost_omr": 7.76,
+    "recommended_months": [
+      2,
+      6,
+      7,
+      12
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0047",
+    "name": {
+      "en": "Ras Al Hadd",
+      "ar": "رأس الحد"
+    },
+    "lat": 22.560175,
+    "lng": 58.707125,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "beach",
+      "nature"
+    ],
+    "company": {
+      "en": "Coastal Oman Tourism",
+      "ar": "سياحة عمان الساحلية"
+    },
+    "avg_visit_duration_minutes": 45,
+    "ticket_cost_omr": 9.46,
+    "recommended_months": [
+      1,
+      4,
+      6,
+      7,
+      9,
+      10
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0048",
+    "name": {
+      "en": "Al Ashkharah Beach",
+      "ar": "شاطئ الأشخرة"
+    },
+    "lat": 22.466526,
+    "lng": 58.94459,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "beach"
+    ],
+    "company": {
+      "en": "Mountain High Adventures",
+      "ar": "مغامرات الجبال العالية"
+    },
+    "avg_visit_duration_minutes": 360,
+    "ticket_cost_omr": 8.21,
+    "recommended_months": [
+      4,
+      6,
+      7,
+      8
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0049",
+    "name": {
+      "en": "Sur Lighthouse",
+      "ar": "منارة صور"
+    },
+    "lat": 22.869837,
+    "lng": 58.844138,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Nizwa Tours & Travel",
+      "ar": "جولات وسفر نزوى"
+    },
+    "avg_visit_duration_minutes": 30,
+    "ticket_cost_omr": 10.59,
+    "recommended_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      8,
+      9,
+      10,
+      11
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0050",
+    "name": {
+      "en": "Sunaysilah Fort",
+      "ar": "حصن السنيسلة"
+    },
+    "lat": 22.008402,
+    "lng": 59.046609,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Gulf Leisure Tourism",
+      "ar": "سياحة الخليج الترفيهية"
+    },
+    "avg_visit_duration_minutes": 60,
+    "ticket_cost_omr": 10.06,
+    "recommended_months": [
+      1,
+      5,
+      11
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0051",
+    "name": {
+      "en": "Wadi Arbeieen",
+      "ar": "وادي العربيين"
+    },
+    "lat": 22.988543,
+    "lng": 59.250854,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "nature",
+      "mountain"
+    ],
+    "company": {
+      "en": "Muscat Adventures",
+      "ar": "مغامرات مسقط"
+    },
+    "avg_visit_duration_minutes": 60,
+    "ticket_cost_omr": 1.93,
+    "recommended_months": [
+      1,
+      4,
+      5,
+      6,
+      7,
+      11
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0052",
+    "name": {
+      "en": "Khaluf Beach",
+      "ar": "شاطئ خلوف"
+    },
+    "lat": 22.429706,
+    "lng": 59.317529,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "beach",
+      "nature"
+    ],
+    "company": {
+      "en": "Oman Tourism Development Company",
+      "ar": "شركة تنمية السياحة العمانية"
+    },
+    "avg_visit_duration_minutes": 180,
+    "ticket_cost_omr": 2.95,
+    "recommended_months": [
+      2,
+      3,
+      10
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0053",
+    "name": {
+      "en": "Sinaw Souq",
+      "ar": "سوق سناو"
+    },
+    "lat": 22.303608,
+    "lng": 58.82594,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "culture",
+      "food"
+    ],
+    "company": {
+      "en": "Wahiba Expeditions",
+      "ar": "رحلات وهيبة الاستكشافية"
+    },
+    "avg_visit_duration_minutes": 60,
+    "ticket_cost_omr": 7.82,
+    "recommended_months": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0054",
+    "name": {
+      "en": "Al Mughsail Beach",
+      "ar": "شاطئ المغسيل"
+    },
+    "lat": 17.192178,
+    "lng": 54.290123,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "beach",
+      "nature"
+    ],
+    "company": {
+      "en": "Oman Natural Reserves",
+      "ar": "المحميات الطبيعية العمانية"
+    },
+    "avg_visit_duration_minutes": 60,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      3,
+      7,
+      8,
+      9,
+      10,
+      12
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0055",
+    "name": {
+      "en": "Salalah Gardens",
+      "ar": "حدائق صلالة"
+    },
+    "lat": 17.621619,
+    "lng": 54.813623,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Coastal Oman Tourism",
+      "ar": "سياحة عمان الساحلية"
+    },
+    "avg_visit_duration_minutes": 60,
+    "ticket_cost_omr": 1.29,
+    "recommended_months": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      8,
+      9,
+      12
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0056",
+    "name": {
+      "en": "Taqah Fort",
+      "ar": "حصن طاقة"
+    },
+    "lat": 17.727764,
+    "lng": 55.289014,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Wahiba Expeditions",
+      "ar": "رحلات وهيبة الاستكشافية"
+    },
+    "avg_visit_duration_minutes": 300,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      4,
+      5,
+      7,
+      9,
+      10,
+      12
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0057",
+    "name": {
+      "en": "Wadi Darbat",
+      "ar": "وادي دربات"
+    },
+    "lat": 17.470727,
+    "lng": 54.352319,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Oman Tourism Development Company",
+      "ar": "شركة تنمية السياحة العمانية"
+    },
+    "avg_visit_duration_minutes": 150,
+    "ticket_cost_omr": 10.01,
+    "recommended_months": [
+      1,
+      5,
+      11
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0058",
+    "name": {
+      "en": "Land of Frankincense",
+      "ar": "أرض اللبان"
+    },
+    "lat": 17.909081,
+    "lng": 53.813473,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "culture",
+      "nature"
+    ],
+    "company": {
+      "en": "Oman Tourism Development Company",
+      "ar": "شركة تنمية السياحة العمانية"
+    },
+    "avg_visit_duration_minutes": 300,
+    "ticket_cost_omr": 1.05,
+    "recommended_months": [
+      2,
+      7,
+      8,
+      10,
+      11
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0059",
+    "name": {
+      "en": "Al Baleed Archaeological Park",
+      "ar": "منتزه البليد الأثري"
+    },
+    "lat": 17.775632,
+    "lng": 54.942103,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Oman Tourism Development Company",
+      "ar": "شركة تنمية السياحة العمانية"
+    },
+    "avg_visit_duration_minutes": 90,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      6,
+      7,
+      9,
+      10
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0060",
+    "name": {
+      "en": "Blowholes",
+      "ar": "المراوح"
+    },
+    "lat": 17.800353,
+    "lng": 54.158646,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Nizwa Tours & Travel",
+      "ar": "جولات وسفر نزوى"
+    },
+    "avg_visit_duration_minutes": 360,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      2,
+      3,
+      4,
+      8,
+      9,
+      10,
+      12
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0061",
+    "name": {
+      "en": "Frankincense Souq",
+      "ar": "سوق اللبان"
+    },
+    "lat": 17.45114,
+    "lng": 54.09629,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "food",
+      "culture"
+    ],
+    "company": {
+      "en": "Muscat Adventures",
+      "ar": "مغامرات مسقط"
+    },
+    "avg_visit_duration_minutes": 300,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0062",
+    "name": {
+      "en": "Mirbat Beach",
+      "ar": "شاطئ مرباط"
+    },
+    "lat": 17.410817,
+    "lng": 54.376161,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "beach"
+    ],
+    "company": {
+      "en": "Oman Natural Reserves",
+      "ar": "المحميات الطبيعية العمانية"
+    },
+    "avg_visit_duration_minutes": 45,
+    "ticket_cost_omr": 7.71,
+    "recommended_months": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0063",
+    "name": {
+      "en": "Ayn Razat",
+      "ar": "عين رزات"
+    },
+    "lat": 17.592709,
+    "lng": 55.08734,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Oman Heritage Sites",
+      "ar": "مواقع التراث العماني"
+    },
+    "avg_visit_duration_minutes": 480,
+    "ticket_cost_omr": 10.66,
+    "recommended_months": [
+      1,
+      2,
+      3,
+      6,
+      7,
+      10,
+      11
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0064",
+    "name": {
+      "en": "Ayn Athum",
+      "ar": "عين أثم"
+    },
+    "lat": 17.449795,
+    "lng": 54.697614,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Ministry of Heritage and Tourism",
+      "ar": "وزارة التراث والسياحة"
+    },
+    "avg_visit_duration_minutes": 60,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      2,
+      3,
+      7,
+      10,
+      11
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0065",
+    "name": {
+      "en": "Ayn Sahlanot",
+      "ar": "عين صحلنوت"
+    },
+    "lat": 17.117254,
+    "lng": 53.932081,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Nizwa Tours & Travel",
+      "ar": "جولات وسفر نزوى"
+    },
+    "avg_visit_duration_minutes": 360,
+    "ticket_cost_omr": 1.22,
+    "recommended_months": [
+      1,
+      2,
+      6,
+      8,
+      11
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0066",
+    "name": {
+      "en": "Fazayah Beach",
+      "ar": "شاطئ فزايا"
+    },
+    "lat": 17.486853,
+    "lng": 53.696877,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "beach",
+      "nature"
+    ],
+    "company": {
+      "en": "Gulf Leisure Tourism",
+      "ar": "سياحة الخليج الترفيهية"
+    },
+    "avg_visit_duration_minutes": 360,
+    "ticket_cost_omr": 3.74,
+    "recommended_months": [
+      2,
+      4,
+      5,
+      6,
+      8,
+      9
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0067",
+    "name": {
+      "en": "Sumhuram Archaeological Site",
+      "ar": "موقع سمهرم الأثري"
+    },
+    "lat": 17.333206,
+    "lng": 54.728909,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Coastal Oman Tourism",
+      "ar": "سياحة عمان الساحلية"
+    },
+    "avg_visit_duration_minutes": 45,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      2,
+      3,
+      5,
+      6,
+      8,
+      10,
+      11
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0068",
+    "name": {
+      "en": "Khor Rori",
+      "ar": "خور روري"
+    },
+    "lat": 17.316586,
+    "lng": 53.690042,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "nature",
+      "culture"
+    ],
+    "company": {
+      "en": "Oman Tourism Development Company",
+      "ar": "شركة تنمية السياحة العمانية"
+    },
+    "avg_visit_duration_minutes": 120,
+    "ticket_cost_omr": 18.69,
+    "recommended_months": [
+      1,
+      3,
+      6,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0069",
+    "name": {
+      "en": "Jebel Samhan",
+      "ar": "جبل سمحان"
+    },
+    "lat": 17.972675,
+    "lng": 53.743914,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "mountain",
+      "nature"
+    ],
+    "company": {
+      "en": "Ministry of Heritage and Tourism",
+      "ar": "وزارة التراث والسياحة"
+    },
+    "avg_visit_duration_minutes": 240,
+    "ticket_cost_omr": 5.77,
+    "recommended_months": [
+      2,
+      4,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0070",
+    "name": {
+      "en": "Tawi Attair Sinkhole",
+      "ar": "طوي أعطير"
+    },
+    "lat": 17.619375,
+    "lng": 55.262539,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Wahiba Expeditions",
+      "ar": "رحلات وهيبة الاستكشافية"
+    },
+    "avg_visit_duration_minutes": 45,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      2,
+      3,
+      12
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0071",
+    "name": {
+      "en": "Museum of Frankincense Land",
+      "ar": "متحف أرض اللبان"
+    },
+    "lat": 16.944091,
+    "lng": 55.239858,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Muscat Adventures",
+      "ar": "مغامرات مسقط"
+    },
+    "avg_visit_duration_minutes": 60,
+    "ticket_cost_omr": 12.53,
+    "recommended_months": [
+      2,
+      3,
+      4,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0072",
+    "name": {
+      "en": "Al Haffa Souq",
+      "ar": "سوق الحفة"
+    },
+    "lat": 17.593909,
+    "lng": 53.901314,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "culture",
+      "food"
+    ],
+    "company": {
+      "en": "Mountain High Adventures",
+      "ar": "مغامرات الجبال العالية"
+    },
+    "avg_visit_duration_minutes": 90,
+    "ticket_cost_omr": 14.09,
+    "recommended_months": [
+      1,
+      2,
+      4,
+      9
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0073",
+    "name": {
+      "en": "Nakhal Fort",
+      "ar": "حصن نخل"
+    },
+    "lat": 23.715033,
+    "lng": 57.015853,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Salalah Tourism Board",
+      "ar": "مجلس سياحة صلالة"
+    },
+    "avg_visit_duration_minutes": 240,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      6,
+      9,
+      10
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0074",
+    "name": {
+      "en": "Rustaq Fort",
+      "ar": "حصن الرستاق"
+    },
+    "lat": 23.622218,
+    "lng": 57.288523,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Salalah Tourism Board",
+      "ar": "مجلس سياحة صلالة"
+    },
+    "avg_visit_duration_minutes": 45,
+    "ticket_cost_omr": 11.99,
+    "recommended_months": [
+      1,
+      2,
+      6,
+      11,
+      12
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0075",
+    "name": {
+      "en": "Ain Al Kasfa",
+      "ar": "عين الكسفة"
+    },
+    "lat": 23.976154,
+    "lng": 56.622277,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Mountain High Adventures",
+      "ar": "مغامرات الجبال العالية"
+    },
+    "avg_visit_duration_minutes": 300,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      5,
+      7
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0076",
+    "name": {
+      "en": "Wadi Bani Awf",
+      "ar": "وادي بني عوف"
+    },
+    "lat": 23.871325,
+    "lng": 57.901617,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "mountain",
+      "nature"
+    ],
+    "company": {
+      "en": "Batinah Coast Tourism",
+      "ar": "سياحة ساحل الباطنة"
+    },
+    "avg_visit_duration_minutes": 240,
+    "ticket_cost_omr": 13.64,
+    "recommended_months": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      8,
+      11
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0077",
+    "name": {
+      "en": "Snake Canyon",
+      "ar": "وادي الثعبان"
+    },
+    "lat": 24.274265,
+    "lng": 58.007329,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "mountain",
+      "nature"
+    ],
+    "company": {
+      "en": "Desert Discovery Tours",
+      "ar": "جولات اكتشاف الصحراء"
+    },
+    "avg_visit_duration_minutes": 360,
+    "ticket_cost_omr": 18.61,
+    "recommended_months": [
+      3,
+      4,
+      7,
+      11
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0078",
+    "name": {
+      "en": "Sohar Fort",
+      "ar": "حصن صحار"
+    },
+    "lat": 24.120489,
+    "lng": 57.070937,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Salalah Tourism Board",
+      "ar": "مجلس سياحة صلالة"
+    },
+    "avg_visit_duration_minutes": 45,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      2,
+      5,
+      6
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0079",
+    "name": {
+      "en": "Sohar Beach",
+      "ar": "شاطئ صحار"
+    },
+    "lat": 23.86898,
+    "lng": 56.591849,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "beach"
+    ],
+    "company": {
+      "en": "Nizwa Tours & Travel",
+      "ar": "جولات وسفر نزوى"
+    },
+    "avg_visit_duration_minutes": 120,
+    "ticket_cost_omr": 3.06,
+    "recommended_months": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      11,
+      12
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0080",
+    "name": {
+      "en": "Al Sawadi Beach",
+      "ar": "شاطئ السوادي"
+    },
+    "lat": 24.16111,
+    "lng": 57.132576,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "beach",
+      "nature"
+    ],
+    "company": {
+      "en": "Oman Tourism Development Company",
+      "ar": "شركة تنمية السياحة العمانية"
+    },
+    "avg_visit_duration_minutes": 360,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      2,
+      3,
+      4,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0081",
+    "name": {
+      "en": "Barka Fish Market",
+      "ar": "سوق السمك بركاء"
+    },
+    "lat": 24.279652,
+    "lng": 57.632481,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "food"
+    ],
+    "company": {
+      "en": "Coastal Oman Tourism",
+      "ar": "سياحة عمان الساحلية"
+    },
+    "avg_visit_duration_minutes": 90,
+    "ticket_cost_omr": 10.51,
+    "recommended_months": [
+      2,
+      6,
+      7,
+      9
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0082",
+    "name": {
+      "en": "Al Thowara Hot Spring",
+      "ar": "عين الثوارة"
+    },
+    "lat": 24.194377,
+    "lng": 58.02917,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Desert Discovery Tours",
+      "ar": "جولات اكتشاف الصحراء"
+    },
+    "avg_visit_duration_minutes": 150,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      6,
+      9,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0083",
+    "name": {
+      "en": "Hazm Fort",
+      "ar": "حصن الحزم"
+    },
+    "lat": 24.008493,
+    "lng": 57.524542,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Salalah Tourism Board",
+      "ar": "مجلس سياحة صلالة"
+    },
+    "avg_visit_duration_minutes": 30,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      12
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0084",
+    "name": {
+      "en": "Ain Al Thowwarah",
+      "ar": "عين الثوارة"
+    },
+    "lat": 24.27928,
+    "lng": 56.960438,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Gulf Leisure Tourism",
+      "ar": "سياحة الخليج الترفيهية"
+    },
+    "avg_visit_duration_minutes": 300,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      2,
+      6,
+      7,
+      8,
+      11,
+      12
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0085",
+    "name": {
+      "en": "Wadi Al Hoqain",
+      "ar": "وادي الحوقين"
+    },
+    "lat": 24.226399,
+    "lng": 57.160232,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "nature",
+      "mountain"
+    ],
+    "company": {
+      "en": "Nizwa Tours & Travel",
+      "ar": "جولات وسفر نزوى"
+    },
+    "avg_visit_duration_minutes": 480,
+    "ticket_cost_omr": 2.25,
+    "recommended_months": [
+      1,
+      3,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0086",
+    "name": {
+      "en": "Wadi Sahtan",
+      "ar": "وادي السحتن"
+    },
+    "lat": 24.382322,
+    "lng": 57.711068,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "nature",
+      "mountain"
+    ],
+    "company": {
+      "en": "Coastal Oman Tourism",
+      "ar": "سياحة عمان الساحلية"
+    },
+    "avg_visit_duration_minutes": 240,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      6,
+      7,
+      12
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0087",
+    "name": {
+      "en": "Bait Na'aman",
+      "ar": "بيت نعمان"
+    },
+    "lat": 23.645825,
+    "lng": 57.766798,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Gulf Leisure Tourism",
+      "ar": "سياحة الخليج الترفيهية"
+    },
+    "avg_visit_duration_minutes": 300,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      9,
+      11,
+      12
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0088",
+    "name": {
+      "en": "Sohar Corniche",
+      "ar": "كورنيش صحار"
+    },
+    "lat": 23.663081,
+    "lng": 56.685072,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "beach",
+      "nature"
+    ],
+    "company": {
+      "en": "Gulf Leisure Tourism",
+      "ar": "سياحة الخليج الترفيهية"
+    },
+    "avg_visit_duration_minutes": 60,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0089",
+    "name": {
+      "en": "Khaboura Beach",
+      "ar": "شاطئ الخابورة"
+    },
+    "lat": 23.879279,
+    "lng": 57.876444,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "beach"
+    ],
+    "company": {
+      "en": "Arabian Sands Tourism",
+      "ar": "سياحة الرمال العربية"
+    },
+    "avg_visit_duration_minutes": 180,
+    "ticket_cost_omr": 4.84,
+    "recommended_months": [
+      2,
+      4,
+      7,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0090",
+    "name": {
+      "en": "Seeb Fish Market",
+      "ar": "سوق السمك السيب"
+    },
+    "lat": 24.247989,
+    "lng": 56.85606,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "food"
+    ],
+    "company": {
+      "en": "Mountain High Adventures",
+      "ar": "مغامرات الجبال العالية"
+    },
+    "avg_visit_duration_minutes": 60,
+    "ticket_cost_omr": 2.65,
+    "recommended_months": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0091",
+    "name": {
+      "en": "Ibri Fort",
+      "ar": "حصن عبري"
+    },
+    "lat": 23.964085,
+    "lng": 55.513399,
+    "region": {
+      "en": "Dhahira",
+      "ar": "الظاهرة"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Nizwa Tours & Travel",
+      "ar": "جولات وسفر نزوى"
+    },
+    "avg_visit_duration_minutes": 360,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      4,
+      5,
+      7,
+      11
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0092",
+    "name": {
+      "en": "Bat Tombs",
+      "ar": "مقابر بات"
+    },
+    "lat": 23.752565,
+    "lng": 56.757713,
+    "region": {
+      "en": "Dhahira",
+      "ar": "الظاهرة"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Muscat Adventures",
+      "ar": "مغامرات مسقط"
+    },
+    "avg_visit_duration_minutes": 120,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0093",
+    "name": {
+      "en": "Al Ayn Tombs",
+      "ar": "مقابر العين"
+    },
+    "lat": 23.197821,
+    "lng": 56.046368,
+    "region": {
+      "en": "Dhahira",
+      "ar": "الظاهرة"
+    },
+    "categories": [
+      "culture",
+      "nature"
+    ],
+    "company": {
+      "en": "Wahiba Expeditions",
+      "ar": "رحلات وهيبة الاستكشافية"
+    },
+    "avg_visit_duration_minutes": 30,
+    "ticket_cost_omr": 11.67,
+    "recommended_months": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0094",
+    "name": {
+      "en": "Ibri Souq",
+      "ar": "سوق عبري"
+    },
+    "lat": 23.305084,
+    "lng": 56.067981,
+    "region": {
+      "en": "Dhahira",
+      "ar": "الظاهرة"
+    },
+    "categories": [
+      "food",
+      "culture"
+    ],
+    "company": {
+      "en": "Batinah Coast Tourism",
+      "ar": "سياحة ساحل الباطنة"
+    },
+    "avg_visit_duration_minutes": 180,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      3,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0095",
+    "name": {
+      "en": "Jebel Kawr",
+      "ar": "جبل كور"
+    },
+    "lat": 23.377643,
+    "lng": 55.620988,
+    "region": {
+      "en": "Dhahira",
+      "ar": "الظاهرة"
+    },
+    "categories": [
+      "mountain"
+    ],
+    "company": {
+      "en": "Coastal Oman Tourism",
+      "ar": "سياحة عمان الساحلية"
+    },
+    "avg_visit_duration_minutes": 180,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0096",
+    "name": {
+      "en": "Wadi Al Ain",
+      "ar": "وادي العين"
+    },
+    "lat": 23.282677,
+    "lng": 55.948808,
+    "region": {
+      "en": "Dhahira",
+      "ar": "الظاهرة"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Batinah Coast Tourism",
+      "ar": "سياحة ساحل الباطنة"
+    },
+    "avg_visit_duration_minutes": 45,
+    "ticket_cost_omr": 12.98,
+    "recommended_months": [
+      2,
+      3,
+      4,
+      6,
+      7,
+      11,
+      12
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0097",
+    "name": {
+      "en": "Dhahira Desert",
+      "ar": "صحراء الظاهرة"
+    },
+    "lat": 23.721717,
+    "lng": 55.531773,
+    "region": {
+      "en": "Dhahira",
+      "ar": "الظاهرة"
+    },
+    "categories": [
+      "desert"
+    ],
+    "company": {
+      "en": "Oman Natural Reserves",
+      "ar": "المحميات الطبيعية العمانية"
+    },
+    "avg_visit_duration_minutes": 30,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      2,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0098",
+    "name": {
+      "en": "Al Dhahirah Oasis",
+      "ar": "واحة الظاهرة"
+    },
+    "lat": 23.068224,
+    "lng": 55.564357,
+    "region": {
+      "en": "Dhahira",
+      "ar": "الظاهرة"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Gulf Leisure Tourism",
+      "ar": "سياحة الخليج الترفيهية"
+    },
+    "avg_visit_duration_minutes": 180,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      2,
+      3,
+      5,
+      8,
+      10,
+      11
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0099",
+    "name": {
+      "en": "Adam Fort",
+      "ar": "حصن آدم"
+    },
+    "lat": 23.370273,
+    "lng": 55.988639,
+    "region": {
+      "en": "Dhahira",
+      "ar": "الظاهرة"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Oman Heritage Sites",
+      "ar": "مواقع التراث العماني"
+    },
+    "avg_visit_duration_minutes": 30,
+    "ticket_cost_omr": 7.47,
+    "recommended_months": [
+      2,
+      7,
+      9
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0100",
+    "name": {
+      "en": "Yanqul Fort",
+      "ar": "حصن ينقل"
+    },
+    "lat": 23.0647,
+    "lng": 55.576463,
+    "region": {
+      "en": "Dhahira",
+      "ar": "الظاهرة"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Wahiba Expeditions",
+      "ar": "رحلات وهيبة الاستكشافية"
+    },
+    "avg_visit_duration_minutes": 150,
+    "ticket_cost_omr": 2.74,
+    "recommended_months": [
+      2,
+      4,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0101",
+    "name": {
+      "en": "Wadi Hawasina",
+      "ar": "وادي الحواسنة"
+    },
+    "lat": 23.724577,
+    "lng": 56.386198,
+    "region": {
+      "en": "Dhahira",
+      "ar": "الظاهرة"
+    },
+    "categories": [
+      "nature",
+      "mountain"
+    ],
+    "company": {
+      "en": "Arabian Sands Tourism",
+      "ar": "سياحة الرمال العربية"
+    },
+    "avg_visit_duration_minutes": 150,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      2,
+      5,
+      7,
+      8,
+      9,
+      11
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0102",
+    "name": {
+      "en": "Jebel Akhdar Dhahira",
+      "ar": "الجبل الأخضر الظاهرة"
+    },
+    "lat": 23.200547,
+    "lng": 56.389953,
+    "region": {
+      "en": "Dhahira",
+      "ar": "الظاهرة"
+    },
+    "categories": [
+      "mountain",
+      "nature"
+    ],
+    "company": {
+      "en": "Oman Natural Reserves",
+      "ar": "المحميات الطبيعية العمانية"
+    },
+    "avg_visit_duration_minutes": 480,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      3,
+      6,
+      9,
+      10,
+      12
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0103",
+    "name": {
+      "en": "Dank",
+      "ar": "ضنك"
+    },
+    "lat": 23.018836,
+    "lng": 56.157426,
+    "region": {
+      "en": "Dhahira",
+      "ar": "الظاهرة"
+    },
+    "categories": [
+      "culture",
+      "nature"
+    ],
+    "company": {
+      "en": "Coastal Oman Tourism",
+      "ar": "سياحة عمان الساحلية"
+    },
+    "avg_visit_duration_minutes": 150,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      2,
+      3,
+      4,
+      9,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0104",
+    "name": {
+      "en": "Sultan Qaboos Grand Mosque",
+      "ar": "جامع السلطان قابوس الأكبر"
+    },
+    "lat": 23.648819,
+    "lng": 58.444892,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Arabian Sands Tourism",
+      "ar": "سياحة الرمال العربية"
+    },
+    "avg_visit_duration_minutes": 150,
+    "ticket_cost_omr": 13.6,
+    "recommended_months": [
+      5,
+      6,
+      7,
+      9,
+      10
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0105",
+    "name": {
+      "en": "Royal Opera House",
+      "ar": "دار الأوبرا السلطانية"
+    },
+    "lat": 23.523153,
+    "lng": 58.420489,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Ministry of Heritage and Tourism",
+      "ar": "وزارة التراث والسياحة"
+    },
+    "avg_visit_duration_minutes": 90,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      2,
+      5,
+      6,
+      7,
+      8,
+      9,
+      12
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0106",
+    "name": {
+      "en": "Muttrah Souq",
+      "ar": "سوق مطرح"
+    },
+    "lat": 23.643519,
+    "lng": 58.430989,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "culture",
+      "food"
+    ],
+    "company": {
+      "en": "Oman Natural Reserves",
+      "ar": "المحميات الطبيعية العمانية"
+    },
+    "avg_visit_duration_minutes": 300,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      6,
+      8,
+      10,
+      12
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0107",
+    "name": {
+      "en": "Bait Al Zubair Museum",
+      "ar": "متحف بيت الزبير"
+    },
+    "lat": 23.570167,
+    "lng": 58.461393,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Coastal Oman Tourism",
+      "ar": "سياحة عمان الساحلية"
+    },
+    "avg_visit_duration_minutes": 150,
+    "ticket_cost_omr": 3.44,
+    "recommended_months": [
+      1,
+      3,
+      6,
+      8,
+      10,
+      12
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0108",
+    "name": {
+      "en": "National Museum",
+      "ar": "المتحف الوطني"
+    },
+    "lat": 23.500295,
+    "lng": 58.562612,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Desert Discovery Tours",
+      "ar": "جولات اكتشاف الصحراء"
+    },
+    "avg_visit_duration_minutes": 150,
+    "ticket_cost_omr": 5.87,
+    "recommended_months": [
+      2,
+      3,
+      4,
+      5,
+      7,
+      9,
+      10,
+      12
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0109",
+    "name": {
+      "en": "Qurum Beach",
+      "ar": "شاطئ القرم"
+    },
+    "lat": 23.517386,
+    "lng": 58.405418,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "beach",
+      "nature"
+    ],
+    "company": {
+      "en": "Muscat Adventures",
+      "ar": "مغامرات مسقط"
+    },
+    "avg_visit_duration_minutes": 30,
+    "ticket_cost_omr": 14.66,
+    "recommended_months": [
+      1,
+      3,
+      7,
+      8,
+      10,
+      12
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0110",
+    "name": {
+      "en": "Al Bustan Beach",
+      "ar": "شاطئ البستان"
+    },
+    "lat": 23.481659,
+    "lng": 58.59756,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "beach"
+    ],
+    "company": {
+      "en": "Oman Heritage Sites",
+      "ar": "مواقع التراث العماني"
+    },
+    "avg_visit_duration_minutes": 180,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      2,
+      3,
+      6,
+      8,
+      9,
+      11,
+      12
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0111",
+    "name": {
+      "en": "Yiti Beach",
+      "ar": "شاطئ يتي"
+    },
+    "lat": 23.51916,
+    "lng": 58.547739,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "beach",
+      "nature"
+    ],
+    "company": {
+      "en": "Mountain High Adventures",
+      "ar": "مغامرات الجبال العالية"
+    },
+    "avg_visit_duration_minutes": 180,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      3,
+      10,
+      11
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0112",
+    "name": {
+      "en": "Bandar Al Khayran",
+      "ar": "بندر الخيران"
+    },
+    "lat": 23.499963,
+    "lng": 58.431,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "beach",
+      "nature"
+    ],
+    "company": {
+      "en": "Ministry of Heritage and Tourism",
+      "ar": "وزارة التراث والسياحة"
+    },
+    "avg_visit_duration_minutes": 60,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      2,
+      5,
+      6,
+      7,
+      8,
+      11
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0113",
+    "name": {
+      "en": "Muttrah Fish Market",
+      "ar": "سوق السمك مطرح"
+    },
+    "lat": 23.511024,
+    "lng": 58.467934,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "food",
+      "culture"
+    ],
+    "company": {
+      "en": "Desert Discovery Tours",
+      "ar": "جولات اكتشاف الصحراء"
+    },
+    "avg_visit_duration_minutes": 120,
+    "ticket_cost_omr": 3.12,
+    "recommended_months": [
+      6,
+      7,
+      12
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0114",
+    "name": {
+      "en": "Al Alam Palace",
+      "ar": "قصر العلم"
+    },
+    "lat": 23.629934,
+    "lng": 58.520062,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Oman Tourism Development Company",
+      "ar": "شركة تنمية السياحة العمانية"
+    },
+    "avg_visit_duration_minutes": 480,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      2,
+      3,
+      5,
+      7,
+      10
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0115",
+    "name": {
+      "en": "Mutrah Corniche",
+      "ar": "كورنيش مطرح"
+    },
+    "lat": 23.544448,
+    "lng": 58.395196,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "beach",
+      "nature"
+    ],
+    "company": {
+      "en": "Ministry of Heritage and Tourism",
+      "ar": "وزارة التراث والسياحة"
+    },
+    "avg_visit_duration_minutes": 480,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      5,
+      6,
+      7,
+      8,
+      10,
+      11
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0116",
+    "name": {
+      "en": "Wadi Shab",
+      "ar": "وادي شاب"
+    },
+    "lat": 23.58312,
+    "lng": 58.375391,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "nature",
+      "mountain"
+    ],
+    "company": {
+      "en": "Oman Natural Reserves",
+      "ar": "المحميات الطبيعية العمانية"
+    },
+    "avg_visit_duration_minutes": 240,
+    "ticket_cost_omr": 6.14,
+    "recommended_months": [
+      1,
+      6,
+      8,
+      11
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0117",
+    "name": {
+      "en": "Bimmah Sinkhole",
+      "ar": "هوية نجم"
+    },
+    "lat": 23.511621,
+    "lng": 58.407779,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Oman Tourism Development Company",
+      "ar": "شركة تنمية السياحة العمانية"
+    },
+    "avg_visit_duration_minutes": 60,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      3,
+      5,
+      6,
+      7,
+      9,
+      11
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0118",
+    "name": {
+      "en": "Al Jalali Fort",
+      "ar": "حصن الجلالي"
+    },
+    "lat": 23.604252,
+    "lng": 58.300919,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Muscat Adventures",
+      "ar": "مغامرات مسقط"
+    },
+    "avg_visit_duration_minutes": 45,
+    "ticket_cost_omr": 17.99,
+    "recommended_months": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      12
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0119",
+    "name": {
+      "en": "Al Mirani Fort",
+      "ar": "حصن الميراني"
+    },
+    "lat": 23.473587,
+    "lng": 58.419674,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Oman Natural Reserves",
+      "ar": "المحميات الطبيعية العمانية"
+    },
+    "avg_visit_duration_minutes": 480,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      2,
+      4,
+      5,
+      7,
+      9,
+      10,
+      12
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0120",
+    "name": {
+      "en": "Qurum Natural Park",
+      "ar": "حديقة القرم الطبيعية"
+    },
+    "lat": 23.589133,
+    "lng": 58.347321,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Salalah Tourism Board",
+      "ar": "مجلس سياحة صلالة"
+    },
+    "avg_visit_duration_minutes": 300,
+    "ticket_cost_omr": 4.75,
+    "recommended_months": [
+      1,
+      5,
+      9
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0121",
+    "name": {
+      "en": "Oman Aquarium",
+      "ar": "أكواريوم عمان"
+    },
+    "lat": 23.643343,
+    "lng": 58.573958,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "nature",
+      "culture"
+    ],
+    "company": {
+      "en": "Gulf Leisure Tourism",
+      "ar": "سياحة الخليج الترفيهية"
+    },
+    "avg_visit_duration_minutes": 150,
+    "ticket_cost_omr": 17.51,
+    "recommended_months": [
+      7,
+      9,
+      10,
+      11
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0122",
+    "name": {
+      "en": "Al Riyam Park",
+      "ar": "حديقة الريام"
+    },
+    "lat": 23.637362,
+    "lng": 58.31372,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Ministry of Heritage and Tourism",
+      "ar": "وزارة التراث والسياحة"
+    },
+    "avg_visit_duration_minutes": 30,
+    "ticket_cost_omr": 19.63,
+    "recommended_months": [
+      2,
+      3,
+      6,
+      7,
+      9,
+      11,
+      12
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0123",
+    "name": {
+      "en": "Diwan Al Balat",
+      "ar": "ديوان البلاط"
+    },
+    "lat": 23.642995,
+    "lng": 58.546306,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Oman Heritage Sites",
+      "ar": "مواقع التراث العماني"
+    },
+    "avg_visit_duration_minutes": 30,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      2,
+      4,
+      7,
+      8,
+      11
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0124",
+    "name": {
+      "en": "Jebel Shams",
+      "ar": "جبل شمس"
+    },
+    "lat": 23.030611,
+    "lng": 57.952672,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "mountain",
+      "nature"
+    ],
+    "company": {
+      "en": "Ministry of Heritage and Tourism",
+      "ar": "وزارة التراث والسياحة"
+    },
+    "avg_visit_duration_minutes": 60,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      10,
+      12
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0125",
+    "name": {
+      "en": "Jebel Akhdar",
+      "ar": "الجبل الأخضر"
+    },
+    "lat": 22.72134,
+    "lng": 57.378165,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "mountain",
+      "nature"
+    ],
+    "company": {
+      "en": "Nizwa Tours & Travel",
+      "ar": "جولات وسفر نزوى"
+    },
+    "avg_visit_duration_minutes": 30,
+    "ticket_cost_omr": 10.44,
+    "recommended_months": [
+      4,
+      5,
+      6,
+      7,
+      10,
+      12
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0126",
+    "name": {
+      "en": "Nizwa Fort",
+      "ar": "حصن نزوى"
+    },
+    "lat": 23.286121,
+    "lng": 57.9748,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Wahiba Expeditions",
+      "ar": "رحلات وهيبة الاستكشافية"
+    },
+    "avg_visit_duration_minutes": 300,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      9,
+      10,
+      12
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0127",
+    "name": {
+      "en": "Bahla Fort",
+      "ar": "حصن بهلاء"
+    },
+    "lat": 23.013915,
+    "lng": 57.641074,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Mountain High Adventures",
+      "ar": "مغامرات الجبال العالية"
+    },
+    "avg_visit_duration_minutes": 360,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      3,
+      4,
+      7,
+      9,
+      12
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0128",
+    "name": {
+      "en": "Nizwa Souq",
+      "ar": "سوق نزوى"
+    },
+    "lat": 23.076342,
+    "lng": 57.633376,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "culture",
+      "food"
+    ],
+    "company": {
+      "en": "Muscat Adventures",
+      "ar": "مغامرات مسقط"
+    },
+    "avg_visit_duration_minutes": 300,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      2,
+      3,
+      7,
+      8,
+      12
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0129",
+    "name": {
+      "en": "Wadi Ghul",
+      "ar": "وادي غول"
+    },
+    "lat": 23.257994,
+    "lng": 57.371873,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "mountain",
+      "nature"
+    ],
+    "company": {
+      "en": "Oman Natural Reserves",
+      "ar": "المحميات الطبيعية العمانية"
+    },
+    "avg_visit_duration_minutes": 30,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      3,
+      5,
+      8,
+      9,
+      10
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0130",
+    "name": {
+      "en": "Al Hoota Cave",
+      "ar": "كهف الهوتة"
+    },
+    "lat": 23.149247,
+    "lng": 57.293352,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Wahiba Expeditions",
+      "ar": "رحلات وهيبة الاستكشافية"
+    },
+    "avg_visit_duration_minutes": 180,
+    "ticket_cost_omr": 3.94,
+    "recommended_months": [
+      1,
+      2,
+      8
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0131",
+    "name": {
+      "en": "Jebel Misht",
+      "ar": "جبل مشط"
+    },
+    "lat": 22.716397,
+    "lng": 57.642797,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "mountain"
+    ],
+    "company": {
+      "en": "Arabian Sands Tourism",
+      "ar": "سياحة الرمال العربية"
+    },
+    "avg_visit_duration_minutes": 60,
+    "ticket_cost_omr": 4.7,
+    "recommended_months": [
+      4,
+      5,
+      6,
+      7,
+      9
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0132",
+    "name": {
+      "en": "Tanuf Ruins",
+      "ar": "آثار تنوف"
+    },
+    "lat": 23.117112,
+    "lng": 57.777968,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "culture",
+      "nature"
+    ],
+    "company": {
+      "en": "Wahiba Expeditions",
+      "ar": "رحلات وهيبة الاستكشافية"
+    },
+    "avg_visit_duration_minutes": 90,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      5,
+      7
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0133",
+    "name": {
+      "en": "Birkat Al Mouz",
+      "ar": "بركة الموز"
+    },
+    "lat": 23.11128,
+    "lng": 57.713483,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "nature",
+      "culture"
+    ],
+    "company": {
+      "en": "Frankincense Trail Tours",
+      "ar": "جولات درب اللبان"
+    },
+    "avg_visit_duration_minutes": 480,
+    "ticket_cost_omr": 10.07,
+    "recommended_months": [
+      1,
+      2,
+      4,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0134",
+    "name": {
+      "en": "Jabreen Castle",
+      "ar": "قلعة جبرين"
+    },
+    "lat": 23.008484,
+    "lng": 57.670095,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Salalah Tourism Board",
+      "ar": "مجلس سياحة صلالة"
+    },
+    "avg_visit_duration_minutes": 90,
+    "ticket_cost_omr": 2.88,
+    "recommended_months": [
+      1,
+      2,
+      3,
+      4,
+      7,
+      8,
+      10,
+      11
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0135",
+    "name": {
+      "en": "Misfat Al Abriyeen",
+      "ar": "مسفاة العبريين"
+    },
+    "lat": 22.932675,
+    "lng": 57.496642,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "culture",
+      "nature"
+    ],
+    "company": {
+      "en": "Oman Natural Reserves",
+      "ar": "المحميات الطبيعية العمانية"
+    },
+    "avg_visit_duration_minutes": 30,
+    "ticket_cost_omr": 0.29,
+    "recommended_months": [
+      4,
+      7,
+      9,
+      12
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0136",
+    "name": {
+      "en": "Wadi Bani Habib",
+      "ar": "وادي بني حبيب"
+    },
+    "lat": 22.81835,
+    "lng": 57.531443,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "nature",
+      "mountain"
+    ],
+    "company": {
+      "en": "Oman Tourism Development Company",
+      "ar": "شركة تنمية السياحة العمانية"
+    },
+    "avg_visit_duration_minutes": 180,
+    "ticket_cost_omr": 4.64,
+    "recommended_months": [
+      1,
+      2,
+      5,
+      6,
+      9,
+      11,
+      12
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0137",
+    "name": {
+      "en": "Al Hamra Old Village",
+      "ar": "قرية الحمراء القديمة"
+    },
+    "lat": 22.990995,
+    "lng": 57.877576,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Oman Heritage Sites",
+      "ar": "مواقع التراث العماني"
+    },
+    "avg_visit_duration_minutes": 300,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      2,
+      3,
+      5,
+      7,
+      8,
+      9,
+      10,
+      12
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0138",
+    "name": {
+      "en": "Falaj Daris",
+      "ar": "فلج دارس"
+    },
+    "lat": 23.003616,
+    "lng": 57.440245,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "culture",
+      "nature"
+    ],
+    "company": {
+      "en": "Salalah Tourism Board",
+      "ar": "مجلس سياحة صلالة"
+    },
+    "avg_visit_duration_minutes": 480,
+    "ticket_cost_omr": 9.86,
+    "recommended_months": [
+      1,
+      3,
+      5,
+      11,
+      12
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0139",
+    "name": {
+      "en": "Majlis Al Jinn Cave",
+      "ar": "مجلس الجن"
+    },
+    "lat": 22.727257,
+    "lng": 57.493891,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "nature",
+      "mountain"
+    ],
+    "company": {
+      "en": "Salalah Tourism Board",
+      "ar": "مجلس سياحة صلالة"
+    },
+    "avg_visit_duration_minutes": 90,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      4,
+      5,
+      6,
+      10,
+      12
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0140",
+    "name": {
+      "en": "Al Ayn Village",
+      "ar": "قرية العين"
+    },
+    "lat": 23.015257,
+    "lng": 57.99965,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "nature",
+      "culture"
+    ],
+    "company": {
+      "en": "Coastal Oman Tourism",
+      "ar": "سياحة عمان الساحلية"
+    },
+    "avg_visit_duration_minutes": 300,
+    "ticket_cost_omr": 9.71,
+    "recommended_months": [
+      1,
+      4,
+      5,
+      6,
+      7,
+      12
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0141",
+    "name": {
+      "en": "Wahiba Sands",
+      "ar": "رمال وهيبة"
+    },
+    "lat": 22.228242,
+    "lng": 59.351512,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "desert",
+      "nature"
+    ],
+    "company": {
+      "en": "Oman Natural Reserves",
+      "ar": "المحميات الطبيعية العمانية"
+    },
+    "avg_visit_duration_minutes": 300,
+    "ticket_cost_omr": 16.19,
+    "recommended_months": [
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0142",
+    "name": {
+      "en": "Sharqiyah Sands",
+      "ar": "رمال الشرقية"
+    },
+    "lat": 22.251079,
+    "lng": 59.447946,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "desert"
+    ],
+    "company": {
+      "en": "Frankincense Trail Tours",
+      "ar": "جولات درب اللبان"
+    },
+    "avg_visit_duration_minutes": 45,
+    "ticket_cost_omr": 11.95,
+    "recommended_months": [
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      11
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0143",
+    "name": {
+      "en": "Wadi Bani Khalid",
+      "ar": "وادي بني خالد"
+    },
+    "lat": 22.616245,
+    "lng": 59.042531,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "nature",
+      "beach"
+    ],
+    "company": {
+      "en": "Oman Heritage Sites",
+      "ar": "مواقع التراث العماني"
+    },
+    "avg_visit_duration_minutes": 45,
+    "ticket_cost_omr": 17.94,
+    "recommended_months": [
+      1,
+      2,
+      3,
+      6,
+      7
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0144",
+    "name": {
+      "en": "Ras Al Jinz Turtle Reserve",
+      "ar": "محمية السلاحف برأس الجنز"
+    },
+    "lat": 22.882115,
+    "lng": 58.619662,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "nature",
+      "beach"
+    ],
+    "company": {
+      "en": "Salalah Tourism Board",
+      "ar": "مجلس سياحة صلالة"
+    },
+    "avg_visit_duration_minutes": 45,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      2,
+      7
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0145",
+    "name": {
+      "en": "Bidiyah Dunes",
+      "ar": "كثبان بدية"
+    },
+    "lat": 22.126025,
+    "lng": 59.019012,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "desert"
+    ],
+    "company": {
+      "en": "Arabian Sands Tourism",
+      "ar": "سياحة الرمال العربية"
+    },
+    "avg_visit_duration_minutes": 480,
+    "ticket_cost_omr": 15.16,
+    "recommended_months": [
+      1,
+      3,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0146",
+    "name": {
+      "en": "Fins Beach",
+      "ar": "شاطئ فنس"
+    },
+    "lat": 22.160871,
+    "lng": 58.782654,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "beach"
+    ],
+    "company": {
+      "en": "Ministry of Heritage and Tourism",
+      "ar": "وزارة التراث والسياحة"
+    },
+    "avg_visit_duration_minutes": 90,
+    "ticket_cost_omr": 3.3,
+    "recommended_months": [
+      2,
+      3,
+      4,
+      5,
+      8,
+      10
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0147",
+    "name": {
+      "en": "Sur Maritime Museum",
+      "ar": "متحف صور البحري"
+    },
+    "lat": 22.070899,
+    "lng": 59.034446,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Ministry of Heritage and Tourism",
+      "ar": "وزارة التراث والسياحة"
+    },
+    "avg_visit_duration_minutes": 120,
+    "ticket_cost_omr": 6.5,
+    "recommended_months": [
+      1,
+      2,
+      3,
+      4,
+      7,
+      8,
+      10
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0148",
+    "name": {
+      "en": "Wadi Tiwi",
+      "ar": "وادي طيوي"
+    },
+    "lat": 22.450174,
+    "lng": 58.853225,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "nature",
+      "mountain"
+    ],
+    "company": {
+      "en": "Coastal Oman Tourism",
+      "ar": "سياحة عمان الساحلية"
+    },
+    "avg_visit_duration_minutes": 240,
+    "ticket_cost_omr": 3.58,
+    "recommended_months": [
+      9,
+      10,
+      12
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0149",
+    "name": {
+      "en": "Desert Camp Sharqiya",
+      "ar": "مخيم صحراء الشرقية"
+    },
+    "lat": 22.439871,
+    "lng": 59.293636,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "desert",
+      "culture"
+    ],
+    "company": {
+      "en": "Arabian Sands Tourism",
+      "ar": "سياحة الرمال العربية"
+    },
+    "avg_visit_duration_minutes": 150,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      2,
+      3,
+      4,
+      5,
+      7,
+      9,
+      12
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0150",
+    "name": {
+      "en": "Ras Al Hadd",
+      "ar": "رأس الحد"
+    },
+    "lat": 22.883114,
+    "lng": 58.67456,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "beach",
+      "nature"
+    ],
+    "company": {
+      "en": "Wahiba Expeditions",
+      "ar": "رحلات وهيبة الاستكشافية"
+    },
+    "avg_visit_duration_minutes": 150,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      5,
+      6,
+      11,
+      12
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0151",
+    "name": {
+      "en": "Al Ashkharah Beach",
+      "ar": "شاطئ الأشخرة"
+    },
+    "lat": 22.404592,
+    "lng": 59.07812,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "beach"
+    ],
+    "company": {
+      "en": "Wahiba Expeditions",
+      "ar": "رحلات وهيبة الاستكشافية"
+    },
+    "avg_visit_duration_minutes": 180,
+    "ticket_cost_omr": 8.91,
+    "recommended_months": [
+      1,
+      2,
+      7,
+      12
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0152",
+    "name": {
+      "en": "Sur Lighthouse",
+      "ar": "منارة صور"
+    },
+    "lat": 22.212062,
+    "lng": 59.369282,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Gulf Leisure Tourism",
+      "ar": "سياحة الخليج الترفيهية"
+    },
+    "avg_visit_duration_minutes": 180,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      4,
+      5,
+      7,
+      8,
+      11,
+      12
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0153",
+    "name": {
+      "en": "Sunaysilah Fort",
+      "ar": "حصن السنيسلة"
+    },
+    "lat": 22.991746,
+    "lng": 59.00908,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Coastal Oman Tourism",
+      "ar": "سياحة عمان الساحلية"
+    },
+    "avg_visit_duration_minutes": 45,
+    "ticket_cost_omr": 4.2,
+    "recommended_months": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0154",
+    "name": {
+      "en": "Wadi Arbeieen",
+      "ar": "وادي العربيين"
+    },
+    "lat": 22.888092,
+    "lng": 58.793509,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "nature",
+      "mountain"
+    ],
+    "company": {
+      "en": "Frankincense Trail Tours",
+      "ar": "جولات درب اللبان"
+    },
+    "avg_visit_duration_minutes": 480,
+    "ticket_cost_omr": 8.94,
+    "recommended_months": [
+      1,
+      2,
+      9,
+      10
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0155",
+    "name": {
+      "en": "Khaluf Beach",
+      "ar": "شاطئ خلوف"
+    },
+    "lat": 22.717777,
+    "lng": 58.693717,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "beach",
+      "nature"
+    ],
+    "company": {
+      "en": "Nizwa Tours & Travel",
+      "ar": "جولات وسفر نزوى"
+    },
+    "avg_visit_duration_minutes": 480,
+    "ticket_cost_omr": 14.43,
+    "recommended_months": [
+      1,
+      2,
+      4,
+      5,
+      7,
+      8,
+      9,
+      11,
+      12
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0156",
+    "name": {
+      "en": "Sinaw Souq",
+      "ar": "سوق سناو"
+    },
+    "lat": 22.128474,
+    "lng": 58.620146,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "culture",
+      "food"
+    ],
+    "company": {
+      "en": "Batinah Coast Tourism",
+      "ar": "سياحة ساحل الباطنة"
+    },
+    "avg_visit_duration_minutes": 90,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0157",
+    "name": {
+      "en": "Al Mughsail Beach",
+      "ar": "شاطئ المغسيل"
+    },
+    "lat": 16.959054,
+    "lng": 55.024038,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "beach",
+      "nature"
+    ],
+    "company": {
+      "en": "Mountain High Adventures",
+      "ar": "مغامرات الجبال العالية"
+    },
+    "avg_visit_duration_minutes": 300,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      6,
+      7,
+      9,
+      10,
+      12
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0158",
+    "name": {
+      "en": "Salalah Gardens",
+      "ar": "حدائق صلالة"
+    },
+    "lat": 17.91761,
+    "lng": 55.461314,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Oman Natural Reserves",
+      "ar": "المحميات الطبيعية العمانية"
+    },
+    "avg_visit_duration_minutes": 180,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      2,
+      5,
+      8,
+      9
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0159",
+    "name": {
+      "en": "Taqah Fort",
+      "ar": "حصن طاقة"
+    },
+    "lat": 17.052787,
+    "lng": 55.273421,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Arabian Sands Tourism",
+      "ar": "سياحة الرمال العربية"
+    },
+    "avg_visit_duration_minutes": 30,
+    "ticket_cost_omr": 8.21,
+    "recommended_months": [
+      1,
+      3,
+      4,
+      5,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0160",
+    "name": {
+      "en": "Wadi Darbat",
+      "ar": "وادي دربات"
+    },
+    "lat": 17.322075,
+    "lng": 54.253971,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Nizwa Tours & Travel",
+      "ar": "جولات وسفر نزوى"
+    },
+    "avg_visit_duration_minutes": 90,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      2,
+      5,
+      9,
+      12
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0161",
+    "name": {
+      "en": "Land of Frankincense",
+      "ar": "أرض اللبان"
+    },
+    "lat": 17.950403,
+    "lng": 54.399825,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "culture",
+      "nature"
+    ],
+    "company": {
+      "en": "Oman Natural Reserves",
+      "ar": "المحميات الطبيعية العمانية"
+    },
+    "avg_visit_duration_minutes": 60,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      4,
+      7,
+      12
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0162",
+    "name": {
+      "en": "Al Baleed Archaeological Park",
+      "ar": "منتزه البليد الأثري"
+    },
+    "lat": 16.876121,
+    "lng": 54.161589,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Wahiba Expeditions",
+      "ar": "رحلات وهيبة الاستكشافية"
+    },
+    "avg_visit_duration_minutes": 360,
+    "ticket_cost_omr": 1.3,
+    "recommended_months": [
+      1,
+      2,
+      5,
+      7,
+      8,
+      9
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0163",
+    "name": {
+      "en": "Blowholes",
+      "ar": "المراوح"
+    },
+    "lat": 17.507613,
+    "lng": 54.385314,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Gulf Leisure Tourism",
+      "ar": "سياحة الخليج الترفيهية"
+    },
+    "avg_visit_duration_minutes": 30,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      2,
+      3,
+      5,
+      6,
+      10
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0164",
+    "name": {
+      "en": "Frankincense Souq",
+      "ar": "سوق اللبان"
+    },
+    "lat": 17.025214,
+    "lng": 54.798324,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "food",
+      "culture"
+    ],
+    "company": {
+      "en": "Batinah Coast Tourism",
+      "ar": "سياحة ساحل الباطنة"
+    },
+    "avg_visit_duration_minutes": 60,
+    "ticket_cost_omr": 19.28,
+    "recommended_months": [
+      1,
+      5,
+      8,
+      10,
+      12
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0165",
+    "name": {
+      "en": "Mirbat Beach",
+      "ar": "شاطئ مرباط"
+    },
+    "lat": 17.10744,
+    "lng": 54.075912,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "beach"
+    ],
+    "company": {
+      "en": "Gulf Leisure Tourism",
+      "ar": "سياحة الخليج الترفيهية"
+    },
+    "avg_visit_duration_minutes": 45,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0166",
+    "name": {
+      "en": "Ayn Razat",
+      "ar": "عين رزات"
+    },
+    "lat": 17.183084,
+    "lng": 54.13077,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Gulf Leisure Tourism",
+      "ar": "سياحة الخليج الترفيهية"
+    },
+    "avg_visit_duration_minutes": 120,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      3,
+      7,
+      10,
+      12
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0167",
+    "name": {
+      "en": "Ayn Athum",
+      "ar": "عين أثم"
+    },
+    "lat": 16.889289,
+    "lng": 54.723462,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Gulf Leisure Tourism",
+      "ar": "سياحة الخليج الترفيهية"
+    },
+    "avg_visit_duration_minutes": 180,
+    "ticket_cost_omr": 4.04,
+    "recommended_months": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      8,
+      10
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0168",
+    "name": {
+      "en": "Ayn Sahlanot",
+      "ar": "عين صحلنوت"
+    },
+    "lat": 16.885628,
+    "lng": 53.531961,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Oman Heritage Sites",
+      "ar": "مواقع التراث العماني"
+    },
+    "avg_visit_duration_minutes": 180,
+    "ticket_cost_omr": 12.27,
+    "recommended_months": [
+      4,
+      7,
+      8,
+      11
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0169",
+    "name": {
+      "en": "Fazayah Beach",
+      "ar": "شاطئ فزايا"
+    },
+    "lat": 17.461213,
+    "lng": 53.933759,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "beach",
+      "nature"
+    ],
+    "company": {
+      "en": "Batinah Coast Tourism",
+      "ar": "سياحة ساحل الباطنة"
+    },
+    "avg_visit_duration_minutes": 480,
+    "ticket_cost_omr": 18.51,
+    "recommended_months": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0170",
+    "name": {
+      "en": "Sumhuram Archaeological Site",
+      "ar": "موقع سمهرم الأثري"
+    },
+    "lat": 17.703973,
+    "lng": 54.205624,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Coastal Oman Tourism",
+      "ar": "سياحة عمان الساحلية"
+    },
+    "avg_visit_duration_minutes": 90,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      9,
+      10,
+      11
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0171",
+    "name": {
+      "en": "Khor Rori",
+      "ar": "خور روري"
+    },
+    "lat": 16.996561,
+    "lng": 53.795269,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "nature",
+      "culture"
+    ],
+    "company": {
+      "en": "Mountain High Adventures",
+      "ar": "مغامرات الجبال العالية"
+    },
+    "avg_visit_duration_minutes": 90,
+    "ticket_cost_omr": 5.36,
+    "recommended_months": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0172",
+    "name": {
+      "en": "Jebel Samhan",
+      "ar": "جبل سمحان"
+    },
+    "lat": 17.441003,
+    "lng": 54.506243,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "mountain",
+      "nature"
+    ],
+    "company": {
+      "en": "Salalah Tourism Board",
+      "ar": "مجلس سياحة صلالة"
+    },
+    "avg_visit_duration_minutes": 480,
+    "ticket_cost_omr": 6.43,
+    "recommended_months": [
+      1,
+      2,
+      8,
+      9,
+      10
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0173",
+    "name": {
+      "en": "Tawi Attair Sinkhole",
+      "ar": "طوي أعطير"
+    },
+    "lat": 17.916395,
+    "lng": 53.808423,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Wahiba Expeditions",
+      "ar": "رحلات وهيبة الاستكشافية"
+    },
+    "avg_visit_duration_minutes": 45,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      11
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0174",
+    "name": {
+      "en": "Museum of Frankincense Land",
+      "ar": "متحف أرض اللبان"
+    },
+    "lat": 17.617269,
+    "lng": 54.33464,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Muscat Adventures",
+      "ar": "مغامرات مسقط"
+    },
+    "avg_visit_duration_minutes": 150,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      2,
+      4,
+      5,
+      7,
+      11
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0175",
+    "name": {
+      "en": "Al Haffa Souq",
+      "ar": "سوق الحفة"
+    },
+    "lat": 17.085532,
+    "lng": 54.71584,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "culture",
+      "food"
+    ],
+    "company": {
+      "en": "Oman Tourism Development Company",
+      "ar": "شركة تنمية السياحة العمانية"
+    },
+    "avg_visit_duration_minutes": 90,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      8,
+      9,
+      11,
+      12
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0176",
+    "name": {
+      "en": "Nakhal Fort",
+      "ar": "حصن نخل"
+    },
+    "lat": 23.808323,
+    "lng": 58.136403,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Wahiba Expeditions",
+      "ar": "رحلات وهيبة الاستكشافية"
+    },
+    "avg_visit_duration_minutes": 240,
+    "ticket_cost_omr": 19.79,
+    "recommended_months": [
+      6,
+      8,
+      9,
+      11
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0177",
+    "name": {
+      "en": "Rustaq Fort",
+      "ar": "حصن الرستاق"
+    },
+    "lat": 23.701037,
+    "lng": 56.693877,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Wahiba Expeditions",
+      "ar": "رحلات وهيبة الاستكشافية"
+    },
+    "avg_visit_duration_minutes": 30,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      3,
+      4
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0178",
+    "name": {
+      "en": "Ain Al Kasfa",
+      "ar": "عين الكسفة"
+    },
+    "lat": 23.649715,
+    "lng": 57.687234,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Oman Natural Reserves",
+      "ar": "المحميات الطبيعية العمانية"
+    },
+    "avg_visit_duration_minutes": 240,
+    "ticket_cost_omr": 1.03,
+    "recommended_months": [
+      4,
+      5,
+      6,
+      12
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0179",
+    "name": {
+      "en": "Wadi Bani Awf",
+      "ar": "وادي بني عوف"
+    },
+    "lat": 24.16582,
+    "lng": 57.294975,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "mountain",
+      "nature"
+    ],
+    "company": {
+      "en": "Coastal Oman Tourism",
+      "ar": "سياحة عمان الساحلية"
+    },
+    "avg_visit_duration_minutes": 45,
+    "ticket_cost_omr": 12.16,
+    "recommended_months": [
+      1,
+      3,
+      6,
+      11,
+      12
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0180",
+    "name": {
+      "en": "Snake Canyon",
+      "ar": "وادي الثعبان"
+    },
+    "lat": 23.959126,
+    "lng": 57.086255,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "mountain",
+      "nature"
+    ],
+    "company": {
+      "en": "Oman Heritage Sites",
+      "ar": "مواقع التراث العماني"
+    },
+    "avg_visit_duration_minutes": 90,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      11,
+      12
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0181",
+    "name": {
+      "en": "Sohar Fort",
+      "ar": "حصن صحار"
+    },
+    "lat": 23.852018,
+    "lng": 57.52993,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Wahiba Expeditions",
+      "ar": "رحلات وهيبة الاستكشافية"
+    },
+    "avg_visit_duration_minutes": 45,
+    "ticket_cost_omr": 15.76,
+    "recommended_months": [
+      2,
+      3,
+      4,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0182",
+    "name": {
+      "en": "Sohar Beach",
+      "ar": "شاطئ صحار"
+    },
+    "lat": 23.939279,
+    "lng": 57.817363,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "beach"
+    ],
+    "company": {
+      "en": "Desert Discovery Tours",
+      "ar": "جولات اكتشاف الصحراء"
+    },
+    "avg_visit_duration_minutes": 90,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      4,
+      7,
+      10
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0183",
+    "name": {
+      "en": "Al Sawadi Beach",
+      "ar": "شاطئ السوادي"
+    },
+    "lat": 24.13893,
+    "lng": 57.815726,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "beach",
+      "nature"
+    ],
+    "company": {
+      "en": "Batinah Coast Tourism",
+      "ar": "سياحة ساحل الباطنة"
+    },
+    "avg_visit_duration_minutes": 45,
+    "ticket_cost_omr": 2.95,
+    "recommended_months": [
+      4,
+      8,
+      11,
+      12
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0184",
+    "name": {
+      "en": "Barka Fish Market",
+      "ar": "سوق السمك بركاء"
+    },
+    "lat": 23.601336,
+    "lng": 57.121506,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "food"
+    ],
+    "company": {
+      "en": "Frankincense Trail Tours",
+      "ar": "جولات درب اللبان"
+    },
+    "avg_visit_duration_minutes": 90,
+    "ticket_cost_omr": 12.81,
+    "recommended_months": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      8,
+      9,
+      11,
+      12
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0185",
+    "name": {
+      "en": "Al Thowara Hot Spring",
+      "ar": "عين الثوارة"
+    },
+    "lat": 23.631104,
+    "lng": 57.191234,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Oman Heritage Sites",
+      "ar": "مواقع التراث العماني"
+    },
+    "avg_visit_duration_minutes": 150,
+    "ticket_cost_omr": 0.19,
+    "recommended_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      8,
+      9,
+      11
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0186",
+    "name": {
+      "en": "Hazm Fort",
+      "ar": "حصن الحزم"
+    },
+    "lat": 23.708977,
+    "lng": 56.96656,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Oman Tourism Development Company",
+      "ar": "شركة تنمية السياحة العمانية"
+    },
+    "avg_visit_duration_minutes": 60,
+    "ticket_cost_omr": 2.56,
+    "recommended_months": [
+      2,
+      10,
+      12
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0187",
+    "name": {
+      "en": "Ain Al Thowwarah",
+      "ar": "عين الثوارة"
+    },
+    "lat": 24.246651,
+    "lng": 56.651949,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Oman Natural Reserves",
+      "ar": "المحميات الطبيعية العمانية"
+    },
+    "avg_visit_duration_minutes": 480,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      2,
+      3,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0188",
+    "name": {
+      "en": "Wadi Al Hoqain",
+      "ar": "وادي الحوقين"
+    },
+    "lat": 23.659289,
+    "lng": 56.885077,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "nature",
+      "mountain"
+    ],
+    "company": {
+      "en": "Nizwa Tours & Travel",
+      "ar": "جولات وسفر نزوى"
+    },
+    "avg_visit_duration_minutes": 60,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      12
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0189",
+    "name": {
+      "en": "Wadi Sahtan",
+      "ar": "وادي السحتن"
+    },
+    "lat": 23.839672,
+    "lng": 57.905879,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "nature",
+      "mountain"
+    ],
+    "company": {
+      "en": "Muscat Adventures",
+      "ar": "مغامرات مسقط"
+    },
+    "avg_visit_duration_minutes": 300,
+    "ticket_cost_omr": 13.73,
+    "recommended_months": [
+      1,
+      6,
+      8
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0190",
+    "name": {
+      "en": "Bait Na'aman",
+      "ar": "بيت نعمان"
+    },
+    "lat": 23.629383,
+    "lng": 57.49587,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Batinah Coast Tourism",
+      "ar": "سياحة ساحل الباطنة"
+    },
+    "avg_visit_duration_minutes": 45,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      3,
+      12
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0191",
+    "name": {
+      "en": "Sohar Corniche",
+      "ar": "كورنيش صحار"
+    },
+    "lat": 23.838175,
+    "lng": 57.965818,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "beach",
+      "nature"
+    ],
+    "company": {
+      "en": "Gulf Leisure Tourism",
+      "ar": "سياحة الخليج الترفيهية"
+    },
+    "avg_visit_duration_minutes": 45,
+    "ticket_cost_omr": 7.62,
+    "recommended_months": [
+      1,
+      2,
+      5,
+      11
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0192",
+    "name": {
+      "en": "Khaboura Beach",
+      "ar": "شاطئ الخابورة"
+    },
+    "lat": 24.352414,
+    "lng": 57.320665,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "beach"
+    ],
+    "company": {
+      "en": "Ministry of Heritage and Tourism",
+      "ar": "وزارة التراث والسياحة"
+    },
+    "avg_visit_duration_minutes": 360,
+    "ticket_cost_omr": 18.49,
+    "recommended_months": [
+      2,
+      3,
+      6,
+      11
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0193",
+    "name": {
+      "en": "Seeb Fish Market",
+      "ar": "سوق السمك السيب"
+    },
+    "lat": 23.734631,
+    "lng": 56.530966,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "food"
+    ],
+    "company": {
+      "en": "Arabian Sands Tourism",
+      "ar": "سياحة الرمال العربية"
+    },
+    "avg_visit_duration_minutes": 30,
+    "ticket_cost_omr": 17.91,
+    "recommended_months": [
+      1,
+      3,
+      5,
+      8,
+      9,
+      11,
+      12
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0194",
+    "name": {
+      "en": "Ibri Fort",
+      "ar": "حصن عبري"
+    },
+    "lat": 23.582836,
+    "lng": 56.64503,
+    "region": {
+      "en": "Dhahira",
+      "ar": "الظاهرة"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Oman Heritage Sites",
+      "ar": "مواقع التراث العماني"
+    },
+    "avg_visit_duration_minutes": 360,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      9,
+      10,
+      12
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0195",
+    "name": {
+      "en": "Bat Tombs",
+      "ar": "مقابر بات"
+    },
+    "lat": 23.337623,
+    "lng": 56.052296,
+    "region": {
+      "en": "Dhahira",
+      "ar": "الظاهرة"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Coastal Oman Tourism",
+      "ar": "سياحة عمان الساحلية"
+    },
+    "avg_visit_duration_minutes": 30,
+    "ticket_cost_omr": 9.52,
+    "recommended_months": [
+      2,
+      3,
+      5,
+      7,
+      9,
+      10,
+      11
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0196",
+    "name": {
+      "en": "Al Ayn Tombs",
+      "ar": "مقابر العين"
+    },
+    "lat": 23.24828,
+    "lng": 56.134645,
+    "region": {
+      "en": "Dhahira",
+      "ar": "الظاهرة"
+    },
+    "categories": [
+      "culture",
+      "nature"
+    ],
+    "company": {
+      "en": "Oman Natural Reserves",
+      "ar": "المحميات الطبيعية العمانية"
+    },
+    "avg_visit_duration_minutes": 60,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0197",
+    "name": {
+      "en": "Ibri Souq",
+      "ar": "سوق عبري"
+    },
+    "lat": 23.503035,
+    "lng": 55.787523,
+    "region": {
+      "en": "Dhahira",
+      "ar": "الظاهرة"
+    },
+    "categories": [
+      "food",
+      "culture"
+    ],
+    "company": {
+      "en": "Salalah Tourism Board",
+      "ar": "مجلس سياحة صلالة"
+    },
+    "avg_visit_duration_minutes": 30,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      3,
+      4,
+      6,
+      9,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0198",
+    "name": {
+      "en": "Jebel Kawr",
+      "ar": "جبل كور"
+    },
+    "lat": 23.258449,
+    "lng": 56.264227,
+    "region": {
+      "en": "Dhahira",
+      "ar": "الظاهرة"
+    },
+    "categories": [
+      "mountain"
+    ],
+    "company": {
+      "en": "Nizwa Tours & Travel",
+      "ar": "جولات وسفر نزوى"
+    },
+    "avg_visit_duration_minutes": 360,
+    "ticket_cost_omr": 0.75,
+    "recommended_months": [
+      2,
+      4,
+      7,
+      9
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0199",
+    "name": {
+      "en": "Wadi Al Ain",
+      "ar": "وادي العين"
+    },
+    "lat": 23.524876,
+    "lng": 55.930329,
+    "region": {
+      "en": "Dhahira",
+      "ar": "الظاهرة"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Mountain High Adventures",
+      "ar": "مغامرات الجبال العالية"
+    },
+    "avg_visit_duration_minutes": 240,
+    "ticket_cost_omr": 14.34,
+    "recommended_months": [
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0200",
+    "name": {
+      "en": "Dhahira Desert",
+      "ar": "صحراء الظاهرة"
+    },
+    "lat": 23.141925,
+    "lng": 56.875201,
+    "region": {
+      "en": "Dhahira",
+      "ar": "الظاهرة"
+    },
+    "categories": [
+      "desert"
+    ],
+    "company": {
+      "en": "Muscat Adventures",
+      "ar": "مغامرات مسقط"
+    },
+    "avg_visit_duration_minutes": 360,
+    "ticket_cost_omr": 17.98,
+    "recommended_months": [
+      2,
+      3,
+      6,
+      7,
+      8,
+      11
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0201",
+    "name": {
+      "en": "Al Dhahirah Oasis",
+      "ar": "واحة الظاهرة"
+    },
+    "lat": 23.966189,
+    "lng": 55.604948,
+    "region": {
+      "en": "Dhahira",
+      "ar": "الظاهرة"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Wahiba Expeditions",
+      "ar": "رحلات وهيبة الاستكشافية"
+    },
+    "avg_visit_duration_minutes": 150,
+    "ticket_cost_omr": 13.51,
+    "recommended_months": [
+      2,
+      3,
+      4,
+      6,
+      9
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0202",
+    "name": {
+      "en": "Adam Fort",
+      "ar": "حصن آدم"
+    },
+    "lat": 23.952864,
+    "lng": 55.889546,
+    "region": {
+      "en": "Dhahira",
+      "ar": "الظاهرة"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Gulf Leisure Tourism",
+      "ar": "سياحة الخليج الترفيهية"
+    },
+    "avg_visit_duration_minutes": 240,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0203",
+    "name": {
+      "en": "Yanqul Fort",
+      "ar": "حصن ينقل"
+    },
+    "lat": 23.041453,
+    "lng": 56.625044,
+    "region": {
+      "en": "Dhahira",
+      "ar": "الظاهرة"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Batinah Coast Tourism",
+      "ar": "سياحة ساحل الباطنة"
+    },
+    "avg_visit_duration_minutes": 150,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      5,
+      7,
+      11
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0204",
+    "name": {
+      "en": "Wadi Hawasina",
+      "ar": "وادي الحواسنة"
+    },
+    "lat": 23.12477,
+    "lng": 56.578663,
+    "region": {
+      "en": "Dhahira",
+      "ar": "الظاهرة"
+    },
+    "categories": [
+      "nature",
+      "mountain"
+    ],
+    "company": {
+      "en": "Oman Tourism Development Company",
+      "ar": "شركة تنمية السياحة العمانية"
+    },
+    "avg_visit_duration_minutes": 240,
+    "ticket_cost_omr": 12.49,
+    "recommended_months": [
+      3,
+      10,
+      11
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0205",
+    "name": {
+      "en": "Jebel Akhdar Dhahira",
+      "ar": "الجبل الأخضر الظاهرة"
+    },
+    "lat": 23.829175,
+    "lng": 56.689997,
+    "region": {
+      "en": "Dhahira",
+      "ar": "الظاهرة"
+    },
+    "categories": [
+      "mountain",
+      "nature"
+    ],
+    "company": {
+      "en": "Arabian Sands Tourism",
+      "ar": "سياحة الرمال العربية"
+    },
+    "avg_visit_duration_minutes": 90,
+    "ticket_cost_omr": 17.55,
+    "recommended_months": [
+      2,
+      4,
+      6,
+      7,
+      9,
+      11,
+      12
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0206",
+    "name": {
+      "en": "Dank",
+      "ar": "ضنك"
+    },
+    "lat": 23.705992,
+    "lng": 56.335389,
+    "region": {
+      "en": "Dhahira",
+      "ar": "الظاهرة"
+    },
+    "categories": [
+      "culture",
+      "nature"
+    ],
+    "company": {
+      "en": "Coastal Oman Tourism",
+      "ar": "سياحة عمان الساحلية"
+    },
+    "avg_visit_duration_minutes": 180,
+    "ticket_cost_omr": 13.06,
+    "recommended_months": [
+      5,
+      6,
+      11,
+      12
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0207",
+    "name": {
+      "en": "Sultan Qaboos Grand Mosque",
+      "ar": "جامع السلطان قابوس الأكبر"
+    },
+    "lat": 23.5824,
+    "lng": 58.534765,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Desert Discovery Tours",
+      "ar": "جولات اكتشاف الصحراء"
+    },
+    "avg_visit_duration_minutes": 300,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      5,
+      8,
+      12
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0208",
+    "name": {
+      "en": "Royal Opera House",
+      "ar": "دار الأوبرا السلطانية"
+    },
+    "lat": 23.551105,
+    "lng": 58.380111,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Salalah Tourism Board",
+      "ar": "مجلس سياحة صلالة"
+    },
+    "avg_visit_duration_minutes": 480,
+    "ticket_cost_omr": 7.01,
+    "recommended_months": [
+      1,
+      4,
+      5,
+      7,
+      8,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0209",
+    "name": {
+      "en": "Muttrah Souq",
+      "ar": "سوق مطرح"
+    },
+    "lat": 23.516779,
+    "lng": 58.552843,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "culture",
+      "food"
+    ],
+    "company": {
+      "en": "Desert Discovery Tours",
+      "ar": "جولات اكتشاف الصحراء"
+    },
+    "avg_visit_duration_minutes": 300,
+    "ticket_cost_omr": 4.95,
+    "recommended_months": [
+      1,
+      2,
+      5,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0210",
+    "name": {
+      "en": "Bait Al Zubair Museum",
+      "ar": "متحف بيت الزبير"
+    },
+    "lat": 23.58149,
+    "lng": 58.49204,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Wahiba Expeditions",
+      "ar": "رحلات وهيبة الاستكشافية"
+    },
+    "avg_visit_duration_minutes": 240,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      8,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0211",
+    "name": {
+      "en": "National Museum",
+      "ar": "المتحف الوطني"
+    },
+    "lat": 23.618119,
+    "lng": 58.337716,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Desert Discovery Tours",
+      "ar": "جولات اكتشاف الصحراء"
+    },
+    "avg_visit_duration_minutes": 45,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      4,
+      5,
+      7,
+      10
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0212",
+    "name": {
+      "en": "Qurum Beach",
+      "ar": "شاطئ القرم"
+    },
+    "lat": 23.615347,
+    "lng": 58.586689,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "beach",
+      "nature"
+    ],
+    "company": {
+      "en": "Coastal Oman Tourism",
+      "ar": "سياحة عمان الساحلية"
+    },
+    "avg_visit_duration_minutes": 90,
+    "ticket_cost_omr": 4.13,
+    "recommended_months": [
+      2,
+      5,
+      8
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0213",
+    "name": {
+      "en": "Al Bustan Beach",
+      "ar": "شاطئ البستان"
+    },
+    "lat": 23.486267,
+    "lng": 58.435519,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "beach"
+    ],
+    "company": {
+      "en": "Desert Discovery Tours",
+      "ar": "جولات اكتشاف الصحراء"
+    },
+    "avg_visit_duration_minutes": 180,
+    "ticket_cost_omr": 15.47,
+    "recommended_months": [
+      1,
+      6,
+      8,
+      10,
+      12
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0214",
+    "name": {
+      "en": "Yiti Beach",
+      "ar": "شاطئ يتي"
+    },
+    "lat": 23.479232,
+    "lng": 58.350369,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "beach",
+      "nature"
+    ],
+    "company": {
+      "en": "Desert Discovery Tours",
+      "ar": "جولات اكتشاف الصحراء"
+    },
+    "avg_visit_duration_minutes": 300,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      2,
+      3,
+      4,
+      6,
+      7,
+      9
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0215",
+    "name": {
+      "en": "Bandar Al Khayran",
+      "ar": "بندر الخيران"
+    },
+    "lat": 23.612654,
+    "lng": 58.543991,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "beach",
+      "nature"
+    ],
+    "company": {
+      "en": "Wahiba Expeditions",
+      "ar": "رحلات وهيبة الاستكشافية"
+    },
+    "avg_visit_duration_minutes": 180,
+    "ticket_cost_omr": 13.29,
+    "recommended_months": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      8,
+      11,
+      12
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0216",
+    "name": {
+      "en": "Muttrah Fish Market",
+      "ar": "سوق السمك مطرح"
+    },
+    "lat": 23.601547,
+    "lng": 58.558042,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "food",
+      "culture"
+    ],
+    "company": {
+      "en": "Oman Tourism Development Company",
+      "ar": "شركة تنمية السياحة العمانية"
+    },
+    "avg_visit_duration_minutes": 360,
+    "ticket_cost_omr": 17.56,
+    "recommended_months": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      12
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0217",
+    "name": {
+      "en": "Al Alam Palace",
+      "ar": "قصر العلم"
+    },
+    "lat": 23.486339,
+    "lng": 58.532064,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Wahiba Expeditions",
+      "ar": "رحلات وهيبة الاستكشافية"
+    },
+    "avg_visit_duration_minutes": 45,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      6,
+      9,
+      10
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0218",
+    "name": {
+      "en": "Mutrah Corniche",
+      "ar": "كورنيش مطرح"
+    },
+    "lat": 23.537268,
+    "lng": 58.490053,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "beach",
+      "nature"
+    ],
+    "company": {
+      "en": "Frankincense Trail Tours",
+      "ar": "جولات درب اللبان"
+    },
+    "avg_visit_duration_minutes": 90,
+    "ticket_cost_omr": 10.0,
+    "recommended_months": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      10,
+      12
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0219",
+    "name": {
+      "en": "Wadi Shab",
+      "ar": "وادي شاب"
+    },
+    "lat": 23.505769,
+    "lng": 58.434,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "nature",
+      "mountain"
+    ],
+    "company": {
+      "en": "Ministry of Heritage and Tourism",
+      "ar": "وزارة التراث والسياحة"
+    },
+    "avg_visit_duration_minutes": 90,
+    "ticket_cost_omr": 8.56,
+    "recommended_months": [
+      1,
+      2,
+      5,
+      6,
+      8,
+      9,
+      10,
+      12
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0220",
+    "name": {
+      "en": "Bimmah Sinkhole",
+      "ar": "هوية نجم"
+    },
+    "lat": 23.451283,
+    "lng": 58.466175,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Salalah Tourism Board",
+      "ar": "مجلس سياحة صلالة"
+    },
+    "avg_visit_duration_minutes": 45,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      3,
+      6,
+      8,
+      9,
+      10
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0221",
+    "name": {
+      "en": "Al Jalali Fort",
+      "ar": "حصن الجلالي"
+    },
+    "lat": 23.507389,
+    "lng": 58.319485,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Ministry of Heritage and Tourism",
+      "ar": "وزارة التراث والسياحة"
+    },
+    "avg_visit_duration_minutes": 30,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      3,
+      4,
+      10,
+      11
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0222",
+    "name": {
+      "en": "Al Mirani Fort",
+      "ar": "حصن الميراني"
+    },
+    "lat": 23.601681,
+    "lng": 58.411815,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Nizwa Tours & Travel",
+      "ar": "جولات وسفر نزوى"
+    },
+    "avg_visit_duration_minutes": 150,
+    "ticket_cost_omr": 0.73,
+    "recommended_months": [
+      1,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0223",
+    "name": {
+      "en": "Qurum Natural Park",
+      "ar": "حديقة القرم الطبيعية"
+    },
+    "lat": 23.626162,
+    "lng": 58.375856,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Gulf Leisure Tourism",
+      "ar": "سياحة الخليج الترفيهية"
+    },
+    "avg_visit_duration_minutes": 150,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      4,
+      8,
+      9,
+      10
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0224",
+    "name": {
+      "en": "Oman Aquarium",
+      "ar": "أكواريوم عمان"
+    },
+    "lat": 23.528923,
+    "lng": 58.550238,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "nature",
+      "culture"
+    ],
+    "company": {
+      "en": "Wahiba Expeditions",
+      "ar": "رحلات وهيبة الاستكشافية"
+    },
+    "avg_visit_duration_minutes": 60,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      11
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0225",
+    "name": {
+      "en": "Al Riyam Park",
+      "ar": "حديقة الريام"
+    },
+    "lat": 23.621529,
+    "lng": 58.354293,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Nizwa Tours & Travel",
+      "ar": "جولات وسفر نزوى"
+    },
+    "avg_visit_duration_minutes": 120,
+    "ticket_cost_omr": 18.51,
+    "recommended_months": [
+      2,
+      5,
+      6,
+      11,
+      12
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0226",
+    "name": {
+      "en": "Diwan Al Balat",
+      "ar": "ديوان البلاط"
+    },
+    "lat": 23.632317,
+    "lng": 58.542734,
+    "region": {
+      "en": "Muscat",
+      "ar": "مسقط"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Coastal Oman Tourism",
+      "ar": "سياحة عمان الساحلية"
+    },
+    "avg_visit_duration_minutes": 120,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      2,
+      5,
+      6,
+      7,
+      9
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0227",
+    "name": {
+      "en": "Jebel Shams",
+      "ar": "جبل شمس"
+    },
+    "lat": 22.958764,
+    "lng": 57.550037,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "mountain",
+      "nature"
+    ],
+    "company": {
+      "en": "Batinah Coast Tourism",
+      "ar": "سياحة ساحل الباطنة"
+    },
+    "avg_visit_duration_minutes": 45,
+    "ticket_cost_omr": 2.59,
+    "recommended_months": [
+      1,
+      3,
+      5,
+      7,
+      8,
+      9,
+      10
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0228",
+    "name": {
+      "en": "Jebel Akhdar",
+      "ar": "الجبل الأخضر"
+    },
+    "lat": 22.875241,
+    "lng": 57.78373,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "mountain",
+      "nature"
+    ],
+    "company": {
+      "en": "Ministry of Heritage and Tourism",
+      "ar": "وزارة التراث والسياحة"
+    },
+    "avg_visit_duration_minutes": 120,
+    "ticket_cost_omr": 5.25,
+    "recommended_months": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      8,
+      12
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0229",
+    "name": {
+      "en": "Nizwa Fort",
+      "ar": "حصن نزوى"
+    },
+    "lat": 23.152361,
+    "lng": 57.274618,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Muscat Adventures",
+      "ar": "مغامرات مسقط"
+    },
+    "avg_visit_duration_minutes": 120,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      2,
+      4,
+      7,
+      8,
+      10,
+      11
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0230",
+    "name": {
+      "en": "Bahla Fort",
+      "ar": "حصن بهلاء"
+    },
+    "lat": 23.188079,
+    "lng": 57.845578,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Coastal Oman Tourism",
+      "ar": "سياحة عمان الساحلية"
+    },
+    "avg_visit_duration_minutes": 60,
+    "ticket_cost_omr": 1.87,
+    "recommended_months": [
+      3,
+      7,
+      12
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0231",
+    "name": {
+      "en": "Nizwa Souq",
+      "ar": "سوق نزوى"
+    },
+    "lat": 22.977142,
+    "lng": 57.259291,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "culture",
+      "food"
+    ],
+    "company": {
+      "en": "Batinah Coast Tourism",
+      "ar": "سياحة ساحل الباطنة"
+    },
+    "avg_visit_duration_minutes": 30,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      2,
+      3
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0232",
+    "name": {
+      "en": "Wadi Ghul",
+      "ar": "وادي غول"
+    },
+    "lat": 22.835845,
+    "lng": 57.333795,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "mountain",
+      "nature"
+    ],
+    "company": {
+      "en": "Oman Tourism Development Company",
+      "ar": "شركة تنمية السياحة العمانية"
+    },
+    "avg_visit_duration_minutes": 300,
+    "ticket_cost_omr": 16.57,
+    "recommended_months": [
+      1,
+      2,
+      7,
+      8,
+      10,
+      12
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0233",
+    "name": {
+      "en": "Al Hoota Cave",
+      "ar": "كهف الهوتة"
+    },
+    "lat": 22.854311,
+    "lng": 57.929767,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Arabian Sands Tourism",
+      "ar": "سياحة الرمال العربية"
+    },
+    "avg_visit_duration_minutes": 90,
+    "ticket_cost_omr": 17.34,
+    "recommended_months": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      9,
+      12
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0234",
+    "name": {
+      "en": "Jebel Misht",
+      "ar": "جبل مشط"
+    },
+    "lat": 23.266459,
+    "lng": 57.514268,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "mountain"
+    ],
+    "company": {
+      "en": "Nizwa Tours & Travel",
+      "ar": "جولات وسفر نزوى"
+    },
+    "avg_visit_duration_minutes": 240,
+    "ticket_cost_omr": 15.0,
+    "recommended_months": [
+      1,
+      3,
+      5,
+      11,
+      12
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0235",
+    "name": {
+      "en": "Tanuf Ruins",
+      "ar": "آثار تنوف"
+    },
+    "lat": 23.285289,
+    "lng": 57.812895,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "culture",
+      "nature"
+    ],
+    "company": {
+      "en": "Frankincense Trail Tours",
+      "ar": "جولات درب اللبان"
+    },
+    "avg_visit_duration_minutes": 45,
+    "ticket_cost_omr": 1.4,
+    "recommended_months": [
+      1,
+      2,
+      4,
+      7,
+      9,
+      11,
+      12
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0236",
+    "name": {
+      "en": "Birkat Al Mouz",
+      "ar": "بركة الموز"
+    },
+    "lat": 22.793803,
+    "lng": 57.597433,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "nature",
+      "culture"
+    ],
+    "company": {
+      "en": "Oman Tourism Development Company",
+      "ar": "شركة تنمية السياحة العمانية"
+    },
+    "avg_visit_duration_minutes": 180,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      11
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0237",
+    "name": {
+      "en": "Jabreen Castle",
+      "ar": "قلعة جبرين"
+    },
+    "lat": 23.292383,
+    "lng": 57.941677,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Oman Heritage Sites",
+      "ar": "مواقع التراث العماني"
+    },
+    "avg_visit_duration_minutes": 180,
+    "ticket_cost_omr": 2.9,
+    "recommended_months": [
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      11
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0238",
+    "name": {
+      "en": "Misfat Al Abriyeen",
+      "ar": "مسفاة العبريين"
+    },
+    "lat": 23.020853,
+    "lng": 57.247583,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "culture",
+      "nature"
+    ],
+    "company": {
+      "en": "Oman Heritage Sites",
+      "ar": "مواقع التراث العماني"
+    },
+    "avg_visit_duration_minutes": 150,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      2,
+      3,
+      5,
+      7,
+      9,
+      11,
+      12
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0239",
+    "name": {
+      "en": "Wadi Bani Habib",
+      "ar": "وادي بني حبيب"
+    },
+    "lat": 22.799734,
+    "lng": 57.854209,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "nature",
+      "mountain"
+    ],
+    "company": {
+      "en": "Gulf Leisure Tourism",
+      "ar": "سياحة الخليج الترفيهية"
+    },
+    "avg_visit_duration_minutes": 45,
+    "ticket_cost_omr": 5.33,
+    "recommended_months": [
+      3,
+      4,
+      8
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0240",
+    "name": {
+      "en": "Al Hamra Old Village",
+      "ar": "قرية الحمراء القديمة"
+    },
+    "lat": 23.263307,
+    "lng": 57.977823,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Desert Discovery Tours",
+      "ar": "جولات اكتشاف الصحراء"
+    },
+    "avg_visit_duration_minutes": 360,
+    "ticket_cost_omr": 9.58,
+    "recommended_months": [
+      2,
+      4,
+      9,
+      10,
+      11
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0241",
+    "name": {
+      "en": "Falaj Daris",
+      "ar": "فلج دارس"
+    },
+    "lat": 22.810669,
+    "lng": 57.258335,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "culture",
+      "nature"
+    ],
+    "company": {
+      "en": "Mountain High Adventures",
+      "ar": "مغامرات الجبال العالية"
+    },
+    "avg_visit_duration_minutes": 150,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      9,
+      11,
+      12
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0242",
+    "name": {
+      "en": "Majlis Al Jinn Cave",
+      "ar": "مجلس الجن"
+    },
+    "lat": 23.171234,
+    "lng": 57.806432,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "nature",
+      "mountain"
+    ],
+    "company": {
+      "en": "Batinah Coast Tourism",
+      "ar": "سياحة ساحل الباطنة"
+    },
+    "avg_visit_duration_minutes": 180,
+    "ticket_cost_omr": 11.6,
+    "recommended_months": [
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0243",
+    "name": {
+      "en": "Al Ayn Village",
+      "ar": "قرية العين"
+    },
+    "lat": 22.856126,
+    "lng": 57.39977,
+    "region": {
+      "en": "Dakhiliya",
+      "ar": "الداخلية"
+    },
+    "categories": [
+      "nature",
+      "culture"
+    ],
+    "company": {
+      "en": "Muscat Adventures",
+      "ar": "مغامرات مسقط"
+    },
+    "avg_visit_duration_minutes": 150,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      2,
+      3,
+      5,
+      6,
+      8,
+      11
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0244",
+    "name": {
+      "en": "Wahiba Sands",
+      "ar": "رمال وهيبة"
+    },
+    "lat": 22.497134,
+    "lng": 58.826601,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "desert",
+      "nature"
+    ],
+    "company": {
+      "en": "Desert Discovery Tours",
+      "ar": "جولات اكتشاف الصحراء"
+    },
+    "avg_visit_duration_minutes": 30,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      2,
+      3,
+      7,
+      11,
+      12
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0245",
+    "name": {
+      "en": "Sharqiyah Sands",
+      "ar": "رمال الشرقية"
+    },
+    "lat": 22.641209,
+    "lng": 59.062608,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "desert"
+    ],
+    "company": {
+      "en": "Wahiba Expeditions",
+      "ar": "رحلات وهيبة الاستكشافية"
+    },
+    "avg_visit_duration_minutes": 30,
+    "ticket_cost_omr": 16.61,
+    "recommended_months": [
+      2,
+      3,
+      5,
+      8,
+      9,
+      10,
+      11
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0246",
+    "name": {
+      "en": "Wadi Bani Khalid",
+      "ar": "وادي بني خالد"
+    },
+    "lat": 22.339139,
+    "lng": 59.334334,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "nature",
+      "beach"
+    ],
+    "company": {
+      "en": "Oman Natural Reserves",
+      "ar": "المحميات الطبيعية العمانية"
+    },
+    "avg_visit_duration_minutes": 480,
+    "ticket_cost_omr": 1.54,
+    "recommended_months": [
+      3,
+      4,
+      5,
+      6,
+      8,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0247",
+    "name": {
+      "en": "Ras Al Jinz Turtle Reserve",
+      "ar": "محمية السلاحف برأس الجنز"
+    },
+    "lat": 22.260863,
+    "lng": 59.251614,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "nature",
+      "beach"
+    ],
+    "company": {
+      "en": "Desert Discovery Tours",
+      "ar": "جولات اكتشاف الصحراء"
+    },
+    "avg_visit_duration_minutes": 45,
+    "ticket_cost_omr": 11.29,
+    "recommended_months": [
+      7,
+      10,
+      11
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0248",
+    "name": {
+      "en": "Bidiyah Dunes",
+      "ar": "كثبان بدية"
+    },
+    "lat": 22.934017,
+    "lng": 58.70331,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "desert"
+    ],
+    "company": {
+      "en": "Ministry of Heritage and Tourism",
+      "ar": "وزارة التراث والسياحة"
+    },
+    "avg_visit_duration_minutes": 45,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      4,
+      8,
+      11
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0249",
+    "name": {
+      "en": "Fins Beach",
+      "ar": "شاطئ فنس"
+    },
+    "lat": 22.279023,
+    "lng": 58.703838,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "beach"
+    ],
+    "company": {
+      "en": "Nizwa Tours & Travel",
+      "ar": "جولات وسفر نزوى"
+    },
+    "avg_visit_duration_minutes": 120,
+    "ticket_cost_omr": 18.91,
+    "recommended_months": [
+      2,
+      8,
+      9,
+      11
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0250",
+    "name": {
+      "en": "Sur Maritime Museum",
+      "ar": "متحف صور البحري"
+    },
+    "lat": 22.987972,
+    "lng": 58.995799,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Muscat Adventures",
+      "ar": "مغامرات مسقط"
+    },
+    "avg_visit_duration_minutes": 480,
+    "ticket_cost_omr": 18.84,
+    "recommended_months": [
+      2,
+      4,
+      5,
+      7,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0251",
+    "name": {
+      "en": "Wadi Tiwi",
+      "ar": "وادي طيوي"
+    },
+    "lat": 22.191151,
+    "lng": 58.575811,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "nature",
+      "mountain"
+    ],
+    "company": {
+      "en": "Ministry of Heritage and Tourism",
+      "ar": "وزارة التراث والسياحة"
+    },
+    "avg_visit_duration_minutes": 120,
+    "ticket_cost_omr": 0.54,
+    "recommended_months": [
+      6,
+      9,
+      11
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0252",
+    "name": {
+      "en": "Desert Camp Sharqiya",
+      "ar": "مخيم صحراء الشرقية"
+    },
+    "lat": 22.623453,
+    "lng": 58.782067,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "desert",
+      "culture"
+    ],
+    "company": {
+      "en": "Gulf Leisure Tourism",
+      "ar": "سياحة الخليج الترفيهية"
+    },
+    "avg_visit_duration_minutes": 120,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      2,
+      6,
+      7,
+      8,
+      11,
+      12
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0253",
+    "name": {
+      "en": "Ras Al Hadd",
+      "ar": "رأس الحد"
+    },
+    "lat": 22.90199,
+    "lng": 59.048203,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "beach",
+      "nature"
+    ],
+    "company": {
+      "en": "Oman Tourism Development Company",
+      "ar": "شركة تنمية السياحة العمانية"
+    },
+    "avg_visit_duration_minutes": 480,
+    "ticket_cost_omr": 3.85,
+    "recommended_months": [
+      3,
+      5,
+      10,
+      11
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0254",
+    "name": {
+      "en": "Al Ashkharah Beach",
+      "ar": "شاطئ الأشخرة"
+    },
+    "lat": 22.156402,
+    "lng": 59.441646,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "beach"
+    ],
+    "company": {
+      "en": "Gulf Leisure Tourism",
+      "ar": "سياحة الخليج الترفيهية"
+    },
+    "avg_visit_duration_minutes": 360,
+    "ticket_cost_omr": 11.25,
+    "recommended_months": [
+      5,
+      6,
+      7,
+      9,
+      10,
+      12
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0255",
+    "name": {
+      "en": "Sur Lighthouse",
+      "ar": "منارة صور"
+    },
+    "lat": 22.851717,
+    "lng": 59.138051,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Oman Tourism Development Company",
+      "ar": "شركة تنمية السياحة العمانية"
+    },
+    "avg_visit_duration_minutes": 45,
+    "ticket_cost_omr": 0.81,
+    "recommended_months": [
+      2,
+      6,
+      8
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0256",
+    "name": {
+      "en": "Sunaysilah Fort",
+      "ar": "حصن السنيسلة"
+    },
+    "lat": 22.515702,
+    "lng": 59.010997,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Wahiba Expeditions",
+      "ar": "رحلات وهيبة الاستكشافية"
+    },
+    "avg_visit_duration_minutes": 90,
+    "ticket_cost_omr": 10.61,
+    "recommended_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      10
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0257",
+    "name": {
+      "en": "Wadi Arbeieen",
+      "ar": "وادي العربيين"
+    },
+    "lat": 22.435614,
+    "lng": 58.742766,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "nature",
+      "mountain"
+    ],
+    "company": {
+      "en": "Gulf Leisure Tourism",
+      "ar": "سياحة الخليج الترفيهية"
+    },
+    "avg_visit_duration_minutes": 90,
+    "ticket_cost_omr": 5.49,
+    "recommended_months": [
+      1,
+      3,
+      8
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0258",
+    "name": {
+      "en": "Khaluf Beach",
+      "ar": "شاطئ خلوف"
+    },
+    "lat": 22.054565,
+    "lng": 58.661798,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "beach",
+      "nature"
+    ],
+    "company": {
+      "en": "Wahiba Expeditions",
+      "ar": "رحلات وهيبة الاستكشافية"
+    },
+    "avg_visit_duration_minutes": 30,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      2,
+      4,
+      6,
+      9,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0259",
+    "name": {
+      "en": "Sinaw Souq",
+      "ar": "سوق سناو"
+    },
+    "lat": 22.436266,
+    "lng": 59.281524,
+    "region": {
+      "en": "Sharqiya",
+      "ar": "الشرقية"
+    },
+    "categories": [
+      "culture",
+      "food"
+    ],
+    "company": {
+      "en": "Ministry of Heritage and Tourism",
+      "ar": "وزارة التراث والسياحة"
+    },
+    "avg_visit_duration_minutes": 240,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      5,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0260",
+    "name": {
+      "en": "Al Mughsail Beach",
+      "ar": "شاطئ المغسيل"
+    },
+    "lat": 17.821142,
+    "lng": 54.801416,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "beach",
+      "nature"
+    ],
+    "company": {
+      "en": "Ministry of Heritage and Tourism",
+      "ar": "وزارة التراث والسياحة"
+    },
+    "avg_visit_duration_minutes": 150,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      2,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0261",
+    "name": {
+      "en": "Salalah Gardens",
+      "ar": "حدائق صلالة"
+    },
+    "lat": 17.641504,
+    "lng": 54.32714,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Wahiba Expeditions",
+      "ar": "رحلات وهيبة الاستكشافية"
+    },
+    "avg_visit_duration_minutes": 30,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      6,
+      9,
+      11
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0262",
+    "name": {
+      "en": "Taqah Fort",
+      "ar": "حصن طاقة"
+    },
+    "lat": 17.930934,
+    "lng": 55.009418,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Ministry of Heritage and Tourism",
+      "ar": "وزارة التراث والسياحة"
+    },
+    "avg_visit_duration_minutes": 480,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0263",
+    "name": {
+      "en": "Wadi Darbat",
+      "ar": "وادي دربات"
+    },
+    "lat": 17.610644,
+    "lng": 53.502034,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Desert Discovery Tours",
+      "ar": "جولات اكتشاف الصحراء"
+    },
+    "avg_visit_duration_minutes": 480,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0264",
+    "name": {
+      "en": "Land of Frankincense",
+      "ar": "أرض اللبان"
+    },
+    "lat": 16.935088,
+    "lng": 54.515203,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "culture",
+      "nature"
+    ],
+    "company": {
+      "en": "Frankincense Trail Tours",
+      "ar": "جولات درب اللبان"
+    },
+    "avg_visit_duration_minutes": 360,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      6,
+      7,
+      12
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0265",
+    "name": {
+      "en": "Al Baleed Archaeological Park",
+      "ar": "منتزه البليد الأثري"
+    },
+    "lat": 17.516932,
+    "lng": 54.466326,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Ministry of Heritage and Tourism",
+      "ar": "وزارة التراث والسياحة"
+    },
+    "avg_visit_duration_minutes": 90,
+    "ticket_cost_omr": 0.34,
+    "recommended_months": [
+      1,
+      9,
+      10
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0266",
+    "name": {
+      "en": "Blowholes",
+      "ar": "المراوح"
+    },
+    "lat": 17.462408,
+    "lng": 54.112293,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Nizwa Tours & Travel",
+      "ar": "جولات وسفر نزوى"
+    },
+    "avg_visit_duration_minutes": 300,
+    "ticket_cost_omr": 5.18,
+    "recommended_months": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0267",
+    "name": {
+      "en": "Frankincense Souq",
+      "ar": "سوق اللبان"
+    },
+    "lat": 17.750685,
+    "lng": 54.054951,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "food",
+      "culture"
+    ],
+    "company": {
+      "en": "Desert Discovery Tours",
+      "ar": "جولات اكتشاف الصحراء"
+    },
+    "avg_visit_duration_minutes": 60,
+    "ticket_cost_omr": 19.41,
+    "recommended_months": [
+      3,
+      6,
+      7,
+      12
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0268",
+    "name": {
+      "en": "Mirbat Beach",
+      "ar": "شاطئ مرباط"
+    },
+    "lat": 17.46722,
+    "lng": 54.439969,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "beach"
+    ],
+    "company": {
+      "en": "Gulf Leisure Tourism",
+      "ar": "سياحة الخليج الترفيهية"
+    },
+    "avg_visit_duration_minutes": 60,
+    "ticket_cost_omr": 10.89,
+    "recommended_months": [
+      1,
+      3,
+      4,
+      6,
+      7,
+      8
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0269",
+    "name": {
+      "en": "Ayn Razat",
+      "ar": "عين رزات"
+    },
+    "lat": 16.983774,
+    "lng": 54.964789,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Arabian Sands Tourism",
+      "ar": "سياحة الرمال العربية"
+    },
+    "avg_visit_duration_minutes": 300,
+    "ticket_cost_omr": 11.63,
+    "recommended_months": [
+      2,
+      6,
+      12
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0270",
+    "name": {
+      "en": "Ayn Athum",
+      "ar": "عين أثم"
+    },
+    "lat": 17.401931,
+    "lng": 54.041161,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Frankincense Trail Tours",
+      "ar": "جولات درب اللبان"
+    },
+    "avg_visit_duration_minutes": 45,
+    "ticket_cost_omr": 8.04,
+    "recommended_months": [
+      4,
+      5,
+      6,
+      7,
+      11,
+      12
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0271",
+    "name": {
+      "en": "Ayn Sahlanot",
+      "ar": "عين صحلنوت"
+    },
+    "lat": 17.437311,
+    "lng": 54.663343,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Gulf Leisure Tourism",
+      "ar": "سياحة الخليج الترفيهية"
+    },
+    "avg_visit_duration_minutes": 30,
+    "ticket_cost_omr": 13.97,
+    "recommended_months": [
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0272",
+    "name": {
+      "en": "Fazayah Beach",
+      "ar": "شاطئ فزايا"
+    },
+    "lat": 17.709395,
+    "lng": 54.37439,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "beach",
+      "nature"
+    ],
+    "company": {
+      "en": "Gulf Leisure Tourism",
+      "ar": "سياحة الخليج الترفيهية"
+    },
+    "avg_visit_duration_minutes": 45,
+    "ticket_cost_omr": 12.16,
+    "recommended_months": [
+      1,
+      7,
+      9
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0273",
+    "name": {
+      "en": "Sumhuram Archaeological Site",
+      "ar": "موقع سمهرم الأثري"
+    },
+    "lat": 17.189211,
+    "lng": 54.615348,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Oman Natural Reserves",
+      "ar": "المحميات الطبيعية العمانية"
+    },
+    "avg_visit_duration_minutes": 45,
+    "ticket_cost_omr": 13.99,
+    "recommended_months": [
+      1,
+      2,
+      3,
+      5,
+      8,
+      9,
+      11
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0274",
+    "name": {
+      "en": "Khor Rori",
+      "ar": "خور روري"
+    },
+    "lat": 17.491141,
+    "lng": 54.7499,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "nature",
+      "culture"
+    ],
+    "company": {
+      "en": "Muscat Adventures",
+      "ar": "مغامرات مسقط"
+    },
+    "avg_visit_duration_minutes": 300,
+    "ticket_cost_omr": 15.45,
+    "recommended_months": [
+      4,
+      5,
+      10
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0275",
+    "name": {
+      "en": "Jebel Samhan",
+      "ar": "جبل سمحان"
+    },
+    "lat": 17.773747,
+    "lng": 54.025357,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "mountain",
+      "nature"
+    ],
+    "company": {
+      "en": "Muscat Adventures",
+      "ar": "مغامرات مسقط"
+    },
+    "avg_visit_duration_minutes": 120,
+    "ticket_cost_omr": 12.05,
+    "recommended_months": [
+      4,
+      6,
+      11,
+      12
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0276",
+    "name": {
+      "en": "Tawi Attair Sinkhole",
+      "ar": "طوي أعطير"
+    },
+    "lat": 17.133542,
+    "lng": 55.459528,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Mountain High Adventures",
+      "ar": "مغامرات الجبال العالية"
+    },
+    "avg_visit_duration_minutes": 30,
+    "ticket_cost_omr": 10.88,
+    "recommended_months": [
+      1,
+      3,
+      4,
+      5,
+      7,
+      8,
+      11
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0277",
+    "name": {
+      "en": "Museum of Frankincense Land",
+      "ar": "متحف أرض اللبان"
+    },
+    "lat": 17.897065,
+    "lng": 55.12081,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Oman Heritage Sites",
+      "ar": "مواقع التراث العماني"
+    },
+    "avg_visit_duration_minutes": 480,
+    "ticket_cost_omr": 19.46,
+    "recommended_months": [
+      1,
+      3,
+      8,
+      10,
+      12
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0278",
+    "name": {
+      "en": "Al Haffa Souq",
+      "ar": "سوق الحفة"
+    },
+    "lat": 17.436149,
+    "lng": 53.54443,
+    "region": {
+      "en": "Dhofar",
+      "ar": "ظفار"
+    },
+    "categories": [
+      "culture",
+      "food"
+    ],
+    "company": {
+      "en": "Muscat Adventures",
+      "ar": "مغامرات مسقط"
+    },
+    "avg_visit_duration_minutes": 60,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      4,
+      5,
+      7,
+      8,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0279",
+    "name": {
+      "en": "Nakhal Fort",
+      "ar": "حصن نخل"
+    },
+    "lat": 23.753921,
+    "lng": 58.063266,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Muscat Adventures",
+      "ar": "مغامرات مسقط"
+    },
+    "avg_visit_duration_minutes": 240,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      6,
+      9
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0280",
+    "name": {
+      "en": "Rustaq Fort",
+      "ar": "حصن الرستاق"
+    },
+    "lat": 24.132601,
+    "lng": 56.66696,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Oman Heritage Sites",
+      "ar": "مواقع التراث العماني"
+    },
+    "avg_visit_duration_minutes": 150,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      2,
+      4,
+      6,
+      7,
+      8,
+      9
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0281",
+    "name": {
+      "en": "Ain Al Kasfa",
+      "ar": "عين الكسفة"
+    },
+    "lat": 24.380411,
+    "lng": 57.779144,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Oman Tourism Development Company",
+      "ar": "شركة تنمية السياحة العمانية"
+    },
+    "avg_visit_duration_minutes": 45,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      3,
+      6,
+      8,
+      9,
+      11
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0282",
+    "name": {
+      "en": "Wadi Bani Awf",
+      "ar": "وادي بني عوف"
+    },
+    "lat": 24.068605,
+    "lng": 57.184951,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "mountain",
+      "nature"
+    ],
+    "company": {
+      "en": "Frankincense Trail Tours",
+      "ar": "جولات درب اللبان"
+    },
+    "avg_visit_duration_minutes": 360,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      2,
+      3,
+      5,
+      7,
+      9,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0283",
+    "name": {
+      "en": "Snake Canyon",
+      "ar": "وادي الثعبان"
+    },
+    "lat": 24.124828,
+    "lng": 57.208211,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "mountain",
+      "nature"
+    ],
+    "company": {
+      "en": "Muscat Adventures",
+      "ar": "مغامرات مسقط"
+    },
+    "avg_visit_duration_minutes": 300,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0284",
+    "name": {
+      "en": "Sohar Fort",
+      "ar": "حصن صحار"
+    },
+    "lat": 24.299231,
+    "lng": 56.619131,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Mountain High Adventures",
+      "ar": "مغامرات الجبال العالية"
+    },
+    "avg_visit_duration_minutes": 180,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      4,
+      6,
+      7,
+      9,
+      11,
+      12
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0285",
+    "name": {
+      "en": "Sohar Beach",
+      "ar": "شاطئ صحار"
+    },
+    "lat": 23.887821,
+    "lng": 58.194153,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "beach"
+    ],
+    "company": {
+      "en": "Gulf Leisure Tourism",
+      "ar": "سياحة الخليج الترفيهية"
+    },
+    "avg_visit_duration_minutes": 120,
+    "ticket_cost_omr": 15.08,
+    "recommended_months": [
+      1,
+      3,
+      5
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0286",
+    "name": {
+      "en": "Al Sawadi Beach",
+      "ar": "شاطئ السوادي"
+    },
+    "lat": 24.212727,
+    "lng": 57.896997,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "beach",
+      "nature"
+    ],
+    "company": {
+      "en": "Ministry of Heritage and Tourism",
+      "ar": "وزارة التراث والسياحة"
+    },
+    "avg_visit_duration_minutes": 90,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      2,
+      3,
+      8
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0287",
+    "name": {
+      "en": "Barka Fish Market",
+      "ar": "سوق السمك بركاء"
+    },
+    "lat": 24.088553,
+    "lng": 56.79618,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "food"
+    ],
+    "company": {
+      "en": "Arabian Sands Tourism",
+      "ar": "سياحة الرمال العربية"
+    },
+    "avg_visit_duration_minutes": 60,
+    "ticket_cost_omr": 17.52,
+    "recommended_months": [
+      2,
+      5,
+      8
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0288",
+    "name": {
+      "en": "Al Thowara Hot Spring",
+      "ar": "عين الثوارة"
+    },
+    "lat": 23.772958,
+    "lng": 57.134924,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Oman Natural Reserves",
+      "ar": "المحميات الطبيعية العمانية"
+    },
+    "avg_visit_duration_minutes": 360,
+    "ticket_cost_omr": 14.76,
+    "recommended_months": [
+      2,
+      8,
+      10
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0289",
+    "name": {
+      "en": "Hazm Fort",
+      "ar": "حصن الحزم"
+    },
+    "lat": 24.300786,
+    "lng": 57.853945,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Wahiba Expeditions",
+      "ar": "رحلات وهيبة الاستكشافية"
+    },
+    "avg_visit_duration_minutes": 150,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0290",
+    "name": {
+      "en": "Ain Al Thowwarah",
+      "ar": "عين الثوارة"
+    },
+    "lat": 23.704978,
+    "lng": 56.570568,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "nature"
+    ],
+    "company": {
+      "en": "Ministry of Heritage and Tourism",
+      "ar": "وزارة التراث والسياحة"
+    },
+    "avg_visit_duration_minutes": 300,
+    "ticket_cost_omr": 4.52,
+    "recommended_months": [
+      1,
+      3,
+      6,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0291",
+    "name": {
+      "en": "Wadi Al Hoqain",
+      "ar": "وادي الحوقين"
+    },
+    "lat": 23.648802,
+    "lng": 56.869139,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "nature",
+      "mountain"
+    ],
+    "company": {
+      "en": "Coastal Oman Tourism",
+      "ar": "سياحة عمان الساحلية"
+    },
+    "avg_visit_duration_minutes": 45,
+    "ticket_cost_omr": 18.64,
+    "recommended_months": [
+      1,
+      2,
+      3,
+      5,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0292",
+    "name": {
+      "en": "Wadi Sahtan",
+      "ar": "وادي السحتن"
+    },
+    "lat": 23.675726,
+    "lng": 57.906184,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "nature",
+      "mountain"
+    ],
+    "company": {
+      "en": "Arabian Sands Tourism",
+      "ar": "سياحة الرمال العربية"
+    },
+    "avg_visit_duration_minutes": 45,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      2,
+      5,
+      6,
+      7,
+      9,
+      12
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0293",
+    "name": {
+      "en": "Bait Na'aman",
+      "ar": "بيت نعمان"
+    },
+    "lat": 24.282842,
+    "lng": 57.112731,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Oman Heritage Sites",
+      "ar": "مواقع التراث العماني"
+    },
+    "avg_visit_duration_minutes": 180,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      3,
+      4,
+      5,
+      11,
+      12
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0294",
+    "name": {
+      "en": "Sohar Corniche",
+      "ar": "كورنيش صحار"
+    },
+    "lat": 24.279861,
+    "lng": 57.663162,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "beach",
+      "nature"
+    ],
+    "company": {
+      "en": "Frankincense Trail Tours",
+      "ar": "جولات درب اللبان"
+    },
+    "avg_visit_duration_minutes": 45,
+    "ticket_cost_omr": 9.07,
+    "recommended_months": [
+      4,
+      9,
+      10,
+      12
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0295",
+    "name": {
+      "en": "Khaboura Beach",
+      "ar": "شاطئ الخابورة"
+    },
+    "lat": 23.850999,
+    "lng": 56.553433,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "beach"
+    ],
+    "company": {
+      "en": "Ministry of Heritage and Tourism",
+      "ar": "وزارة التراث والسياحة"
+    },
+    "avg_visit_duration_minutes": 30,
+    "ticket_cost_omr": 10.5,
+    "recommended_months": [
+      3,
+      5,
+      8,
+      9
+    ],
+    "crowd_level": 3
+  },
+  {
+    "id": "dest_0296",
+    "name": {
+      "en": "Seeb Fish Market",
+      "ar": "سوق السمك السيب"
+    },
+    "lat": 23.766943,
+    "lng": 56.991767,
+    "region": {
+      "en": "Batinah",
+      "ar": "الباطنة"
+    },
+    "categories": [
+      "food"
+    ],
+    "company": {
+      "en": "Mountain High Adventures",
+      "ar": "مغامرات الجبال العالية"
+    },
+    "avg_visit_duration_minutes": 240,
+    "ticket_cost_omr": 4.78,
+    "recommended_months": [
+      1,
+      3,
+      4,
+      9
+    ],
+    "crowd_level": 4
+  },
+  {
+    "id": "dest_0297",
+    "name": {
+      "en": "Ibri Fort",
+      "ar": "حصن عبري"
+    },
+    "lat": 23.474727,
+    "lng": 56.1982,
+    "region": {
+      "en": "Dhahira",
+      "ar": "الظاهرة"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Muscat Adventures",
+      "ar": "مغامرات مسقط"
+    },
+    "avg_visit_duration_minutes": 150,
+    "ticket_cost_omr": 5.72,
+    "recommended_months": [
+      8,
+      9,
+      10
+    ],
+    "crowd_level": 2
+  },
+  {
+    "id": "dest_0298",
+    "name": {
+      "en": "Bat Tombs",
+      "ar": "مقابر بات"
+    },
+    "lat": 23.723415,
+    "lng": 56.112407,
+    "region": {
+      "en": "Dhahira",
+      "ar": "الظاهرة"
+    },
+    "categories": [
+      "culture"
+    ],
+    "company": {
+      "en": "Arabian Sands Tourism",
+      "ar": "سياحة الرمال العربية"
+    },
+    "avg_visit_duration_minutes": 60,
+    "ticket_cost_omr": 8.81,
+    "recommended_months": [
+      3,
+      4,
+      5,
+      7,
+      12
+    ],
+    "crowd_level": 1
+  },
+  {
+    "id": "dest_0299",
+    "name": {
+      "en": "Al Ayn Tombs",
+      "ar": "مقابر العين"
+    },
+    "lat": 23.712123,
+    "lng": 55.552668,
+    "region": {
+      "en": "Dhahira",
+      "ar": "الظاهرة"
+    },
+    "categories": [
+      "culture",
+      "nature"
+    ],
+    "company": {
+      "en": "Ministry of Heritage and Tourism",
+      "ar": "وزارة التراث والسياحة"
+    },
+    "avg_visit_duration_minutes": 480,
+    "ticket_cost_omr": 0.0,
+    "recommended_months": [
+      1,
+      4,
+      11
+    ],
+    "crowd_level": 5
+  },
+  {
+    "id": "dest_0300",
+    "name": {
+      "en": "Ibri Souq",
+      "ar": "سوق عبري"
+    },
+    "lat": 23.187828,
+    "lng": 56.62254,
+    "region": {
+      "en": "Dhahira",
+      "ar": "الظاهرة"
+    },
+    "categories": [
+      "food",
+      "culture"
+    ],
+    "company": {
+      "en": "Oman Tourism Development Company",
+      "ar": "شركة تنمية السياحة العمانية"
+    },
+    "avg_visit_duration_minutes": 60,
+    "ticket_cost_omr": 15.55,
+    "recommended_months": [
+      3,
+      4,
+      6,
+      8,
+      9,
+      12
+    ],
+    "crowd_level": 1
+  }
+]
