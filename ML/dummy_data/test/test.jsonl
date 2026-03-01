@@ -1,0 +1,10 @@
+{"id": "t001", "image_path": "images/t001.png", "fields": {"vendor": "ACME Corp", "date": "2024-04-27", "total": "20.89"}}
+{"id": "t002", "image_path": "images/t002.png", "fields": {"vendor": "City Store", "date": "2024-05-03", "total": "109.44"}}
+{"id": "t003", "image_path": "images/t003.png", "fields": {"vendor": "Quick Shop", "date": "2024-12-11", "total": "110.25"}}
+{"id": "t004", "image_path": "images/t004.png", "fields": {"vendor": "City Store", "date": "2024-11-15", "total": "75.72"}}
+{"id": "t005", "image_path": "images/t005.png", "fields": {"vendor": "Gulf Mart", "date": "2024-04-24", "total": "282.88"}}
+{"id": "t006", "image_path": "images/t006.png", "fields": {"vendor": "Quick Shop", "date": "2024-07-19", "total": "202.70"}}
+{"id": "t007", "image_path": "images/t007.png", "fields": {"vendor": "Gulf Mart", "date": "2024-03-17", "total": "249.29"}}
+{"id": "t008", "image_path": "images/t008.png", "fields": {"vendor": "ACME Corp", "date": "2024-03-21", "total": "84.19"}}
+{"id": "t009", "image_path": "images/t009.png", "fields": {"vendor": "City Store", "date": "2024-10-03", "total": "195.46"}}
+{"id": "t010", "image_path": "images/t010.png", "fields": {"vendor": "City Store", "date": "2024-09-09", "total": "485.68"}}

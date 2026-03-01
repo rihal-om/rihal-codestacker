@@ -2,10 +2,11 @@
 
 Welcome to the **Rihal CodeStacker 2026** challenges repository.
 
-This year, we’re focusing on two tracks:
+This year, we’re focusing on three tracks:
 
 - **Frontend Challenge** — Visit Oman: Discover & Plan 
 - **Backend Challenge** — Queue & Appointment Booking System 
+- **ML Challenge** — DocFusion: Operation Intelligent Documents
 
 ---
 
@@ -19,6 +20,10 @@ See the full FE challenge here:
 See the full BE challenge here:
 - [BE/README.md](BE/README.md)*
 
+### ✅ Machine Learning (ML)
+See the full ML challenge here:
+- [ML/README.md](ML/README.md)
+
 ---
 
 ## Support
@@ -30,7 +35,7 @@ If you encounter any issues or have questions regarding the challenges, please o
 
 To submit your solution to the CodeStacker Challenge, please follow these steps carefully:
 
-1. **Create a Separate Repository:** For each challenge you undertake (Frontend and/or Backend), create a new, separate repository on your GitHub account. Ensure your repository is public so that it can be reviewed by our team.
+1. **Create a Separate Repository:** For each challenge you undertake (Frontend, Backend, and/or ML), create a new, separate repository on your GitHub account. Ensure your repository is public so that it can be reviewed by our team.
 
 2. **Push Your Solution:** Once you have completed your challenge, push all your code to the corresponding GitHub repository. Your repository should include:
    - A clear and detailed README.md file explaining your project, how to run it, and any other relevant information.

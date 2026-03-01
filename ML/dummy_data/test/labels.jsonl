@@ -1,0 +1,10 @@
+{"id": "t001", "label": {"is_forged": 0, "fraud_type": "none"}}
+{"id": "t002", "label": {"is_forged": 1, "fraud_type": "text_edit"}}
+{"id": "t003", "label": {"is_forged": 0, "fraud_type": "none"}}
+{"id": "t004", "label": {"is_forged": 1, "fraud_type": "text_edit"}}
+{"id": "t005", "label": {"is_forged": 0, "fraud_type": "none"}}
+{"id": "t006", "label": {"is_forged": 1, "fraud_type": "text_edit"}}
+{"id": "t007", "label": {"is_forged": 0, "fraud_type": "none"}}
+{"id": "t008", "label": {"is_forged": 1, "fraud_type": "price_change"}}
+{"id": "t009", "label": {"is_forged": 0, "fraud_type": "none"}}
+{"id": "t010", "label": {"is_forged": 1, "fraud_type": "layout_edit"}}
